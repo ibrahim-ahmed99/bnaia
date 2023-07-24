@@ -1,0 +1,727 @@
+:root {
+    --red-color: #B72637;
+    --blue-color: #113663;
+    --light-color: #FFFFFF;
+    --gray-color: #F0F0F0;
+    --dark-color: #000000;
+    --offwhite:#ACACAC;
+}
+
+@font-face {
+    font-family: 'Avenir-book';
+    src: url("../fonts/Avenir Font/AvenirLTStd-Book.otf");
+}
+@font-face {
+    font-family: 'Avenir-black';
+    src: url("../fonts/Avenir\ Black.otf");
+}
+@font-face {
+    font-family: 'Avenir-medium';
+    src: url("../fonts/Avenir-Medium.otf");
+}
+@font-face {
+    font-family: 'Helvetica-bold';
+    src: url("../fonts/Helvetica\ Neu\ Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Helveticaregular';
+    src: url("../fonts/HelveticaNeue\ regular.ttf");
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+    font-family: 'rocgrotesk';
+    font-weight: 'medium';
+    src: url("../fonts/rocgrotesk\ medium.otf");
+}
+@font-face {
+    font-family: 'rocgrotesk';
+    font-weight: 'regular';
+    src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
+}
+// @media (min-width: 1400px){
+//     .container{
+//         width:1674px !important;
+//     }
+// }
+@media (min-width: 1200px){
+    .container{
+        width:1674px !important;
+    }
+}
+
+.title{
+    display: flex;
+     justify-content: space-between;
+
+h1 {
+color: var(--dark-color);
+font-size: 30px;
+font-family: 'Avenir-black';
+
+
+
+}
+.btn{
+background-color: var(--gray-color);
+border-radius: 25px;
+color: var(--dark-color);
+font-size: 20px;    
+font-family: 'Avenir-book';
+
+  padding: 11px 35px 8px;
+  height: 46px;
+   width: 143px;
+   box-shadow: none !important;
+
+
+
+
+}
+}
+.topnav {
+    height: 24px;
+    background-color: var(--red-color);
+    overflow: hidden;
+    .language {
+        margin-left: 44%;
+        position: relative;
+        .egy {
+            margin-right: 27px;
+        }
+        .path{
+            position: absolute;
+            top: 9px;
+             height: 8px;
+             left: 0px;
+        }
+        .egypt-flag{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 6px;
+            right: 0px;
+            left: 19px;
+            .flag{ 
+                max-width: 1.7%;
+            }
+        }
+    }
+    .contact {
+        margin-left: 88%;
+    }
+    a {
+        float: left;
+        color: var(--light-color);
+        // font-family: 'rocgrotesk';
+        // font-weight: 'regular';
+        font-style: normal;
+        font-weight: 400;
+        text-align: right;
+        padding: 5px 15px;
+        text-decoration: none;
+        font-size: 11px;
+        &:hover {
+            text-decoration: none;
+            color: var(--light-color);
+        }
+    }
+    .arrow {
+        margin-right: 5px;
+    }
+    .special {
+        font-size: 14px;
+        font-family: 'rocgrotesk';
+        font-weight: 'medium';
+        font-style: normal;
+        font-weight: 500;
+        padding: 0;
+    }
+}
+
+.head {
+    background-color: var(--blue-color);
+    height: 134px;
+    padding: 40px 43px;
+    display: flex;
+    .logo {
+        margin-right: 75px;
+    }
+  
+    .nav{
+        li{
+            
+            a:focus{
+                background-color: transparent;    
+                    color: var(--light-color);
+
+
+            }
+        }
+    }
+    
+    .nav-link {
+        background-color: transparent;
+        font-size: 14px;
+        color: var(--light-color);
+        font-family: 'Avenir-book';
+
+            padding: 10px 12px;
+        letter-spacing: 1.2px;
+        // margin-left: 18px;
+
+        &:hover {
+            background-color: transparent;
+            color: var(--light-color);
+        }
+    }
+    .nav-pills {
+        margin-top: 5px;
+        .btn {
+            background-color: var(--red-color);
+            border-radius: 25px;
+        }
+    }
+    .last-content {
+        margin-left: 13%;
+        display: flex;
+        .btn-1 {
+            font-size: 12px;
+            padding: 15px 18px;
+            margin-top: -8px;
+
+            
+        }
+        .input {
+            background-color: transparent;
+            border: 1px solid var(--light-color);
+            height: 39px;
+            border-radius: 300px;
+            width: 271px;
+            position: relative;
+           
+        }
+        .input:focus{
+            color: var(--light-color);
+            font-size: 14px;
+            box-shadow: none;
+            
+        }
+        
+        .label{
+            position: absolute;
+            font-size: 14px;        
+                color: var(--light-color); 
+                font-family: 'Avenir-book';
+
+                padding: 9px;      
+              }
+        .icon {
+            color: var(--light-color);
+            margin-right: 7px;
+            font-size: 17px;
+        }
+        .search-icon{
+            margin-left: 15px;
+        }
+    }
+    .list {
+        margin-top: -4px;
+    }
+}
+
+.slider {
+    .owl-dots {
+        position: absolute;
+        top: 90%;
+        right: 0;
+        left: 1%;
+    }
+}
+
+.our-categories {
+    background-color: var(--gray-color);
+    padding: 75px 0;
+    .container{
+        max-width: 1674px !important;
+    }
+    .categories-content {
+        
+      
+    .btn{
+        background-color: var(--light-color);
+    
+    }
+        
+        .categorie{
+            margin-top: 48px;
+
+            .card{
+                height: 421px;
+                width: 394px;    
+                border-radius: 40px;
+
+
+            }
+            .categorie-img{
+                width: 88px;
+                height: 77px;
+                margin-top: 38px;
+                margin-bottom: 80px;
+            }
+            .card-body{
+                padding: 58px 37px;
+
+            }
+            .card-title{
+                color: var(--dark-color);
+                font-size: 28px;  
+                font-family: 'Avenir-black';
+
+
+            }
+            .card-text{
+                font-size: 19px;
+                font-family: 'Lato-Regular';
+                color: var(--dark-color);
+
+            }
+            .special-p{
+                max-width: 480px;
+            }
+            
+            .card-1{
+                width: 808px;
+            }
+        }
+       
+    }
+}
+.our-tools{
+    background: url('../img/tools\ backgraund.png') center no-repeat;
+    background-size: cover;
+    height: 496px;
+    position: relative;
+        .tools-content{
+        text-align: center;
+        top: 179px;
+    position: absolute;
+    left: 0;
+    right: 0;
+        h1{
+               font-size: 76px;
+               font-family: 'Avenir-black';
+
+              color: var(--light-color);
+        }
+        .btn{
+            background-color: var(--red-color);
+            border-radius: 25px;
+            color: var(--light-color);
+            font-size: 20px;   
+            font-family: 'Avenir-book';
+              padding: 16px 43px;
+              height: 58px;
+               width: 181px;
+               box-shadow: none;
+               margin-top: 65px;
+
+    
+        }
+    }
+}
+.owl-theme {
+    .owl-dots {
+        .owl-dot {
+            span{
+                background-color: transparent !important;
+              border: 2px solid var(--light-color);
+               width: 12px;
+               height: 12px;
+            }
+        }
+        .owl-dot.active {
+            span{
+                background-color: var(--light-color) !important;
+              border: 2px solid var(--light-color);
+               width: 12px;
+               height: 12px;
+            }
+        }
+    }
+    
+
+
+}
+.professionally{
+    padding: 75px 0;
+    .container{
+        max-width: 1674px !important;
+    }
+    // .owl-carousel {
+
+    //     .owl-nav.disabled {
+    //         display: block;
+    //     }
+
+    // }
+
+    .btn{
+        background-color: var(--gray-color);
+
+    }
+    .title{
+        margin-bottom: 68px;
+
+    }
+    .owl-stage-outer {
+        margin: auto;
+    }
+    .slider {
+        .hobbies-item {
+            
+            .card{
+                border: none;
+                .card-title{
+                    font-size: 18px;
+                    color: var(--dark-color);
+                        font-family: 'Avenir-medium';
+
+                        display: flex;
+                       justify-content: space-between;
+
+
+
+                }
+                .card-text{
+                    color: var(--offwhite);
+                    font-size: 18px;
+                     font-family: 'Avenir-medium';
+
+
+                }
+                .rating{
+                    max-width: 30%;
+                }
+                .portfolio{
+                    max-width: 100%;
+                }
+            }
+         
+           
+        }
+       
+    }
+    
+}
+.ideas{
+    padding: 75px 0;
+    .container{
+        max-width: 1674px !important;
+    }
+    
+    .btn{
+        background-color: var(--gray-color);
+
+    }
+    .title{
+        margin-bottom: 77px;
+
+    }
+    .owl-stage-outer {
+        margin: auto;
+    }
+    
+
+    .slider {
+        .hobbies-item {
+            
+            .card{
+                border: none;
+                .card-title{
+                    font-size: 18px;
+                    color: var(--dark-color);
+                    font-family: 'Avenir-medium';
+
+                        display: flex;
+                       justify-content: space-between;
+
+
+
+                }
+                .card-text{
+                    color: var(--offwhite);
+                    font-size: 18px;
+                    font-family: 'Avenir-medium';
+
+
+                }
+                .rating{
+                    max-width: 30%;
+                }
+                .portfolio{
+                    max-width: 100%;
+                }
+            }
+         
+           
+        }
+       
+    }
+    
+}
+.products{
+    .products-content{
+        background-color: var(--blue-color);
+        padding: 70px 79px 0;
+
+    }
+    .img{
+        max-width: 100%;
+    }
+    .pro-content{
+        text-align: left;
+        h1{
+        font-size: 60px;
+        color: var(--light-color);
+        font-family: 'Avenir-black';
+
+        }
+        p{
+        font-size: 30px;
+        color: var(--light-color);
+        font-family: 'Avenir-black';
+        max-width: 45%;
+        margin-top: 10%;
+
+        }
+        .btn{
+            background-color: var(--light-color);
+            border-radius: 25px;
+            color: var(--dark-color);
+            font-size: 20px;   
+            font-family: 'Avenir-medium';
+
+             padding: 10px 25px;
+             height: 46px;
+             width: 143px;
+               box-shadow: none;
+               margin-top: 45px;
+
+    
+        }
+    }
+}
+.article{
+    padding: 100px 0 176px 0;
+    .container{
+        max-width: 1674px !important;
+    }
+    .title{
+        margin-bottom: 65px;
+    }
+    .card{
+        border-radius: 25px;
+        border: none;
+        .card-title{
+            font-size: 13px;
+            color: var(--offwhite);         
+                display: flex;
+               justify-content: space-between;
+
+
+
+        }
+        .card-text{
+            color: var(--dark-color);
+            font-size: 18px;
+            font-family: 'Avenir-medium';
+
+                max-width: 84%;
+
+
+        }
+        h4{
+            color: var(--dark-color);
+            font-family: 'Avenir-black';
+            max-width: 90%;
+           
+        }
+        .article-img{
+            border-radius: 25px;
+
+        }
+    }
+}
+.footer{
+    height: 637px;
+    background-color: var(--blue-color);
+    padding: 115px 72px;
+    .footer-top{
+        border-bottom: 2px solid var(--light-color);
+        width: 1783px;     
+        h1{
+            font-size: 50px;
+            color: var(--light-color);
+            font-family: 'Avenir-book';
+
+        }
+        h2{
+            font-size: 38px;
+            color: var(--light-color);
+            font-family: 'Avenir-book';
+
+            margin-bottom: 30px;
+        }
+      
+        .special{
+            font-family: 'Avenir-black';
+
+        }
+       
+        .social{
+            display: flex;
+            margin-top: 35px;
+
+        }
+        .social-icons{
+            border: 2px solid var(--light-color);
+            border-radius: 50%;
+            padding: 6px;
+            margin-right: 20px;
+            width: 34px;
+            height: 32px;
+
+        }
+       
+        .social-icon{
+            font-size: 18px;
+            color: var(--light-color);
+            padding-left: 2px;
+
+
+        }
+        .special-icon{
+            font-size: 32px;
+
+        }
+        .address{
+            line-height: 29px;
+            max-width: 100%;
+
+        }
+       
+       h4{
+        font-family: 'Avenir-book';
+        font-size: 21px;
+        color: var(--light-color);       
+       }
+       .news{
+        margin-bottom: 0;
+       }
+       .card-1{
+        margin-right: 148px;
+       }
+       .card-2{
+        margin-right: 166px;
+         width: 177px;
+       }
+       .card-3{
+        width: 136px;
+    margin-right: 243px;
+       }
+       .card-4{
+        width: 667px;
+        margin-bottom: 107px;
+
+    }
+       .form{
+        position: relative;
+        .form-control{
+            border: 1px solid var(--light-color);
+            margin-top: 96px;
+            border-top: 0;
+            border-left: 0;
+            border-radius: 0;
+            background: transparent;
+            padding: 6px 10px;
+        }
+        .form-control:focus{
+            box-shadow: none;
+            color: var(--light-color);
+            font-size: 21px;
+        }
+        .label{
+            position: absolute;
+            font-size: 21px;
+            color: var(--light-color);
+            font-family: 'Avenir-book';
+            bottom: 21px;
+            left: -12px;
+
+        }
+        .btn{
+            position: absolute;
+            top: -38px;
+            right: 0px;
+            bottom: 0;
+            border: 0;
+            width: 228px;
+            height: 73px;
+            font-size: 21px;
+            padding: 23px 67px 22px 68px;
+            font-family: 'Avenir-medium';
+            background: var(--light-color);
+            color: var(--dark-color);
+            transition: 0.3s;
+            border-radius: 0 ;
+        }
+       }
+       
+
+    }
+    a{
+        text-decoration: none;
+      
+
+        &:hover {
+            text-decoration: none;
+            color: var(--light-color);
+        }
+        
+    }
+    h3{
+        font-size: 21px;
+        color: var(--light-color);
+        font-family: 'Avenir-medium';
+        margin-bottom: 30px;
+       
+    
+    }
+    .footer-bottom{
+        display: flex;
+        padding: 60px 0 0 0;
+        justify-content: space-between;
+        width: 1783px;
+
+        p{
+            font-size: 18px;
+            font-family: 'Avenir-medium';
+            color: var(--light-color);
+
+        }
+        .last-link{
+            margin-left: 38px;
+
+        }
+    }
+}
+
