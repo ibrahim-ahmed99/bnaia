@@ -1,0 +1,690 @@
+/* line 1, ../sass/style.scss */
+:root {
+  --red-color: #B72637;
+  --blue-color: #113663;
+  --light-color: #FFFFFF;
+  --gray-color: #F0F0F0;
+  --dark-color: #000000;
+  --offwhite: #ACACAC;
+}
+
+@font-face {
+  font-family: 'Avenir-book';
+  src: url("../fonts/Avenir Font/AvenirLTStd-Book.otf");
+}
+@font-face {
+  font-family: 'Avenir-black';
+  src: url("../fonts/Avenir Black.otf");
+}
+@font-face {
+  font-family: 'Avenir-medium';
+  src: url("../fonts/Avenir-Medium.otf");
+}
+@font-face {
+  font-family: 'Helvetica-bold';
+  src: url("../fonts/Helvetica Neu Bold.ttf");
+}
+@font-face {
+  font-family: 'Helveticaregular';
+  src: url("../fonts/HelveticaNeue regular.ttf");
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face {
+  font-family: 'rocgrotesk';
+  font-weight: 'medium';
+  src: url("../fonts/rocgrotesk medium.otf");
+}
+@font-face {
+  font-family: 'rocgrotesk';
+  font-weight: 'regular';
+  src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
+}
+@media (min-width: 1200px) {
+  /* line 56, ../sass/style.scss */
+  .container {
+    width: 1674px !important;
+  }
+}
+/* line 61, ../sass/style.scss */
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 65, ../sass/style.scss */
+.title h1 {
+  color: var(--dark-color);
+  font-size: 30px;
+  font-family: 'Avenir-black';
+}
+/* line 73, ../sass/style.scss */
+.title .btn {
+  background-color: var(--gray-color);
+  border-radius: 25px;
+  color: var(--dark-color);
+  font-size: 20px;
+  font-family: 'Avenir-book';
+  padding: 11px 35px 8px;
+  height: 46px;
+  width: 143px;
+  box-shadow: none !important;
+}
+
+/* line 90, ../sass/style.scss */
+.topnav {
+  height: 24px;
+  background-color: var(--red-color);
+  overflow: hidden;
+}
+/* line 94, ../sass/style.scss */
+.topnav .language {
+  margin-left: 44%;
+  position: relative;
+}
+/* line 97, ../sass/style.scss */
+.topnav .language .egy {
+  margin-right: 27px;
+}
+/* line 100, ../sass/style.scss */
+.topnav .language .path {
+  position: absolute;
+  top: 9px;
+  height: 8px;
+  left: 0px;
+}
+/* line 106, ../sass/style.scss */
+.topnav .language .egypt-flag {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 6px;
+  right: 0px;
+  left: 19px;
+}
+/* line 113, ../sass/style.scss */
+.topnav .language .egypt-flag .flag {
+  max-width: 1.7%;
+}
+/* line 118, ../sass/style.scss */
+.topnav .contact {
+  margin-left: 88%;
+}
+/* line 121, ../sass/style.scss */
+.topnav a {
+  float: left;
+  color: var(--light-color);
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  padding: 5px 15px;
+  text-decoration: none;
+  font-size: 11px;
+}
+/* line 132, ../sass/style.scss */
+.topnav a:hover {
+  text-decoration: none;
+  color: var(--light-color);
+}
+/* line 137, ../sass/style.scss */
+.topnav .arrow {
+  margin-right: 5px;
+}
+/* line 140, ../sass/style.scss */
+.topnav .special {
+  font-size: 14px;
+  font-family: 'rocgrotesk';
+  font-weight: 'medium';
+  font-style: normal;
+  font-weight: 500;
+  padding: 0;
+}
+
+/* line 150, ../sass/style.scss */
+.head {
+  background-color: var(--blue-color);
+  height: 134px;
+  padding: 40px 43px;
+  display: flex;
+}
+/* line 155, ../sass/style.scss */
+.head .logo {
+  margin-right: 75px;
+}
+/* line 162, ../sass/style.scss */
+.head .nav li a:focus {
+  background-color: transparent;
+  color: var(--light-color);
+}
+/* line 171, ../sass/style.scss */
+.head .nav-link {
+  background-color: transparent;
+  font-size: 14px;
+  color: var(--light-color);
+  font-family: 'Avenir-book';
+  padding: 10px 12px;
+  letter-spacing: 1.2px;
+}
+/* line 181, ../sass/style.scss */
+.head .nav-link:hover {
+  background-color: transparent;
+  color: var(--light-color);
+}
+/* line 186, ../sass/style.scss */
+.head .nav-pills {
+  margin-top: 5px;
+}
+/* line 188, ../sass/style.scss */
+.head .nav-pills .btn {
+  background-color: var(--red-color);
+  border-radius: 25px;
+}
+/* line 193, ../sass/style.scss */
+.head .last-content {
+  margin-left: 13%;
+  display: flex;
+}
+/* line 196, ../sass/style.scss */
+.head .last-content .btn-1 {
+  font-size: 12px;
+  padding: 15px 18px;
+  margin-top: -8px;
+}
+/* line 203, ../sass/style.scss */
+.head .last-content .input {
+  background-color: transparent;
+  border: 1px solid var(--light-color);
+  height: 39px;
+  border-radius: 300px;
+  width: 271px;
+  position: relative;
+}
+/* line 212, ../sass/style.scss */
+.head .last-content .input:focus {
+  color: var(--light-color);
+  font-size: 14px;
+  box-shadow: none;
+}
+/* line 219, ../sass/style.scss */
+.head .last-content .label {
+  position: absolute;
+  font-size: 14px;
+  color: var(--light-color);
+  font-family: 'Avenir-book';
+  padding: 9px;
+}
+/* line 227, ../sass/style.scss */
+.head .last-content .icon {
+  color: var(--light-color);
+  margin-right: 7px;
+  font-size: 17px;
+}
+/* line 232, ../sass/style.scss */
+.head .last-content .search-icon {
+  margin-left: 15px;
+}
+/* line 236, ../sass/style.scss */
+.head .list {
+  margin-top: -4px;
+}
+
+/* line 242, ../sass/style.scss */
+.slider .owl-dots {
+  position: absolute;
+  top: 90%;
+  right: 0;
+  left: 1%;
+}
+
+/* line 250, ../sass/style.scss */
+.our-categories {
+  background-color: var(--gray-color);
+  padding: 75px 0;
+}
+/* line 253, ../sass/style.scss */
+.our-categories .container {
+  max-width: 1674px !important;
+}
+/* line 259, ../sass/style.scss */
+.our-categories .categories-content .btn {
+  background-color: var(--light-color);
+}
+/* line 264, ../sass/style.scss */
+.our-categories .categories-content .categorie {
+  margin-top: 48px;
+}
+/* line 267, ../sass/style.scss */
+.our-categories .categories-content .categorie .card {
+  height: 421px;
+  width: 394px;
+  border-radius: 40px;
+}
+/* line 274, ../sass/style.scss */
+.our-categories .categories-content .categorie .categorie-img {
+  width: 88px;
+  height: 77px;
+  margin-top: 38px;
+  margin-bottom: 80px;
+}
+/* line 280, ../sass/style.scss */
+.our-categories .categories-content .categorie .card-body {
+  padding: 58px 37px;
+}
+/* line 284, ../sass/style.scss */
+.our-categories .categories-content .categorie .card-title {
+  color: var(--dark-color);
+  font-size: 28px;
+  font-family: 'Avenir-black';
+}
+/* line 291, ../sass/style.scss */
+.our-categories .categories-content .categorie .card-text {
+  font-size: 19px;
+  font-family: 'Lato-Regular';
+  color: var(--dark-color);
+}
+/* line 297, ../sass/style.scss */
+.our-categories .categories-content .categorie .special-p {
+  max-width: 480px;
+}
+/* line 301, ../sass/style.scss */
+.our-categories .categories-content .categorie .card-1 {
+  width: 808px;
+}
+
+/* line 308, ../sass/style.scss */
+.our-tools {
+  background: url("../img/tools backgraund.png") center no-repeat;
+  background-size: cover;
+  height: 496px;
+  position: relative;
+}
+/* line 313, ../sass/style.scss */
+.our-tools .tools-content {
+  text-align: center;
+  top: 179px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+/* line 319, ../sass/style.scss */
+.our-tools .tools-content h1 {
+  font-size: 76px;
+  font-family: 'Avenir-black';
+  color: var(--light-color);
+}
+/* line 325, ../sass/style.scss */
+.our-tools .tools-content .btn {
+  background-color: var(--red-color);
+  border-radius: 25px;
+  color: var(--light-color);
+  font-size: 20px;
+  font-family: 'Avenir-book';
+  padding: 16px 43px;
+  height: 58px;
+  width: 181px;
+  box-shadow: none;
+  margin-top: 65px;
+}
+
+/* line 344, ../sass/style.scss */
+.owl-theme .owl-dots .owl-dot span {
+  background-color: transparent !important;
+  border: 2px solid var(--light-color);
+  width: 12px;
+  height: 12px;
+}
+/* line 352, ../sass/style.scss */
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: var(--light-color) !important;
+  border: 2px solid var(--light-color);
+  width: 12px;
+  height: 12px;
+}
+
+/* line 364, ../sass/style.scss */
+.professionally {
+  padding: 75px 0;
+}
+/* line 366, ../sass/style.scss */
+.professionally .container {
+  max-width: 1674px !important;
+}
+/* line 377, ../sass/style.scss */
+.professionally .btn {
+  background-color: var(--gray-color);
+}
+/* line 381, ../sass/style.scss */
+.professionally .title {
+  margin-bottom: 68px;
+}
+/* line 385, ../sass/style.scss */
+.professionally .owl-stage-outer {
+  margin: auto;
+}
+/* line 391, ../sass/style.scss */
+.professionally .slider .hobbies-item .card {
+  border: none;
+}
+/* line 393, ../sass/style.scss */
+.professionally .slider .hobbies-item .card .card-title {
+  font-size: 18px;
+  color: var(--dark-color);
+  font-family: 'Avenir-medium';
+  display: flex;
+  justify-content: space-between;
+}
+/* line 404, ../sass/style.scss */
+.professionally .slider .hobbies-item .card .card-text {
+  color: var(--offwhite);
+  font-size: 18px;
+  font-family: 'Avenir-medium';
+}
+/* line 411, ../sass/style.scss */
+.professionally .slider .hobbies-item .card .rating {
+  max-width: 30%;
+}
+/* line 414, ../sass/style.scss */
+.professionally .slider .hobbies-item .card .portfolio {
+  max-width: 100%;
+}
+
+/* line 425, ../sass/style.scss */
+.ideas {
+  padding: 75px 0;
+}
+/* line 427, ../sass/style.scss */
+.ideas .container {
+  max-width: 1674px !important;
+}
+/* line 431, ../sass/style.scss */
+.ideas .btn {
+  background-color: var(--gray-color);
+}
+/* line 435, ../sass/style.scss */
+.ideas .title {
+  margin-bottom: 77px;
+}
+/* line 439, ../sass/style.scss */
+.ideas .owl-stage-outer {
+  margin: auto;
+}
+/* line 447, ../sass/style.scss */
+.ideas .slider .hobbies-item .card {
+  border: none;
+}
+/* line 449, ../sass/style.scss */
+.ideas .slider .hobbies-item .card .card-title {
+  font-size: 18px;
+  color: var(--dark-color);
+  font-family: 'Avenir-medium';
+  display: flex;
+  justify-content: space-between;
+}
+/* line 460, ../sass/style.scss */
+.ideas .slider .hobbies-item .card .card-text {
+  color: var(--offwhite);
+  font-size: 18px;
+  font-family: 'Avenir-medium';
+}
+/* line 467, ../sass/style.scss */
+.ideas .slider .hobbies-item .card .rating {
+  max-width: 30%;
+}
+/* line 470, ../sass/style.scss */
+.ideas .slider .hobbies-item .card .portfolio {
+  max-width: 100%;
+}
+
+/* line 482, ../sass/style.scss */
+.products .products-content {
+  background-color: var(--blue-color);
+  padding: 70px 79px 0;
+}
+/* line 487, ../sass/style.scss */
+.products .img {
+  max-width: 100%;
+}
+/* line 490, ../sass/style.scss */
+.products .pro-content {
+  text-align: left;
+}
+/* line 492, ../sass/style.scss */
+.products .pro-content h1 {
+  font-size: 60px;
+  color: var(--light-color);
+  font-family: 'Avenir-black';
+}
+/* line 498, ../sass/style.scss */
+.products .pro-content p {
+  font-size: 30px;
+  color: var(--light-color);
+  font-family: 'Avenir-black';
+  max-width: 45%;
+  margin-top: 10%;
+}
+/* line 506, ../sass/style.scss */
+.products .pro-content .btn {
+  background-color: var(--light-color);
+  border-radius: 25px;
+  color: var(--dark-color);
+  font-size: 20px;
+  font-family: 'Avenir-medium';
+  padding: 10px 25px;
+  height: 46px;
+  width: 143px;
+  box-shadow: none;
+  margin-top: 45px;
+}
+
+/* line 523, ../sass/style.scss */
+.article {
+  padding: 100px 0 176px 0;
+}
+/* line 525, ../sass/style.scss */
+.article .container {
+  max-width: 1674px !important;
+}
+/* line 528, ../sass/style.scss */
+.article .title {
+  margin-bottom: 65px;
+}
+/* line 531, ../sass/style.scss */
+.article .card {
+  border-radius: 25px;
+  border: none;
+}
+/* line 534, ../sass/style.scss */
+.article .card .card-title {
+  font-size: 13px;
+  color: var(--offwhite);
+  display: flex;
+  justify-content: space-between;
+}
+/* line 543, ../sass/style.scss */
+.article .card .card-text {
+  color: var(--dark-color);
+  font-size: 18px;
+  font-family: 'Avenir-medium';
+  max-width: 84%;
+}
+/* line 552, ../sass/style.scss */
+.article .card h4 {
+  color: var(--dark-color);
+  font-family: 'Avenir-black';
+  max-width: 90%;
+}
+/* line 558, ../sass/style.scss */
+.article .card .article-img {
+  border-radius: 25px;
+}
+
+/* line 564, ../sass/style.scss */
+.footer {
+  height: 637px;
+  background-color: var(--blue-color);
+  padding: 115px 72px;
+}
+/* line 568, ../sass/style.scss */
+.footer .footer-top {
+  border-bottom: 2px solid var(--light-color);
+  width: 1783px;
+}
+/* line 571, ../sass/style.scss */
+.footer .footer-top h1 {
+  font-size: 50px;
+  color: var(--light-color);
+  font-family: 'Avenir-book';
+}
+/* line 577, ../sass/style.scss */
+.footer .footer-top h2 {
+  font-size: 38px;
+  color: var(--light-color);
+  font-family: 'Avenir-book';
+  margin-bottom: 30px;
+}
+/* line 585, ../sass/style.scss */
+.footer .footer-top .special {
+  font-family: 'Avenir-black';
+}
+/* line 590, ../sass/style.scss */
+.footer .footer-top .social {
+  display: flex;
+  margin-top: 35px;
+}
+/* line 595, ../sass/style.scss */
+.footer .footer-top .social-icons {
+  border: 2px solid var(--light-color);
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 20px;
+  width: 34px;
+  height: 32px;
+}
+/* line 605, ../sass/style.scss */
+.footer .footer-top .social-icon {
+  font-size: 18px;
+  color: var(--light-color);
+  padding-left: 2px;
+}
+/* line 612, ../sass/style.scss */
+.footer .footer-top .special-icon {
+  font-size: 32px;
+}
+/* line 616, ../sass/style.scss */
+.footer .footer-top .address {
+  line-height: 29px;
+  max-width: 100%;
+}
+/* line 622, ../sass/style.scss */
+.footer .footer-top h4 {
+  font-family: 'Avenir-book';
+  font-size: 21px;
+  color: var(--light-color);
+}
+/* line 627, ../sass/style.scss */
+.footer .footer-top .news {
+  margin-bottom: 0;
+}
+/* line 630, ../sass/style.scss */
+.footer .footer-top .card-1 {
+  margin-right: 148px;
+}
+/* line 633, ../sass/style.scss */
+.footer .footer-top .card-2 {
+  margin-right: 166px;
+  width: 177px;
+}
+/* line 637, ../sass/style.scss */
+.footer .footer-top .card-3 {
+  width: 136px;
+  margin-right: 243px;
+}
+/* line 641, ../sass/style.scss */
+.footer .footer-top .card-4 {
+  width: 667px;
+  margin-bottom: 107px;
+}
+/* line 646, ../sass/style.scss */
+.footer .footer-top .form {
+  position: relative;
+}
+/* line 648, ../sass/style.scss */
+.footer .footer-top .form .form-control {
+  border: 1px solid var(--light-color);
+  margin-top: 96px;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 6px 10px;
+}
+/* line 657, ../sass/style.scss */
+.footer .footer-top .form .form-control:focus {
+  box-shadow: none;
+  color: var(--light-color);
+  font-size: 21px;
+}
+/* line 662, ../sass/style.scss */
+.footer .footer-top .form .label {
+  position: absolute;
+  font-size: 21px;
+  color: var(--light-color);
+  font-family: 'Avenir-book';
+  bottom: 21px;
+  left: -12px;
+}
+/* line 671, ../sass/style.scss */
+.footer .footer-top .form .btn {
+  position: absolute;
+  top: -38px;
+  right: 0px;
+  bottom: 0;
+  border: 0;
+  width: 228px;
+  height: 73px;
+  font-size: 21px;
+  padding: 23px 67px 22px 68px;
+  font-family: 'Avenir-medium';
+  background: var(--light-color);
+  color: var(--dark-color);
+  transition: 0.3s;
+  border-radius: 0;
+}
+/* line 691, ../sass/style.scss */
+.footer a {
+  text-decoration: none;
+}
+/* line 695, ../sass/style.scss */
+.footer a:hover {
+  text-decoration: none;
+  color: var(--light-color);
+}
+/* line 701, ../sass/style.scss */
+.footer h3 {
+  font-size: 21px;
+  color: var(--light-color);
+  font-family: 'Avenir-medium';
+  margin-bottom: 30px;
+}
+/* line 709, ../sass/style.scss */
+.footer .footer-bottom {
+  display: flex;
+  padding: 60px 0 0 0;
+  justify-content: space-between;
+  width: 1783px;
+}
+/* line 715, ../sass/style.scss */
+.footer .footer-bottom p {
+  font-size: 18px;
+  font-family: 'Avenir-medium';
+  color: var(--light-color);
+}
+/* line 721, ../sass/style.scss */
+.footer .footer-bottom .last-link {
+  margin-left: 38px;
+}
