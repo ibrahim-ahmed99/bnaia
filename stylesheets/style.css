@@ -46,19 +46,25 @@
   font-weight: 'regular';
   src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
 }
+@media (min-width: 1900px) {
+  /* line 58, ../sass/style.scss */
+  .container-xxl {
+    width: 1674px !important;
+  }
+}
 /* bigeer than 1200 */
-/* line 70, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .title {
   display: flex;
   justify-content: space-between;
 }
-/* line 73, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .title h1 {
   color: var(--dark-color);
   font-size: 30px;
   font-family: 'Avenir-black';
 }
-/* line 78, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 .title .btn {
   background-color: var(--gray-color);
   border-radius: 25px;
@@ -71,28 +77,28 @@
   box-shadow: none !important;
 }
 
-/* line 91, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .topnav {
   background-color: var(--red-color);
   overflow: hidden;
 }
-/* line 94, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .topnav .language {
   margin-left: 80%;
   position: relative;
 }
-/* line 97, ../sass/style.scss */
+/* line 103, ../sass/style.scss */
 .topnav .language .egy {
   margin-right: 27px;
 }
-/* line 100, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .topnav .language .path {
   position: absolute;
   top: 9px;
   height: 8px;
   left: 0px;
 }
-/* line 106, ../sass/style.scss */
+/* line 112, ../sass/style.scss */
 .topnav .language .egypt-flag {
   display: flex;
   flex-direction: column;
@@ -101,15 +107,15 @@
   right: 0px;
   left: 19px;
 }
-/* line 113, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .topnav .language .egypt-flag .flag {
   max-width: 10%;
 }
-/* line 118, ../sass/style.scss */
+/* line 124, ../sass/style.scss */
 .topnav .contact {
   margin-left: 72%;
 }
-/* line 121, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .topnav a {
   float: left;
   color: var(--light-color);
@@ -120,16 +126,16 @@
   text-decoration: none;
   font-size: 11px;
 }
-/* line 132, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .topnav a:hover {
   text-decoration: none;
   color: var(--light-color);
 }
-/* line 137, ../sass/style.scss */
+/* line 143, ../sass/style.scss */
 .topnav .arrow {
   margin-right: 5px;
 }
-/* line 140, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .topnav .special {
   font-size: 14px;
   font-family: 'rocgrotesk';
@@ -139,21 +145,21 @@
   padding: 0;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .head {
   background-color: var(--blue-color);
   padding: 40px 43px;
 }
-/* line 153, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .head .logo {
   margin-right: 75px;
 }
-/* line 158, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .head .nav li a:focus {
   background-color: transparent;
   color: var(--light-color);
 }
-/* line 164, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .head .nav-link {
   background-color: transparent;
   font-size: 14px;
@@ -162,33 +168,33 @@
   padding: 10px 15px;
   letter-spacing: 1.7px;
 }
-/* line 171, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .head .nav-link:hover {
   background-color: transparent;
   color: var(--light-color);
 }
-/* line 176, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .head .nav-pills {
   margin-top: 5px;
 }
-/* line 178, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .head .nav-pills .btn {
   background-color: var(--red-color);
   border-radius: 25px;
 }
-/* line 183, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .head .last-content {
   margin-left: 7%;
   justify-content: space-around;
   display: flex;
 }
-/* line 187, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .head .last-content .btn-1 {
   font-size: 12px;
   padding: 15px 18px;
   margin-top: -8px;
 }
-/* line 192, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .head .last-content .input {
   background-color: transparent;
   border: 1px solid var(--light-color);
@@ -197,13 +203,13 @@
   width: 271px;
   position: relative;
 }
-/* line 200, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .head .last-content .input:focus {
   color: var(--light-color);
   font-size: 14px;
   box-shadow: none;
 }
-/* line 205, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .head .last-content .label {
   position: absolute;
   font-size: 14px;
@@ -211,22 +217,22 @@
   font-family: 'Avenir-book';
   padding: 9px;
 }
-/* line 212, ../sass/style.scss */
+/* line 218, ../sass/style.scss */
 .head .last-content .icon {
   color: var(--light-color);
   margin-right: 7px;
   font-size: 19px;
 }
-/* line 217, ../sass/style.scss */
+/* line 223, ../sass/style.scss */
 .head .last-content .search-icon {
   margin-left: 15px;
 }
-/* line 221, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .head .list {
   margin-top: -4px;
 }
 
-/* line 227, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .slider .owl-dots {
   position: absolute;
   top: 90%;
@@ -234,57 +240,57 @@
   left: 1%;
 }
 
-/* line 235, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .our-categories {
   background-color: var(--gray-color);
   padding: 75px 0;
 }
-/* line 242, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .our-categories .categories-content .btn {
   background-color: var(--light-color);
 }
-/* line 245, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .our-categories .categories-content .categorie {
   margin-top: 48px;
 }
-/* line 247, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .our-categories .categories-content .categorie .card {
   border-radius: 40px;
 }
-/* line 250, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .our-categories .categories-content .categorie .categorie-img {
   margin-top: 38px;
   margin-bottom: 80px;
 }
-/* line 254, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-body {
   padding: 58px 37px;
 }
-/* line 257, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-title {
   color: var(--dark-color);
   font-size: 28px;
   font-family: 'Avenir-black';
 }
-/* line 262, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-text {
   font-size: 19px;
   font-family: 'Lato-Regular';
   color: var(--dark-color);
 }
-/* line 267, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 .our-categories .categories-content .categorie .special-p {
   max-width: 480px;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 280, ../sass/style.scss */
 .our-tools {
   background: url("../img/tools backgraund.png") center no-repeat;
   background-size: cover;
   height: 496px;
   position: relative;
 }
-/* line 279, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .our-tools .tools-content {
   text-align: center;
   top: 179px;
@@ -292,13 +298,13 @@
   left: 0;
   right: 0;
 }
-/* line 285, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .our-tools .tools-content h1 {
   font-size: 76px;
   font-family: 'Avenir-black';
   color: var(--light-color);
 }
-/* line 290, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .our-tools .tools-content .btn {
   background-color: var(--red-color);
   border-radius: 25px;
@@ -312,14 +318,14 @@
   margin-top: 65px;
 }
 
-/* line 308, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .owl-theme .owl-dots .owl-dot span {
   background-color: transparent !important;
   border: 2px solid var(--light-color);
   width: 12px;
   height: 12px;
 }
-/* line 316, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .owl-theme .owl-dots .owl-dot.active span {
   background-color: var(--light-color) !important;
   border: 2px solid var(--light-color);
@@ -327,27 +333,27 @@
   height: 12px;
 }
 
-/* line 326, ../sass/style.scss */
+/* line 332, ../sass/style.scss */
 .professionally {
   padding: 75px 0;
 }
-/* line 331, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .professionally .btn {
   background-color: var(--gray-color);
 }
-/* line 334, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 .professionally .title {
   margin-bottom: 68px;
 }
-/* line 337, ../sass/style.scss */
+/* line 343, ../sass/style.scss */
 .professionally .owl-stage-outer {
   margin: auto;
 }
-/* line 342, ../sass/style.scss */
+/* line 348, ../sass/style.scss */
 .professionally .slider .hobbies-item .card {
   border: none;
 }
-/* line 344, ../sass/style.scss */
+/* line 350, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .card-title {
   font-size: 18px;
   color: var(--dark-color);
@@ -355,42 +361,42 @@
   display: flex;
   justify-content: space-between;
 }
-/* line 351, ../sass/style.scss */
+/* line 357, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .card-text {
   color: var(--offwhite);
   font-size: 18px;
   font-family: 'Avenir-medium';
 }
-/* line 356, ../sass/style.scss */
+/* line 362, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .rating {
   max-width: 30%;
 }
-/* line 359, ../sass/style.scss */
+/* line 365, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .portfolio {
   max-width: 100%;
 }
 
-/* line 367, ../sass/style.scss */
+/* line 373, ../sass/style.scss */
 .ideas {
   padding: 75px 0;
 }
-/* line 372, ../sass/style.scss */
+/* line 378, ../sass/style.scss */
 .ideas .btn {
   background-color: var(--gray-color);
 }
-/* line 375, ../sass/style.scss */
+/* line 381, ../sass/style.scss */
 .ideas .title {
   margin-bottom: 77px;
 }
-/* line 378, ../sass/style.scss */
+/* line 384, ../sass/style.scss */
 .ideas .owl-stage-outer {
   margin: auto;
 }
-/* line 383, ../sass/style.scss */
+/* line 389, ../sass/style.scss */
 .ideas .slider .hobbies-item .card {
   border: none;
 }
-/* line 385, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .card-title {
   font-size: 18px;
   color: var(--dark-color);
@@ -398,41 +404,41 @@
   display: flex;
   justify-content: space-between;
 }
-/* line 392, ../sass/style.scss */
+/* line 398, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .card-text {
   color: var(--offwhite);
   font-size: 18px;
   font-family: 'Avenir-medium';
 }
-/* line 397, ../sass/style.scss */
+/* line 403, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .rating {
   max-width: 30%;
 }
-/* line 400, ../sass/style.scss */
+/* line 406, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .portfolio {
   max-width: 100%;
 }
 
-/* line 409, ../sass/style.scss */
+/* line 415, ../sass/style.scss */
 .products .products-content {
   background-color: var(--blue-color);
   padding: 70px 79px 0;
 }
-/* line 413, ../sass/style.scss */
+/* line 419, ../sass/style.scss */
 .products .img {
   max-width: 100%;
 }
-/* line 416, ../sass/style.scss */
+/* line 422, ../sass/style.scss */
 .products .pro-content {
   text-align: left;
 }
-/* line 418, ../sass/style.scss */
+/* line 424, ../sass/style.scss */
 .products .pro-content h1 {
   font-size: 60px;
   color: var(--light-color);
   font-family: 'Avenir-black';
 }
-/* line 423, ../sass/style.scss */
+/* line 429, ../sass/style.scss */
 .products .pro-content p {
   font-size: 30px;
   color: var(--light-color);
@@ -440,7 +446,7 @@
   max-width: 45%;
   margin-top: 10%;
 }
-/* line 430, ../sass/style.scss */
+/* line 436, ../sass/style.scss */
 .products .pro-content .btn {
   background-color: var(--light-color);
   border-radius: 25px;
@@ -454,77 +460,77 @@
   margin-top: 45px;
 }
 
-/* line 445, ../sass/style.scss */
+/* line 451, ../sass/style.scss */
 .article {
   padding: 100px 0 176px 0;
 }
-/* line 450, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 .article .title {
   margin-bottom: 65px;
 }
-/* line 453, ../sass/style.scss */
+/* line 459, ../sass/style.scss */
 .article .card {
   border-radius: 25px;
   border: none;
 }
-/* line 456, ../sass/style.scss */
+/* line 462, ../sass/style.scss */
 .article .card .card-title {
   font-size: 13px;
   color: var(--offwhite);
   display: flex;
   justify-content: space-between;
 }
-/* line 462, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 .article .card .card-text {
   color: var(--dark-color);
   font-size: 18px;
   font-family: 'Avenir-medium';
   max-width: 84%;
 }
-/* line 468, ../sass/style.scss */
+/* line 474, ../sass/style.scss */
 .article .card h4 {
   color: var(--dark-color);
   font-family: 'Avenir-black';
   max-width: 90%;
 }
-/* line 473, ../sass/style.scss */
+/* line 479, ../sass/style.scss */
 .article .card .article-img {
   border-radius: 25px;
 }
 
-/* line 479, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 .footer {
   height: 637px;
   background-color: var(--blue-color);
   padding: 115px 72px;
 }
-/* line 483, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 .footer .footer-top {
   border-bottom: 2px solid var(--light-color);
 }
-/* line 485, ../sass/style.scss */
+/* line 491, ../sass/style.scss */
 .footer .footer-top h1 {
   font-size: 50px;
   color: var(--light-color);
   font-family: 'Avenir-book';
 }
-/* line 490, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 .footer .footer-top h2 {
   font-size: 38px;
   color: var(--light-color);
   font-family: 'Avenir-book';
   margin-bottom: 30px;
 }
-/* line 496, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 .footer .footer-top .special {
   font-family: 'Avenir-black';
 }
-/* line 499, ../sass/style.scss */
+/* line 505, ../sass/style.scss */
 .footer .footer-top .social {
   display: flex;
   margin-top: 35px;
 }
-/* line 503, ../sass/style.scss */
+/* line 509, ../sass/style.scss */
 .footer .footer-top .social-icons {
   border: 2px solid var(--light-color);
   border-radius: 50%;
@@ -533,37 +539,37 @@
   width: 34px;
   height: 32px;
 }
-/* line 511, ../sass/style.scss */
+/* line 517, ../sass/style.scss */
 .footer .footer-top .social-icon {
   font-size: 18px;
   color: var(--light-color);
   padding-left: 2px;
 }
-/* line 516, ../sass/style.scss */
+/* line 522, ../sass/style.scss */
 .footer .footer-top .special-icon {
   font-size: 32px;
 }
-/* line 519, ../sass/style.scss */
+/* line 525, ../sass/style.scss */
 .footer .footer-top .address {
   line-height: 29px;
   max-width: 80%;
 }
-/* line 523, ../sass/style.scss */
+/* line 529, ../sass/style.scss */
 .footer .footer-top h4 {
   font-family: 'Avenir-book';
   font-size: 21px;
   color: var(--light-color);
 }
-/* line 528, ../sass/style.scss */
+/* line 534, ../sass/style.scss */
 .footer .footer-top .news {
   margin-bottom: 0;
 }
-/* line 531, ../sass/style.scss */
+/* line 537, ../sass/style.scss */
 .footer .footer-top .form {
   position: relative;
   margin-bottom: 106px;
 }
-/* line 534, ../sass/style.scss */
+/* line 540, ../sass/style.scss */
 .footer .footer-top .form .form-control {
   border: 1px solid var(--light-color);
   margin-top: 96px;
@@ -573,13 +579,13 @@
   background: transparent;
   padding: 6px 10px;
 }
-/* line 543, ../sass/style.scss */
+/* line 549, ../sass/style.scss */
 .footer .footer-top .form .form-control:focus {
   box-shadow: none;
   color: var(--light-color);
   font-size: 21px;
 }
-/* line 548, ../sass/style.scss */
+/* line 554, ../sass/style.scss */
 .footer .footer-top .form .label {
   position: absolute;
   font-size: 21px;
@@ -588,7 +594,7 @@
   bottom: 21px;
   left: -12px;
 }
-/* line 556, ../sass/style.scss */
+/* line 562, ../sass/style.scss */
 .footer .footer-top .form .btn {
   position: absolute;
   top: -38px;
@@ -605,36 +611,36 @@
   transition: 0.3s;
   border-radius: 0;
 }
-/* line 574, ../sass/style.scss */
+/* line 580, ../sass/style.scss */
 .footer a {
   text-decoration: none;
 }
-/* line 576, ../sass/style.scss */
+/* line 582, ../sass/style.scss */
 .footer a:hover {
   text-decoration: none;
   color: var(--light-color);
 }
-/* line 581, ../sass/style.scss */
+/* line 587, ../sass/style.scss */
 .footer h3 {
   font-size: 21px;
   color: var(--light-color);
   font-family: 'Avenir-medium';
   margin-bottom: 30px;
 }
-/* line 587, ../sass/style.scss */
+/* line 593, ../sass/style.scss */
 .footer .footer-bottom {
   display: flex;
   padding: 60px 0 0 0;
   justify-content: space-between;
   border-top: 2px solid var(--light-color);
 }
-/* line 592, ../sass/style.scss */
+/* line 598, ../sass/style.scss */
 .footer .footer-bottom p {
   font-size: 18px;
   font-family: 'Avenir-medium';
   color: var(--light-color);
 }
-/* line 597, ../sass/style.scss */
+/* line 603, ../sass/style.scss */
 .footer .footer-bottom .last-link {
   margin-left: 38px;
 }
