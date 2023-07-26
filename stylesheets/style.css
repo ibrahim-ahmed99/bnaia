@@ -46,24 +46,19 @@
   font-weight: 'regular';
   src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
 }
-@media (min-width: 1200px) {
-  /* line 63, ../sass/style.scss */
-  .container {
-    width: 1674px !important;
-  }
-}
-/* line 68, ../sass/style.scss */
+/* bigeer than 1200 */
+/* line 70, ../sass/style.scss */
 .title {
   display: flex;
   justify-content: space-between;
 }
-/* line 71, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 .title h1 {
   color: var(--dark-color);
   font-size: 30px;
   font-family: 'Avenir-black';
 }
-/* line 76, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .title .btn {
   background-color: var(--gray-color);
   border-radius: 25px;
@@ -76,28 +71,28 @@
   box-shadow: none !important;
 }
 
-/* line 89, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .topnav {
   background-color: var(--red-color);
   overflow: hidden;
 }
-/* line 92, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .topnav .language {
   margin-left: 80%;
   position: relative;
 }
-/* line 95, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 .topnav .language .egy {
   margin-right: 27px;
 }
-/* line 98, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .topnav .language .path {
   position: absolute;
   top: 9px;
   height: 8px;
   left: 0px;
 }
-/* line 104, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .topnav .language .egypt-flag {
   display: flex;
   flex-direction: column;
@@ -106,15 +101,15 @@
   right: 0px;
   left: 19px;
 }
-/* line 111, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .topnav .language .egypt-flag .flag {
   max-width: 10%;
 }
-/* line 116, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
 .topnav .contact {
   margin-left: 72%;
 }
-/* line 119, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .topnav a {
   float: left;
   color: var(--light-color);
@@ -125,16 +120,16 @@
   text-decoration: none;
   font-size: 11px;
 }
-/* line 130, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .topnav a:hover {
   text-decoration: none;
   color: var(--light-color);
 }
-/* line 135, ../sass/style.scss */
+/* line 137, ../sass/style.scss */
 .topnav .arrow {
   margin-right: 5px;
 }
-/* line 138, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .topnav .special {
   font-size: 14px;
   font-family: 'rocgrotesk';
@@ -144,21 +139,21 @@
   padding: 0;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .head {
   background-color: var(--blue-color);
   padding: 40px 43px;
 }
-/* line 151, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .head .logo {
   margin-right: 75px;
 }
-/* line 156, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .head .nav li a:focus {
   background-color: transparent;
   color: var(--light-color);
 }
-/* line 162, ../sass/style.scss */
+/* line 164, ../sass/style.scss */
 .head .nav-link {
   background-color: transparent;
   font-size: 14px;
@@ -167,33 +162,33 @@
   padding: 10px 15px;
   letter-spacing: 1.7px;
 }
-/* line 169, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .head .nav-link:hover {
   background-color: transparent;
   color: var(--light-color);
 }
-/* line 174, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .head .nav-pills {
   margin-top: 5px;
 }
-/* line 176, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .head .nav-pills .btn {
   background-color: var(--red-color);
   border-radius: 25px;
 }
-/* line 181, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .head .last-content {
   margin-left: 7%;
   justify-content: space-around;
   display: flex;
 }
-/* line 185, ../sass/style.scss */
+/* line 187, ../sass/style.scss */
 .head .last-content .btn-1 {
   font-size: 12px;
   padding: 15px 18px;
   margin-top: -8px;
 }
-/* line 190, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .head .last-content .input {
   background-color: transparent;
   border: 1px solid var(--light-color);
@@ -202,13 +197,13 @@
   width: 271px;
   position: relative;
 }
-/* line 198, ../sass/style.scss */
+/* line 200, ../sass/style.scss */
 .head .last-content .input:focus {
   color: var(--light-color);
   font-size: 14px;
   box-shadow: none;
 }
-/* line 203, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .head .last-content .label {
   position: absolute;
   font-size: 14px;
@@ -216,22 +211,22 @@
   font-family: 'Avenir-book';
   padding: 9px;
 }
-/* line 210, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .head .last-content .icon {
   color: var(--light-color);
   margin-right: 7px;
   font-size: 19px;
 }
-/* line 215, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .head .last-content .search-icon {
   margin-left: 15px;
 }
-/* line 219, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .head .list {
   margin-top: -4px;
 }
 
-/* line 225, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .slider .owl-dots {
   position: absolute;
   top: 90%;
@@ -239,61 +234,57 @@
   left: 1%;
 }
 
-/* line 233, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .our-categories {
   background-color: var(--gray-color);
   padding: 75px 0;
 }
-/* line 236, ../sass/style.scss */
-.our-categories .container {
-  max-width: 1674px !important;
-}
-/* line 240, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 .our-categories .categories-content .btn {
   background-color: var(--light-color);
 }
-/* line 243, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .our-categories .categories-content .categorie {
   margin-top: 48px;
 }
-/* line 245, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .our-categories .categories-content .categorie .card {
   border-radius: 40px;
 }
-/* line 248, ../sass/style.scss */
+/* line 250, ../sass/style.scss */
 .our-categories .categories-content .categorie .categorie-img {
   margin-top: 38px;
   margin-bottom: 80px;
 }
-/* line 252, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-body {
   padding: 58px 37px;
 }
-/* line 255, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-title {
   color: var(--dark-color);
   font-size: 28px;
   font-family: 'Avenir-black';
 }
-/* line 260, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-text {
   font-size: 19px;
   font-family: 'Lato-Regular';
   color: var(--dark-color);
 }
-/* line 265, ../sass/style.scss */
+/* line 267, ../sass/style.scss */
 .our-categories .categories-content .categorie .special-p {
   max-width: 480px;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 .our-tools {
   background: url("../img/tools backgraund.png") center no-repeat;
   background-size: cover;
   height: 496px;
   position: relative;
 }
-/* line 277, ../sass/style.scss */
+/* line 279, ../sass/style.scss */
 .our-tools .tools-content {
   text-align: center;
   top: 179px;
@@ -301,13 +292,13 @@
   left: 0;
   right: 0;
 }
-/* line 283, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .our-tools .tools-content h1 {
   font-size: 76px;
   font-family: 'Avenir-black';
   color: var(--light-color);
 }
-/* line 288, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 .our-tools .tools-content .btn {
   background-color: var(--red-color);
   border-radius: 25px;
@@ -321,14 +312,14 @@
   margin-top: 65px;
 }
 
-/* line 306, ../sass/style.scss */
+/* line 308, ../sass/style.scss */
 .owl-theme .owl-dots .owl-dot span {
   background-color: transparent !important;
   border: 2px solid var(--light-color);
   width: 12px;
   height: 12px;
 }
-/* line 314, ../sass/style.scss */
+/* line 316, ../sass/style.scss */
 .owl-theme .owl-dots .owl-dot.active span {
   background-color: var(--light-color) !important;
   border: 2px solid var(--light-color);
@@ -336,31 +327,27 @@
   height: 12px;
 }
 
-/* line 324, ../sass/style.scss */
+/* line 326, ../sass/style.scss */
 .professionally {
   padding: 75px 0;
 }
-/* line 326, ../sass/style.scss */
-.professionally .container {
-  max-width: 1674px !important;
-}
-/* line 329, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 .professionally .btn {
   background-color: var(--gray-color);
 }
-/* line 332, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .professionally .title {
   margin-bottom: 68px;
 }
-/* line 335, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .professionally .owl-stage-outer {
   margin: auto;
 }
-/* line 340, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .professionally .slider .hobbies-item .card {
   border: none;
 }
-/* line 342, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .card-title {
   font-size: 18px;
   color: var(--dark-color);
@@ -368,46 +355,42 @@
   display: flex;
   justify-content: space-between;
 }
-/* line 349, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .card-text {
   color: var(--offwhite);
   font-size: 18px;
   font-family: 'Avenir-medium';
 }
-/* line 354, ../sass/style.scss */
+/* line 356, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .rating {
   max-width: 30%;
 }
-/* line 357, ../sass/style.scss */
+/* line 359, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .portfolio {
   max-width: 100%;
 }
 
-/* line 365, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .ideas {
   padding: 75px 0;
 }
-/* line 367, ../sass/style.scss */
-.ideas .container {
-  max-width: 1674px !important;
-}
-/* line 370, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .ideas .btn {
   background-color: var(--gray-color);
 }
-/* line 373, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .ideas .title {
   margin-bottom: 77px;
 }
-/* line 376, ../sass/style.scss */
+/* line 378, ../sass/style.scss */
 .ideas .owl-stage-outer {
   margin: auto;
 }
-/* line 381, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .ideas .slider .hobbies-item .card {
   border: none;
 }
-/* line 383, ../sass/style.scss */
+/* line 385, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .card-title {
   font-size: 18px;
   color: var(--dark-color);
@@ -415,41 +398,41 @@
   display: flex;
   justify-content: space-between;
 }
-/* line 390, ../sass/style.scss */
+/* line 392, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .card-text {
   color: var(--offwhite);
   font-size: 18px;
   font-family: 'Avenir-medium';
 }
-/* line 395, ../sass/style.scss */
+/* line 397, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .rating {
   max-width: 30%;
 }
-/* line 398, ../sass/style.scss */
+/* line 400, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .portfolio {
   max-width: 100%;
 }
 
-/* line 407, ../sass/style.scss */
+/* line 409, ../sass/style.scss */
 .products .products-content {
   background-color: var(--blue-color);
   padding: 70px 79px 0;
 }
-/* line 411, ../sass/style.scss */
+/* line 413, ../sass/style.scss */
 .products .img {
   max-width: 100%;
 }
-/* line 414, ../sass/style.scss */
+/* line 416, ../sass/style.scss */
 .products .pro-content {
   text-align: left;
 }
-/* line 416, ../sass/style.scss */
+/* line 418, ../sass/style.scss */
 .products .pro-content h1 {
   font-size: 60px;
   color: var(--light-color);
   font-family: 'Avenir-black';
 }
-/* line 421, ../sass/style.scss */
+/* line 423, ../sass/style.scss */
 .products .pro-content p {
   font-size: 30px;
   color: var(--light-color);
@@ -457,7 +440,7 @@
   max-width: 45%;
   margin-top: 10%;
 }
-/* line 428, ../sass/style.scss */
+/* line 430, ../sass/style.scss */
 .products .pro-content .btn {
   background-color: var(--light-color);
   border-radius: 25px;
@@ -471,81 +454,77 @@
   margin-top: 45px;
 }
 
-/* line 443, ../sass/style.scss */
+/* line 445, ../sass/style.scss */
 .article {
   padding: 100px 0 176px 0;
 }
-/* line 445, ../sass/style.scss */
-.article .container {
-  max-width: 1674px !important;
-}
-/* line 448, ../sass/style.scss */
+/* line 450, ../sass/style.scss */
 .article .title {
   margin-bottom: 65px;
 }
-/* line 451, ../sass/style.scss */
+/* line 453, ../sass/style.scss */
 .article .card {
   border-radius: 25px;
   border: none;
 }
-/* line 454, ../sass/style.scss */
+/* line 456, ../sass/style.scss */
 .article .card .card-title {
   font-size: 13px;
   color: var(--offwhite);
   display: flex;
   justify-content: space-between;
 }
-/* line 460, ../sass/style.scss */
+/* line 462, ../sass/style.scss */
 .article .card .card-text {
   color: var(--dark-color);
   font-size: 18px;
   font-family: 'Avenir-medium';
   max-width: 84%;
 }
-/* line 466, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 .article .card h4 {
   color: var(--dark-color);
   font-family: 'Avenir-black';
   max-width: 90%;
 }
-/* line 471, ../sass/style.scss */
+/* line 473, ../sass/style.scss */
 .article .card .article-img {
   border-radius: 25px;
 }
 
-/* line 477, ../sass/style.scss */
+/* line 479, ../sass/style.scss */
 .footer {
   height: 637px;
   background-color: var(--blue-color);
   padding: 115px 72px;
 }
-/* line 481, ../sass/style.scss */
+/* line 483, ../sass/style.scss */
 .footer .footer-top {
   border-bottom: 2px solid var(--light-color);
 }
-/* line 483, ../sass/style.scss */
+/* line 485, ../sass/style.scss */
 .footer .footer-top h1 {
   font-size: 50px;
   color: var(--light-color);
   font-family: 'Avenir-book';
 }
-/* line 488, ../sass/style.scss */
+/* line 490, ../sass/style.scss */
 .footer .footer-top h2 {
   font-size: 38px;
   color: var(--light-color);
   font-family: 'Avenir-book';
   margin-bottom: 30px;
 }
-/* line 494, ../sass/style.scss */
+/* line 496, ../sass/style.scss */
 .footer .footer-top .special {
   font-family: 'Avenir-black';
 }
-/* line 497, ../sass/style.scss */
+/* line 499, ../sass/style.scss */
 .footer .footer-top .social {
   display: flex;
   margin-top: 35px;
 }
-/* line 501, ../sass/style.scss */
+/* line 503, ../sass/style.scss */
 .footer .footer-top .social-icons {
   border: 2px solid var(--light-color);
   border-radius: 50%;
@@ -554,37 +533,37 @@
   width: 34px;
   height: 32px;
 }
-/* line 509, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 .footer .footer-top .social-icon {
   font-size: 18px;
   color: var(--light-color);
   padding-left: 2px;
 }
-/* line 514, ../sass/style.scss */
+/* line 516, ../sass/style.scss */
 .footer .footer-top .special-icon {
   font-size: 32px;
 }
-/* line 517, ../sass/style.scss */
+/* line 519, ../sass/style.scss */
 .footer .footer-top .address {
   line-height: 29px;
   max-width: 80%;
 }
-/* line 521, ../sass/style.scss */
+/* line 523, ../sass/style.scss */
 .footer .footer-top h4 {
   font-family: 'Avenir-book';
   font-size: 21px;
   color: var(--light-color);
 }
-/* line 526, ../sass/style.scss */
+/* line 528, ../sass/style.scss */
 .footer .footer-top .news {
   margin-bottom: 0;
 }
-/* line 529, ../sass/style.scss */
+/* line 531, ../sass/style.scss */
 .footer .footer-top .form {
   position: relative;
   margin-bottom: 106px;
 }
-/* line 532, ../sass/style.scss */
+/* line 534, ../sass/style.scss */
 .footer .footer-top .form .form-control {
   border: 1px solid var(--light-color);
   margin-top: 96px;
@@ -594,13 +573,13 @@
   background: transparent;
   padding: 6px 10px;
 }
-/* line 541, ../sass/style.scss */
+/* line 543, ../sass/style.scss */
 .footer .footer-top .form .form-control:focus {
   box-shadow: none;
   color: var(--light-color);
   font-size: 21px;
 }
-/* line 546, ../sass/style.scss */
+/* line 548, ../sass/style.scss */
 .footer .footer-top .form .label {
   position: absolute;
   font-size: 21px;
@@ -609,7 +588,7 @@
   bottom: 21px;
   left: -12px;
 }
-/* line 554, ../sass/style.scss */
+/* line 556, ../sass/style.scss */
 .footer .footer-top .form .btn {
   position: absolute;
   top: -38px;
@@ -626,36 +605,36 @@
   transition: 0.3s;
   border-radius: 0;
 }
-/* line 572, ../sass/style.scss */
+/* line 574, ../sass/style.scss */
 .footer a {
   text-decoration: none;
 }
-/* line 574, ../sass/style.scss */
+/* line 576, ../sass/style.scss */
 .footer a:hover {
   text-decoration: none;
   color: var(--light-color);
 }
-/* line 579, ../sass/style.scss */
+/* line 581, ../sass/style.scss */
 .footer h3 {
   font-size: 21px;
   color: var(--light-color);
   font-family: 'Avenir-medium';
   margin-bottom: 30px;
 }
-/* line 585, ../sass/style.scss */
+/* line 587, ../sass/style.scss */
 .footer .footer-bottom {
   display: flex;
   padding: 60px 0 0 0;
   justify-content: space-between;
   border-top: 2px solid var(--light-color);
 }
-/* line 590, ../sass/style.scss */
+/* line 592, ../sass/style.scss */
 .footer .footer-bottom p {
   font-size: 18px;
   font-family: 'Avenir-medium';
   color: var(--light-color);
 }
-/* line 595, ../sass/style.scss */
+/* line 597, ../sass/style.scss */
 .footer .footer-bottom .last-link {
   margin-left: 38px;
 }

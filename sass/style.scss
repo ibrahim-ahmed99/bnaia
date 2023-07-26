@@ -59,12 +59,14 @@
 //         width:1674px !important;
 //     }
 // }
-@media (min-width: 1200px) {
-    .container {
-        width: 1674px !important;
-    }
-}
 
+/* bigeer than 1200 */
+
+// @media (min-width: 1200px) {
+//     .container {
+//         width: 1674px !important;
+//     }
+// }
 .title {
     display: flex;
     justify-content: space-between;
@@ -233,9 +235,9 @@
 .our-categories {
     background-color: var(--gray-color);
     padding: 75px 0;
-    .container {
-        max-width: 1674px !important;
-    }
+    // .container {
+    //     max-width: 1674px !important;
+    // }
     .categories-content {
         .btn {
             background-color: var(--light-color);
@@ -323,9 +325,9 @@
 
 .professionally {
     padding: 75px 0;
-    .container {
-        max-width: 1674px !important;
-    }
+    // .container {
+    //     max-width: 1674px !important;
+    // }
     .btn {
         background-color: var(--gray-color);
     }
@@ -364,9 +366,9 @@
 
 .ideas {
     padding: 75px 0;
-    .container {
-        max-width: 1674px !important;
-    }
+    // .container {
+    //     max-width: 1674px !important;
+    // }
     .btn {
         background-color: var(--gray-color);
     }
@@ -442,9 +444,9 @@
 
 .article {
     padding: 100px 0 176px 0;
-    .container {
-        max-width: 1674px !important;
-    }
+    // .container {
+    //     max-width: 1674px !important;
+    // }
     .title {
         margin-bottom: 65px;
     }
