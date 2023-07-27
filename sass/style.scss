@@ -54,25 +54,6 @@
     src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
 }
 
-@media (min-width: 1900px) {
-    .container-xxl {
-        width: 1674px !important;
-    }
-}
-
-// @media (min-width: 1400px){
-//     .container{
-//         width:1674px !important;
-//     }
-// }
-
-/* bigeer than 1200 */
-
-// @media (min-width: 1200px) {
-//     .container {
-//         width: 1674px !important;
-//     }
-// }
 .title {
     display: flex;
     justify-content: space-between;
@@ -252,6 +233,7 @@
             margin-top: 48px;
             .card {
                 border-radius: 40px;
+                height: 420px;
             }
             .categorie-img {
                 margin-top: 38px;
@@ -603,5 +585,267 @@
         .last-link {
             margin-left: 38px;
         }
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1900px) {
+    .title {
+        h1 {
+            font-size: 27px;
+        }
+        .btn {
+            font-size: 18px;
+            padding: 6px 30px 0px;
+            height: 36px;
+            width: 133px;
+        }
+    }
+    .topnav {
+        .language {
+            margin-left: 74%;
+        }
+        .contact {
+            margin-left: 62%;
+        }
+    }
+    .head {
+        padding: 40px 30px;
+        .logo {
+            margin-right: 25px;
+        }
+        .nav-link {
+            font-size: 12px;
+            padding: 10px 10px;
+            letter-spacing: 0.4px;
+        }
+        .last-content {
+            margin-left: 0%;
+            justify-content: start;
+            .input {
+                width: 230px;
+            }
+            .btn-1 {
+                padding: 10px 12px;
+                margin-top: -3px;
+                font-size: 12px;
+            }
+            .input:focus {
+                font-size: 12px;
+            }
+            .label {
+                font-size: 12px;
+                padding: 11px;
+            }
+            .icon {
+                margin-right: 5px;
+                font-size: 15px;
+            }
+        }
+    }
+    .our-categories {
+        .categories-content {
+            .categorie {
+                .card-title {
+                    font-size: 23px;
+                }
+                .card-text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .products {
+        .products-content {
+            padding: 20px 69px 0;
+        }
+        .pro-content {
+            h1 {
+                font-size: 50px;
+            }
+            p {
+                font-size: 27px;
+                margin-top: 6%;
+            }
+            .btn {
+                padding: 5px 18px;
+                height: 36px;
+                width: 133px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .title {
+        h1 {
+            font-size: 24px;
+        }
+        .btn {
+            font-size: 16px;
+            padding: 6px 25px 0px;
+            height: 30px;
+            width: 110px;
+        }
+    }
+    .topnav {
+        .language {
+            margin-left: 74%;
+            .egy {
+                margin-right: 20px;
+            }
+            .special {
+                font-size: 12px;
+            }
+        }
+        .contact {
+            margin-left: 58%;
+            a {
+                font-size: 10px;
+            }
+        }
+    }
+    .head {
+        padding: 30px 25px;
+        .logo {
+            margin-right: 20px;
+            img {
+                max-width: 90%;
+            }
+        }
+        .list {
+            margin-top: -3px;
+        }
+        .nav-link {
+            font-size: 10px;
+            padding: 10px 8px;
+            letter-spacing: 0.4px;
+        }
+        .last-content {
+            margin-left: 0%;
+            justify-content: start;
+            .input {
+                width: 185px;
+            }
+            .btn-1 {
+                padding: 10px 12px;
+                margin-top: -3px;
+                font-size: 10px;
+            }
+            .input:focus {
+                font-size: 10px;
+            }
+            .label {
+                font-size: 10px;
+                padding: 11px;
+            }
+            .search-icon {
+                margin-left: 5px;
+            }
+            .icon {
+                margin-right: 5px;
+                font-size: 13px;
+            }
+        }
+    }
+    .our-categories {
+        .categories-content {
+            .categorie {
+                .card-title {
+                    font-size: 20px;
+                }
+                .card-text {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .products {
+        .products-content {
+            padding: 15px 55px 0;
+        }
+        .pro-content {
+            h1 {
+                font-size: 40px;
+                max-width: 70%;
+            }
+            p {
+                font-size: 22px;
+                margin-top: 5%;
+                max-width: 40%;
+            }
+            .btn {
+                padding: 3px 10px;
+                height: 32px;
+                font-size: 17px;
+                width: 123px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .footer {
+        padding: 100px 72px;
+        .footer-top {
+            h1 {
+                font-size: 40px;
+            }
+            h2 {
+                font-size: 33px;
+            }
+            .social-icons {
+                width: 27px;
+                height: 27px;
+                padding: 4px;
+                margin-right: 16px;
+            }
+            .social-icon {
+                font-size: 15px;
+            }
+            .special-icon {
+                font-size: 27px;
+            }
+            .address {
+                max-width: 90%;
+            }
+            h4 {
+                font-size: 17px;
+            }
+            .form {
+                .form-control:focus {
+                    font-size: 16px;
+                }
+                .label {
+                    font-size: 16px;
+                }
+                .btn {
+                    width: 200px;
+                    height: 64px;
+                    font-size: 18px;
+                    padding: 20px 67px 15px 63px;
+                    top: -30px;
+                }
+            }
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .footer-bottom {
+            border: 0;
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+// @media (min-width: 1900px) {
+//     .container-xxl {
+//         width: 1674px !important;
+//     }
+// }
+@media (min-width: 1900px) {
+    .container-xxl {
+        width: 1674px !important;
+        max-width: 1674px !important;
     }
 }
