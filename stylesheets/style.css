@@ -639,17 +639,17 @@
   margin-left: 38px;
 }
 
-@media (min-width: 1400px) and (max-width: 1900px) {
+@media (min-width: 1700px) and (max-width: 1900px) {
   /* line 593, ../sass/style.scss */
   .title h1 {
-    font-size: 27px;
+    font-size: 28px;
   }
   /* line 596, ../sass/style.scss */
   .title .btn {
-    font-size: 18px;
-    padding: 6px 30px 0px;
-    height: 36px;
-    width: 133px;
+    font-size: 19px;
+    padding: 8px 30px 0px;
+    height: 40px;
+    width: 140px;
   }
 
   /* line 604, ../sass/style.scss */
@@ -657,90 +657,227 @@
     margin-left: 74%;
   }
   /* line 607, ../sass/style.scss */
+  .topnav .language .egypt-flag .flag {
+    max-width: 8%;
+  }
+  /* line 612, ../sass/style.scss */
   .topnav .contact {
     margin-left: 62%;
   }
 
-  /* line 611, ../sass/style.scss */
+  /* line 616, ../sass/style.scss */
   .head {
     padding: 40px 30px;
   }
-  /* line 613, ../sass/style.scss */
+  /* line 618, ../sass/style.scss */
+  .head .logo {
+    margin-right: 35px;
+  }
+  /* line 621, ../sass/style.scss */
+  .head .nav-link {
+    font-size: 13px;
+    padding: 10px 13px;
+    letter-spacing: 1px;
+  }
+  /* line 626, ../sass/style.scss */
+  .head .last-content {
+    margin-left: 3%;
+    justify-content: start;
+  }
+  /* line 629, ../sass/style.scss */
+  .head .last-content .input {
+    width: 250px;
+  }
+  /* line 632, ../sass/style.scss */
+  .head .last-content .btn-1 {
+    padding: 15px 15px;
+    margin-top: -6px;
+    font-size: 13px;
+  }
+  /* line 637, ../sass/style.scss */
+  .head .last-content .input:focus {
+    font-size: 13px;
+  }
+  /* line 640, ../sass/style.scss */
+  .head .last-content .label {
+    font-size: 13px;
+    padding: 11px;
+  }
+  /* line 644, ../sass/style.scss */
+  .head .last-content .icon {
+    margin-right: 5px;
+    font-size: 17px;
+  }
+
+  /* line 653, ../sass/style.scss */
+  .our-categories .categories-content .categorie .card-title {
+    font-size: 23px;
+  }
+  /* line 656, ../sass/style.scss */
+  .our-categories .categories-content .categorie .card-text {
+    font-size: 15px;
+  }
+
+  /* line 663, ../sass/style.scss */
+  .products .products-content {
+    padding: 35px 69px 0;
+  }
+  /* line 667, ../sass/style.scss */
+  .products .pro-content h1 {
+    font-size: 55px;
+    max-width: 70%;
+  }
+  /* line 671, ../sass/style.scss */
+  .products .pro-content p {
+    font-size: 28px;
+    max-width: 40%;
+  }
+  /* line 675, ../sass/style.scss */
+  .products .pro-content .btn {
+    padding: 8px 0px;
+    height: 40px;
+    width: 140px;
+    margin-top: 30px;
+  }
+
+  /* line 685, ../sass/style.scss */
+  .article .card .card-title {
+    font-size: 13px;
+  }
+  /* line 688, ../sass/style.scss */
+  .article .card .card-text {
+    font-size: 16px;
+    max-width: 97%;
+  }
+  /* line 692, ../sass/style.scss */
+  .article .card h4 {
+    font-size: 16px;
+    max-width: 100%;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1699px) {
+  /* line 702, ../sass/style.scss */
+  .title h1 {
+    font-size: 27px;
+  }
+  /* line 705, ../sass/style.scss */
+  .title .btn {
+    font-size: 18px;
+    padding: 6px 30px 0px;
+    height: 36px;
+    width: 133px;
+  }
+
+  /* line 713, ../sass/style.scss */
+  .topnav .language {
+    margin-left: 74%;
+  }
+  /* line 716, ../sass/style.scss */
+  .topnav .contact {
+    margin-left: 62%;
+  }
+
+  /* line 720, ../sass/style.scss */
+  .head {
+    padding: 40px 30px;
+  }
+  /* line 722, ../sass/style.scss */
   .head .logo {
     margin-right: 25px;
   }
-  /* line 616, ../sass/style.scss */
+  /* line 725, ../sass/style.scss */
   .head .nav-link {
     font-size: 12px;
     padding: 10px 10px;
     letter-spacing: 0.4px;
   }
-  /* line 621, ../sass/style.scss */
+  /* line 730, ../sass/style.scss */
   .head .last-content {
     margin-left: 0%;
     justify-content: start;
   }
-  /* line 624, ../sass/style.scss */
+  /* line 733, ../sass/style.scss */
   .head .last-content .input {
     width: 230px;
   }
-  /* line 627, ../sass/style.scss */
+  /* line 736, ../sass/style.scss */
   .head .last-content .btn-1 {
     padding: 10px 12px;
     margin-top: -3px;
     font-size: 12px;
   }
-  /* line 632, ../sass/style.scss */
+  /* line 741, ../sass/style.scss */
   .head .last-content .input:focus {
     font-size: 12px;
   }
-  /* line 635, ../sass/style.scss */
+  /* line 744, ../sass/style.scss */
   .head .last-content .label {
     font-size: 12px;
     padding: 11px;
   }
-  /* line 639, ../sass/style.scss */
+  /* line 748, ../sass/style.scss */
   .head .last-content .icon {
     margin-right: 5px;
     font-size: 15px;
   }
 
-  /* line 648, ../sass/style.scss */
+  /* line 757, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-title {
     font-size: 23px;
   }
-  /* line 651, ../sass/style.scss */
+  /* line 760, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-text {
     font-size: 15px;
   }
 
-  /* line 658, ../sass/style.scss */
+  /* line 767, ../sass/style.scss */
   .products .products-content {
     padding: 20px 69px 0;
   }
-  /* line 662, ../sass/style.scss */
+  /* line 771, ../sass/style.scss */
   .products .pro-content h1 {
     font-size: 50px;
   }
-  /* line 665, ../sass/style.scss */
+  /* line 774, ../sass/style.scss */
   .products .pro-content p {
     font-size: 27px;
     margin-top: 6%;
   }
-  /* line 669, ../sass/style.scss */
+  /* line 778, ../sass/style.scss */
   .products .pro-content .btn {
     padding: 5px 18px;
     height: 36px;
     width: 133px;
     margin-top: 30px;
   }
+
+  /* line 788, ../sass/style.scss */
+  .article .card .card-title {
+    font-size: 13px;
+  }
+  /* line 791, ../sass/style.scss */
+  .article .card .card-text {
+    font-size: 16px;
+    max-width: 97%;
+  }
+  /* line 795, ../sass/style.scss */
+  .article .card h4 {
+    font-size: 16px;
+    max-width: 100%;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  /* line 681, ../sass/style.scss */
+  /* line 804, ../sass/style.scss */
+  .container-xxl {
+    width: 1150px !important;
+    max-width: 1674px !important;
+  }
+
+  /* line 809, ../sass/style.scss */
   .title h1 {
     font-size: 24px;
   }
-  /* line 684, ../sass/style.scss */
+  /* line 812, ../sass/style.scss */
   .title .btn {
     font-size: 16px;
     padding: 6px 25px 0px;
@@ -748,160 +885,179 @@
     width: 110px;
   }
 
-  /* line 692, ../sass/style.scss */
+  /* line 820, ../sass/style.scss */
   .topnav .language {
-    margin-left: 74%;
+    margin-left: 77%;
   }
-  /* line 694, ../sass/style.scss */
+  /* line 822, ../sass/style.scss */
   .topnav .language .egy {
     margin-right: 20px;
   }
-  /* line 697, ../sass/style.scss */
+  /* line 825, ../sass/style.scss */
   .topnav .language .special {
     font-size: 12px;
   }
-  /* line 701, ../sass/style.scss */
+  /* line 829, ../sass/style.scss */
   .topnav .contact {
-    margin-left: 58%;
+    margin-left: 60%;
   }
-  /* line 703, ../sass/style.scss */
+  /* line 831, ../sass/style.scss */
   .topnav .contact a {
     font-size: 10px;
   }
 
-  /* line 708, ../sass/style.scss */
+  /* line 836, ../sass/style.scss */
   .head {
     padding: 30px 25px;
   }
-  /* line 710, ../sass/style.scss */
+  /* line 838, ../sass/style.scss */
   .head .logo {
     margin-right: 20px;
   }
-  /* line 712, ../sass/style.scss */
+  /* line 840, ../sass/style.scss */
   .head .logo img {
     max-width: 90%;
   }
-  /* line 716, ../sass/style.scss */
+  /* line 844, ../sass/style.scss */
   .head .list {
     margin-top: -3px;
   }
-  /* line 719, ../sass/style.scss */
+  /* line 847, ../sass/style.scss */
   .head .nav-link {
-    font-size: 10px;
-    padding: 10px 8px;
-    letter-spacing: 0.4px;
+    font-size: 11px;
+    padding: 10px 10px;
+    letter-spacing: 0.6px;
   }
-  /* line 724, ../sass/style.scss */
+  /* line 852, ../sass/style.scss */
   .head .last-content {
-    margin-left: 0%;
+    margin-left: 2%;
     justify-content: start;
   }
-  /* line 727, ../sass/style.scss */
+  /* line 855, ../sass/style.scss */
   .head .last-content .input {
     width: 185px;
   }
-  /* line 730, ../sass/style.scss */
+  /* line 858, ../sass/style.scss */
   .head .last-content .btn-1 {
     padding: 10px 12px;
     margin-top: -3px;
-    font-size: 10px;
+    font-size: 11px;
   }
-  /* line 735, ../sass/style.scss */
+  /* line 863, ../sass/style.scss */
   .head .last-content .input:focus {
-    font-size: 10px;
+    font-size: 11px;
   }
-  /* line 738, ../sass/style.scss */
+  /* line 866, ../sass/style.scss */
   .head .last-content .label {
-    font-size: 10px;
+    font-size: 11px;
     padding: 11px;
   }
-  /* line 742, ../sass/style.scss */
+  /* line 870, ../sass/style.scss */
   .head .last-content .search-icon {
     margin-left: 5px;
   }
-  /* line 745, ../sass/style.scss */
+  /* line 873, ../sass/style.scss */
   .head .last-content .icon {
     margin-right: 5px;
     font-size: 13px;
   }
 
-  /* line 754, ../sass/style.scss */
+  /* line 882, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-title {
-    font-size: 20px;
+    font-size: 19px;
   }
-  /* line 757, ../sass/style.scss */
+  /* line 885, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-text {
-    font-size: 13px;
+    font-size: 12px;
+  }
+  /* line 888, ../sass/style.scss */
+  .our-categories .categories-content .categorie .special-p {
+    max-width: 290px;
   }
 
-  /* line 764, ../sass/style.scss */
+  /* line 895, ../sass/style.scss */
   .products .products-content {
-    padding: 15px 55px 0;
+    padding: 25px 55px 0;
   }
-  /* line 768, ../sass/style.scss */
+  /* line 899, ../sass/style.scss */
   .products .pro-content h1 {
     font-size: 40px;
-    max-width: 70%;
+    max-width: 75%;
   }
-  /* line 772, ../sass/style.scss */
+  /* line 903, ../sass/style.scss */
   .products .pro-content p {
     font-size: 22px;
-    margin-top: 5%;
+    margin-top: 10%;
     max-width: 40%;
   }
-  /* line 777, ../sass/style.scss */
+  /* line 908, ../sass/style.scss */
   .products .pro-content .btn {
-    padding: 3px 10px;
+    padding: 5px 10px;
     height: 32px;
-    font-size: 17px;
+    font-size: 16px;
     width: 123px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
-  /* line 786, ../sass/style.scss */
+  /* line 919, ../sass/style.scss */
+  .article .card .card-title {
+    font-size: 12px;
+  }
+  /* line 922, ../sass/style.scss */
+  .article .card .card-text {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  /* line 926, ../sass/style.scss */
+  .article .card h4 {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  /* line 932, ../sass/style.scss */
   .footer {
     padding: 100px 72px;
   }
-  /* line 789, ../sass/style.scss */
+  /* line 935, ../sass/style.scss */
   .footer .footer-top h1 {
     font-size: 40px;
   }
-  /* line 792, ../sass/style.scss */
+  /* line 938, ../sass/style.scss */
   .footer .footer-top h2 {
     font-size: 33px;
   }
-  /* line 795, ../sass/style.scss */
+  /* line 941, ../sass/style.scss */
   .footer .footer-top .social-icons {
     width: 27px;
     height: 27px;
     padding: 4px;
     margin-right: 16px;
   }
-  /* line 801, ../sass/style.scss */
+  /* line 947, ../sass/style.scss */
   .footer .footer-top .social-icon {
     font-size: 15px;
   }
-  /* line 804, ../sass/style.scss */
+  /* line 950, ../sass/style.scss */
   .footer .footer-top .special-icon {
     font-size: 27px;
   }
-  /* line 807, ../sass/style.scss */
+  /* line 953, ../sass/style.scss */
   .footer .footer-top .address {
     max-width: 90%;
   }
-  /* line 810, ../sass/style.scss */
+  /* line 956, ../sass/style.scss */
   .footer .footer-top h4 {
     font-size: 17px;
   }
-  /* line 814, ../sass/style.scss */
+  /* line 960, ../sass/style.scss */
   .footer .footer-top .form .form-control:focus {
     font-size: 16px;
   }
-  /* line 817, ../sass/style.scss */
+  /* line 963, ../sass/style.scss */
   .footer .footer-top .form .label {
     font-size: 16px;
   }
-  /* line 820, ../sass/style.scss */
+  /* line 966, ../sass/style.scss */
   .footer .footer-top .form .btn {
     width: 200px;
     height: 64px;
@@ -909,21 +1065,315 @@
     padding: 20px 67px 15px 63px;
     top: -30px;
   }
-  /* line 829, ../sass/style.scss */
+  /* line 975, ../sass/style.scss */
   .footer h3 {
     font-size: 18px;
   }
-  /* line 832, ../sass/style.scss */
+  /* line 978, ../sass/style.scss */
   .footer .footer-bottom {
     border: 0;
   }
-  /* line 834, ../sass/style.scss */
+  /* line 980, ../sass/style.scss */
   .footer .footer-bottom p {
     font-size: 16px;
   }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+  /* line 990, ../sass/style.scss */
+  .container-xxl {
+    width: 495px !important;
+    max-width: 1674px !important;
+  }
+
+  /* line 995, ../sass/style.scss */
+  .title h1 {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  /* line 999, ../sass/style.scss */
+  .title .btn {
+    font-size: 15px;
+    padding: 5px 15px 0px;
+    height: 30px;
+    width: 100px;
+  }
+
+  /* line 1007, ../sass/style.scss */
+  .topnav .language {
+    margin-left: 40%;
+  }
+  /* line 1009, ../sass/style.scss */
+  .topnav .language .egy {
+    margin-right: 20px;
+  }
+  /* line 1012, ../sass/style.scss */
+  .topnav .language .special {
+    font-size: 12px;
+  }
+  /* line 1016, ../sass/style.scss */
+  .topnav .contact {
+    margin-left: 20%;
+  }
+  /* line 1018, ../sass/style.scss */
+  .topnav .contact a {
+    font-size: 10px;
+  }
+
+  /* line 1023, ../sass/style.scss */
+  .head {
+    padding: 30px 25px;
+  }
+  /* line 1025, ../sass/style.scss */
+  .head .logo {
+    margin-right: 10px;
+  }
+  /* line 1027, ../sass/style.scss */
+  .head .logo img {
+    max-width: 100%;
+  }
+  /* line 1031, ../sass/style.scss */
+  .head .ul {
+    display: grid;
+  }
+  /* line 1034, ../sass/style.scss */
+  .head .ul-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* line 1038, ../sass/style.scss */
+  .head .nav-item {
+    text-align: center;
+  }
+  /* line 1041, ../sass/style.scss */
+  .head .nav-link {
+    font-size: 11px;
+    padding: 10px 10px;
+    letter-spacing: 0.6px;
+  }
+  /* line 1046, ../sass/style.scss */
+  .head .last-content {
+    margin-left: 12%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  /* line 1050, ../sass/style.scss */
+  .head .last-content .form {
+    margin-top: 15%;
+  }
+  /* line 1053, ../sass/style.scss */
+  .head .last-content .input {
+    width: 185px;
+  }
+  /* line 1056, ../sass/style.scss */
+  .head .last-content .btn-1 {
+    padding: 10px 12px;
+    margin-top: 0px;
+    font-size: 11px;
+    margin-bottom: 10px;
+  }
+  /* line 1062, ../sass/style.scss */
+  .head .last-content .input:focus {
+    font-size: 11px;
+  }
+  /* line 1065, ../sass/style.scss */
+  .head .last-content .label {
+    font-size: 11px;
+    padding: 11px;
+  }
+  /* line 1069, ../sass/style.scss */
+  .head .last-content .search-icon {
+    margin-left: 5px;
+  }
+  /* line 1072, ../sass/style.scss */
+  .head .last-content .icon {
+    margin-right: 5px;
+    font-size: 13px;
+  }
+
+  /* line 1081, ../sass/style.scss */
+  .our-categories .categories-content .categorie .card-title {
+    font-size: 15px;
+  }
+  /* line 1084, ../sass/style.scss */
+  .our-categories .categories-content .categorie .card-text {
+    font-size: 10px;
+  }
+  /* line 1087, ../sass/style.scss */
+  .our-categories .categories-content .categorie .card {
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  /* line 1091, ../sass/style.scss */
+  .our-categories .categories-content .categorie .card-body {
+    padding: 35px 37px;
+  }
+  /* line 1094, ../sass/style.scss */
+  .our-categories .categories-content .categorie .categorie-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 40%;
+  }
+  /* line 1099, ../sass/style.scss */
+  .our-categories .categories-content .categorie .special-p {
+    max-width: 250px;
+  }
+
+  /* line 1105, ../sass/style.scss */
+  .our-tools {
+    height: 250px;
+  }
+  /* line 1107, ../sass/style.scss */
+  .our-tools .tools-content {
+    top: 20px;
+  }
+  /* line 1109, ../sass/style.scss */
+  .our-tools .tools-content h1 {
+    font-size: 45px;
+  }
+  /* line 1112, ../sass/style.scss */
+  .our-tools .tools-content .btn {
+    font-size: 18px;
+    padding: 10px 32px;
+    height: 45px;
+    width: 150px;
+    margin-top: 40px;
+  }
+
+  /* line 1125, ../sass/style.scss */
+  .professionally .slider .hobbies-item .card .card-title {
+    font-size: 15px;
+  }
+  /* line 1128, ../sass/style.scss */
+  .professionally .slider .hobbies-item .card .card-text {
+    font-size: 13px;
+  }
+  /* line 1131, ../sass/style.scss */
+  .professionally .slider .hobbies-item .card .rating {
+    max-width: 35%;
+  }
+
+  /* line 1142, ../sass/style.scss */
+  .ideas .slider .hobbies-item .card .card-title {
+    font-size: 15px;
+  }
+  /* line 1145, ../sass/style.scss */
+  .ideas .slider .hobbies-item .card .card-text {
+    font-size: 13px;
+  }
+  /* line 1148, ../sass/style.scss */
+  .ideas .slider .hobbies-item .card .rating {
+    max-width: 35%;
+  }
+
+  /* line 1157, ../sass/style.scss */
+  .products .pro-content h1 {
+    font-size: 40px;
+    max-width: 75%;
+  }
+  /* line 1161, ../sass/style.scss */
+  .products .pro-content p {
+    font-size: 22px;
+    margin-top: 10%;
+    max-width: 40%;
+  }
+  /* line 1166, ../sass/style.scss */
+  .products .pro-content .btn {
+    padding: 5px 10px;
+    height: 32px;
+    font-size: 16px;
+    width: 123px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+
+  /* line 1178, ../sass/style.scss */
+  .article .card .card-title {
+    font-size: 12px;
+  }
+  /* line 1181, ../sass/style.scss */
+  .article .card .card-text {
+    font-size: 14px;
+    max-width: 80%;
+  }
+  /* line 1185, ../sass/style.scss */
+  .article .card h4 {
+    font-size: 14px;
+    max-width: 55%;
+  }
+
+  /* line 1191, ../sass/style.scss */
+  .footer {
+    padding: 40px 72px;
+    height: auto;
+  }
+  /* line 1195, ../sass/style.scss */
+  .footer .footer-top h1 {
+    font-size: 40px;
+  }
+  /* line 1198, ../sass/style.scss */
+  .footer .footer-top h2 {
+    font-size: 33px;
+  }
+  /* line 1201, ../sass/style.scss */
+  .footer .footer-top .social-icons {
+    width: 27px;
+    height: 27px;
+    padding: 4px;
+    margin-right: 16px;
+  }
+  /* line 1207, ../sass/style.scss */
+  .footer .footer-top .social-icon {
+    font-size: 15px;
+  }
+  /* line 1210, ../sass/style.scss */
+  .footer .footer-top .special-icon {
+    font-size: 27px;
+  }
+  /* line 1213, ../sass/style.scss */
+  .footer .footer-top .address {
+    max-width: 40%;
+  }
+  /* line 1216, ../sass/style.scss */
+  .footer .footer-top h4 {
+    font-size: 17px;
+  }
+  /* line 1220, ../sass/style.scss */
+  .footer .footer-top .form .form-control:focus {
+    font-size: 16px;
+  }
+  /* line 1223, ../sass/style.scss */
+  .footer .footer-top .form .label {
+    font-size: 16px;
+  }
+  /* line 1226, ../sass/style.scss */
+  .footer .footer-top .form .btn {
+    width: 200px;
+    height: 64px;
+    font-size: 18px;
+    padding: 20px 67px 15px 63px;
+    top: -30px;
+  }
+  /* line 1235, ../sass/style.scss */
+  .footer h3 {
+    font-size: 18px;
+  }
+  /* line 1238, ../sass/style.scss */
+  .footer .footer-bottom {
+    border: 0;
+    display: inline-block;
+    margin-left: 25%;
+  }
+  /* line 1242, ../sass/style.scss */
+  .footer .footer-bottom p {
+    font-size: 16px;
+  }
+  /* line 1245, ../sass/style.scss */
+  .footer .footer-bottom .last-a {
+    justify-content: space-between;
+  }
+}
 @media (min-width: 1900px) {
-  /* line 847, ../sass/style.scss */
+  /* line 1253, ../sass/style.scss */
   .container-xxl {
     width: 1674px !important;
     max-width: 1674px !important;

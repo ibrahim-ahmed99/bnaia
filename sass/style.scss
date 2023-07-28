@@ -588,7 +588,116 @@
     }
 }
 
-@media (min-width: 1400px) and (max-width: 1900px) {
+@media (min-width: 1700px) and (max-width: 1900px) {
+    .title {
+        h1 {
+            font-size: 28px;
+        }
+        .btn {
+            font-size: 19px;
+            padding: 8px 30px 0px;
+            height: 40px;
+            width: 140px;
+        }
+    }
+    .topnav {
+        .language {
+            margin-left: 74%;
+            .egypt-flag {
+                .flag {
+                    max-width: 8%;
+                }
+            }
+        }
+        .contact {
+            margin-left: 62%;
+        }
+    }
+    .head {
+        padding: 40px 30px;
+        .logo {
+            margin-right: 35px;
+        }
+        .nav-link {
+            font-size: 13px;
+            padding: 10px 13px;
+            letter-spacing: 1px;
+        }
+        .last-content {
+            margin-left: 3%;
+            justify-content: start;
+            .input {
+                width: 250px;
+            }
+            .btn-1 {
+                padding: 15px 15px;
+                margin-top: -6px;
+                font-size: 13px;
+            }
+            .input:focus {
+                font-size: 13px;
+            }
+            .label {
+                font-size: 13px;
+                padding: 11px;
+            }
+            .icon {
+                margin-right: 5px;
+                font-size: 17px;
+            }
+        }
+    }
+    .our-categories {
+        .categories-content {
+            .categorie {
+                .card-title {
+                    font-size: 23px;
+                }
+                .card-text {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .products {
+        .products-content {
+            padding: 35px 69px 0;
+        }
+        .pro-content {
+            h1 {
+                font-size: 55px;
+                max-width: 70%;
+            }
+            p {
+                font-size: 28px;
+                max-width: 40%;
+            }
+            .btn {
+                padding: 8px 0px;
+                height: 40px;
+                width: 140px;
+                margin-top: 30px;
+            }
+        }
+    }
+    .article {
+        .card {
+            .card-title {
+                font-size: 13px;
+            }
+            .card-text {
+                font-size: 16px;
+                max-width: 97%;
+            }
+            h4 {
+                font-size: 16px;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1699px) {
     .title {
         h1 {
             font-size: 27px;
@@ -674,9 +783,28 @@
             }
         }
     }
+    .article {
+        .card {
+            .card-title {
+                font-size: 13px;
+            }
+            .card-text {
+                font-size: 16px;
+                max-width: 97%;
+            }
+            h4 {
+                font-size: 16px;
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
+    .container-xxl {
+        width: 1150px !important;
+        max-width: 1674px !important;
+    }
     .title {
         h1 {
             font-size: 24px;
@@ -690,7 +818,7 @@
     }
     .topnav {
         .language {
-            margin-left: 74%;
+            margin-left: 77%;
             .egy {
                 margin-right: 20px;
             }
@@ -699,7 +827,7 @@
             }
         }
         .contact {
-            margin-left: 58%;
+            margin-left: 60%;
             a {
                 font-size: 10px;
             }
@@ -717,12 +845,12 @@
             margin-top: -3px;
         }
         .nav-link {
-            font-size: 10px;
-            padding: 10px 8px;
-            letter-spacing: 0.4px;
+            font-size: 11px;
+            padding: 10px 10px;
+            letter-spacing: 0.6px;
         }
         .last-content {
-            margin-left: 0%;
+            margin-left: 2%;
             justify-content: start;
             .input {
                 width: 185px;
@@ -730,13 +858,13 @@
             .btn-1 {
                 padding: 10px 12px;
                 margin-top: -3px;
-                font-size: 10px;
+                font-size: 11px;
             }
             .input:focus {
-                font-size: 10px;
+                font-size: 11px;
             }
             .label {
-                font-size: 10px;
+                font-size: 11px;
                 padding: 11px;
             }
             .search-icon {
@@ -752,34 +880,52 @@
         .categories-content {
             .categorie {
                 .card-title {
-                    font-size: 20px;
+                    font-size: 19px;
                 }
                 .card-text {
-                    font-size: 13px;
+                    font-size: 12px;
+                }
+                .special-p {
+                    max-width: 290px;
                 }
             }
         }
     }
     .products {
         .products-content {
-            padding: 15px 55px 0;
+            padding: 25px 55px 0;
         }
         .pro-content {
             h1 {
                 font-size: 40px;
-                max-width: 70%;
+                max-width: 75%;
             }
             p {
                 font-size: 22px;
-                margin-top: 5%;
+                margin-top: 10%;
                 max-width: 40%;
             }
             .btn {
-                padding: 3px 10px;
+                padding: 5px 10px;
                 height: 32px;
-                font-size: 17px;
+                font-size: 16px;
                 width: 123px;
-                margin-top: 10px;
+                margin-top: 30px;
+            }
+        }
+    }
+    .article {
+        .card {
+            .card-title {
+                font-size: 12px;
+            }
+            .card-text {
+                font-size: 14px;
+                max-width: 100%;
+            }
+            h4 {
+                font-size: 14px;
+                max-width: 100%;
             }
         }
     }
@@ -838,11 +984,271 @@
     }
 }
 
-// @media (min-width: 1900px) {
-//     .container-xxl {
-//         width: 1674px !important;
-//     }
-// }
+@media (min-width:768px) and (max-width: 1199px) {}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container-xxl {
+        width: 495px !important;
+        max-width: 1674px !important;
+    }
+    .title {
+        h1 {
+            font-size: 20px;
+            margin-top: 5px;
+        }
+        .btn {
+            font-size: 15px;
+            padding: 5px 15px 0px;
+            height: 30px;
+            width: 100px;
+        }
+    }
+    .topnav {
+        .language {
+            margin-left: 40%;
+            .egy {
+                margin-right: 20px;
+            }
+            .special {
+                font-size: 12px;
+            }
+        }
+        .contact {
+            margin-left: 20%;
+            a {
+                font-size: 10px;
+            }
+        }
+    }
+    .head {
+        padding: 30px 25px;
+        .logo {
+            margin-right: 10px;
+            img {
+                max-width: 100%;
+            }
+        }
+        .ul {
+            display: grid;
+        }
+        .ul-2 {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .nav-item {
+            text-align: center;
+        }
+        .nav-link {
+            font-size: 11px;
+            padding: 10px 10px;
+            letter-spacing: 0.6px;
+        }
+        .last-content {
+            margin-left: 12%;
+            display: flex;
+            flex-direction: column-reverse;
+            .form {
+                margin-top: 15%;
+            }
+            .input {
+                width: 185px;
+            }
+            .btn-1 {
+                padding: 10px 12px;
+                margin-top: 0px;
+                font-size: 11px;
+                margin-bottom: 10px;
+            }
+            .input:focus {
+                font-size: 11px;
+            }
+            .label {
+                font-size: 11px;
+                padding: 11px;
+            }
+            .search-icon {
+                margin-left: 5px;
+            }
+            .icon {
+                margin-right: 5px;
+                font-size: 13px;
+            }
+        }
+    }
+    .our-categories {
+        .categories-content {
+            .categorie {
+                .card-title {
+                    font-size: 15px;
+                }
+                .card-text {
+                    font-size: 10px;
+                }
+                .card {
+                    height: 280px;
+                    margin-bottom: 20px;
+                }
+                .card-body {
+                    padding: 35px 37px;
+                }
+                .categorie-img {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    max-width: 40%;
+                }
+                .special-p {
+                    max-width: 250px;
+                }
+            }
+        }
+    }
+    .our-tools {
+        height: 250px;
+        .tools-content {
+            top: 20px;
+            h1 {
+                font-size: 45px;
+            }
+            .btn {
+                font-size: 18px;
+                padding: 10px 32px;
+                height: 45px;
+                width: 150px;
+                margin-top: 40px;
+            }
+        }
+    }
+    .professionally {
+        .slider {
+            .hobbies-item {
+                .card {
+                    .card-title {
+                        font-size: 15px;
+                    }
+                    .card-text {
+                        font-size: 13px;
+                    }
+                    .rating {
+                        max-width: 35%;
+                    }
+                }
+            }
+        }
+    }
+    .ideas {
+        .slider {
+            .hobbies-item {
+                .card {
+                    .card-title {
+                        font-size: 15px;
+                    }
+                    .card-text {
+                        font-size: 13px;
+                    }
+                    .rating {
+                        max-width: 35%;
+                    }
+                }
+            }
+        }
+    }
+    .products {
+        .pro-content {
+            h1 {
+                font-size: 40px;
+                max-width: 75%;
+            }
+            p {
+                font-size: 22px;
+                margin-top: 10%;
+                max-width: 40%;
+            }
+            .btn {
+                padding: 5px 10px;
+                height: 32px;
+                font-size: 16px;
+                width: 123px;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .article {
+        .card {
+            .card-title {
+                font-size: 12px;
+            }
+            .card-text {
+                font-size: 14px;
+                max-width: 80%;
+            }
+            h4 {
+                font-size: 14px;
+                max-width: 55%;
+            }
+        }
+    }
+    .footer {
+        padding: 40px 72px;
+        height: auto;
+        .footer-top {
+            h1 {
+                font-size: 40px;
+            }
+            h2 {
+                font-size: 33px;
+            }
+            .social-icons {
+                width: 27px;
+                height: 27px;
+                padding: 4px;
+                margin-right: 16px;
+            }
+            .social-icon {
+                font-size: 15px;
+            }
+            .special-icon {
+                font-size: 27px;
+            }
+            .address {
+                max-width: 40%;
+            }
+            h4 {
+                font-size: 17px;
+            }
+            .form {
+                .form-control:focus {
+                    font-size: 16px;
+                }
+                .label {
+                    font-size: 16px;
+                }
+                .btn {
+                    width: 200px;
+                    height: 64px;
+                    font-size: 18px;
+                    padding: 20px 67px 15px 63px;
+                    top: -30px;
+                }
+            }
+        }
+        h3 {
+            font-size: 18px;
+        }
+        .footer-bottom {
+            border: 0;
+            display: inline-block;
+            margin-left: 25%;
+            p {
+                font-size: 16px;
+            }
+            .last-a {
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
 @media (min-width: 1900px) {
     .container-xxl {
         width: 1674px !important;
