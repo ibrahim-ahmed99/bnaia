@@ -78,17 +78,18 @@
 .topnav {
     background-color: var(--red-color);
     overflow: hidden;
+    height: 24px;
     .language {
-        margin-left: 80%;
+        margin-left: 76%;
         position: relative;
+        .dropdown {
+            list-style: none;
+            padding: 0px 0px 0px 7px;
+            font-size: 19px;
+        }
         .egy {
             margin-right: 27px;
-        }
-        .path {
-            position: absolute;
-            top: 9px;
-            height: 8px;
-            left: 0px;
+            margin-left: 7px;
         }
         .egypt-flag {
             display: flex;
@@ -96,14 +97,14 @@
             position: absolute;
             top: 6px;
             right: 0px;
-            left: 19px;
+            left: 30px;
             .flag {
-                max-width: 10%;
+                max-width: 8%;
             }
         }
     }
     .contact {
-        margin-left: 72%;
+        margin-left: 73%;
     }
     a {
         float: left;
@@ -136,9 +137,11 @@
 
 .head {
     background-color: var(--blue-color);
-    padding: 40px 43px;
+    // padding: 40px 43px;
+    height: 111px;
     .logo {
-        margin-right: 75px;
+        margin-right: 35px;
+        padding: 26px 40px;
     }
     .nav {
         li {
@@ -153,28 +156,34 @@
         font-size: 14px;
         color: var(--light-color);
         font-family: 'Avenir-book';
-        padding: 10px 15px;
-        letter-spacing: 1.7px;
+        padding: 10px 13px;
+        letter-spacing: 1px;
         &:hover {
             background-color: transparent;
             color: var(--light-color);
         }
     }
     .nav-pills {
-        margin-top: 5px;
         .btn {
             background-color: var(--red-color);
             border-radius: 25px;
         }
     }
+    .first-content {
+        padding: 31px 0px 40px;
+    }
     .last-content {
-        margin-left: 7%;
+        margin-left: 14%;
         justify-content: space-around;
         display: flex;
+        padding: 31px 41px 40px 0;
         .btn-1 {
+            height: 40px;
+            width: 107px;
+            letter-spacing: 0;
+            padding: 12px 8px;
             font-size: 12px;
-            padding: 15px 18px;
-            margin-top: -8px;
+            font-family: 'Avenir-book';
         }
         .input {
             background-color: transparent;
@@ -205,9 +214,9 @@
             margin-left: 15px;
         }
     }
-    .list {
-        margin-top: -4px;
-    }
+    // .list {
+    //     margin-top: -4px;
+    // }
 }
 
 .slider {
@@ -221,7 +230,7 @@
 
 .our-categories {
     background-color: var(--gray-color);
-    padding: 75px 0;
+    padding: 59px 0 92px;
     // .container {
     //     max-width: 1674px !important;
     // }
@@ -312,7 +321,7 @@
 }
 
 .professionally {
-    padding: 75px 0;
+    padding: 115px 0 157px;
     // .container {
     //     max-width: 1674px !important;
     // }
@@ -320,7 +329,7 @@
         background-color: var(--gray-color);
     }
     .title {
-        margin-bottom: 68px;
+        margin-bottom: 65px;
     }
     .owl-stage-outer {
         margin: auto;
@@ -353,7 +362,7 @@
 }
 
 .ideas {
-    padding: 75px 0;
+    // padding: 75px 0;
     // .container {
     //     max-width: 1674px !important;
     // }
@@ -363,9 +372,16 @@
     .title {
         margin-bottom: 77px;
     }
-    .owl-stage-outer {
-        margin: auto;
-    }
+    // .owl-stage-outer {
+    //     margin: auto;
+    //     margin-left: -43%;
+    // }
+    // .owl-item:active {
+    //     width: 2250px !important;
+    // }
+    // .owl-item {
+    //     width: 2250px !important;
+    // }
     .slider {
         .hobbies-item {
             .card {
@@ -610,11 +626,12 @@
             }
         }
         .contact {
-            margin-left: 62%;
+            margin-left: 70%;
         }
     }
     .head {
-        padding: 40px 30px;
+        // padding: 40px 30px;
+        height: 108px;
         .logo {
             margin-right: 35px;
         }
@@ -624,15 +641,16 @@
             letter-spacing: 1px;
         }
         .last-content {
-            margin-left: 3%;
+            margin-left: 12%;
             justify-content: start;
+            padding: 31px 30px 40px 0;
             .input {
                 width: 250px;
             }
             .btn-1 {
-                padding: 15px 15px;
-                margin-top: -6px;
-                font-size: 13px;
+                padding: 12px 12px;
+                margin-top: 0px;
+                font-size: 11px;
             }
             .input:focus {
                 font-size: 13px;
@@ -680,6 +698,18 @@
             }
         }
     }
+    .ideas {
+        .owl-stage-outer {
+            margin: auto;
+            margin-left: -43%;
+        }
+        .owl-item:active {
+            width: 1983px !important;
+        }
+        .owl-item {
+            width: 1983px !important;
+        }
+    }
     .article {
         .card {
             .card-title {
@@ -718,9 +748,9 @@
         }
     }
     .head {
-        padding: 40px 30px;
+        // padding: 40px 30px;
         .logo {
-            margin-right: 25px;
+            margin-right: 0px;
         }
         .nav-link {
             font-size: 12px;
@@ -728,15 +758,16 @@
             letter-spacing: 0.4px;
         }
         .last-content {
-            margin-left: 0%;
+            margin-left: 3%;
+            padding: 31px 0;
             justify-content: start;
             .input {
                 width: 230px;
             }
             .btn-1 {
-                padding: 10px 12px;
-                margin-top: -3px;
-                font-size: 12px;
+                padding: 13px 0px;
+                margin-top: 0px;
+                font-size: 11px;
             }
             .input:focus {
                 font-size: 12px;
@@ -783,6 +814,18 @@
             }
         }
     }
+    .ideas {
+        .owl-stage-outer {
+            margin: auto;
+            margin-left: -43%;
+        }
+        .owl-item:active {
+            width: 1620px !important;
+        }
+        .owl-item {
+            width: 1620px !important;
+        }
+    }
     .article {
         .card {
             .card-title {
@@ -802,63 +845,92 @@
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .container-xxl {
-        width: 1150px !important;
+        width: 1130px !important;
         max-width: 1674px !important;
     }
     .title {
         h1 {
-            font-size: 24px;
+            font-size: 21px;
         }
         .btn {
-            font-size: 16px;
-            padding: 6px 25px 0px;
+            font-size: 14px;
+            padding: 5px 19px 0px;
             height: 30px;
-            width: 110px;
+            width: 100px;
         }
     }
     .topnav {
+        height: 20px;
         .language {
-            margin-left: 77%;
+            margin-left: 74%;
             .egy {
-                margin-right: 20px;
+                margin-right: 15px;
+                font-size: 9px;
+                padding: 3px 15px;
             }
             .special {
-                font-size: 12px;
+                font-size: 11px;
+            }
+            .dropdown {
+                font-size: 14px;
+            }
+            .egypt-flag {
+                top: 5px;
+                right: 0px;
+                left: 28px;
+                .flag {
+                    max-width: 7%;
+                }
             }
         }
         .contact {
-            margin-left: 60%;
+            margin-left: 73%;
             a {
-                font-size: 10px;
+                font-size: 8px;
+                padding: 4px 10px;
             }
         }
     }
     .head {
-        padding: 30px 25px;
+        height: 95px;
+        .first-content {
+            padding: 25px 0;
+        }
         .logo {
-            margin-right: 20px;
+            margin-right: 0px;
+            padding: 21px;
             img {
-                max-width: 90%;
+                max-width: 80%;
             }
         }
         .list {
-            margin-top: -3px;
+            margin-top: 0px;
         }
         .nav-link {
             font-size: 11px;
-            padding: 10px 10px;
-            letter-spacing: 0.6px;
+            padding: 10px 7px;
+            letter-spacing: 0;
+        }
+        .nav-pills {
+            .btn {
+                height: 35px;
+                width: 70px;
+            }
         }
         .last-content {
-            margin-left: 2%;
+            margin-left: 9%;
+            padding: 25px 0;
             justify-content: start;
             .input {
-                width: 185px;
+                width: 210px;
+                height: 33px;
             }
             .btn-1 {
-                padding: 10px 12px;
-                margin-top: -3px;
-                font-size: 11px;
+                padding: 11px 0px;
+                margin-top: 0px;
+                font-size: 10px;
+                height: 35px;
+                width: 100px;
             }
             .input:focus {
                 font-size: 11px;
@@ -877,10 +949,24 @@
         }
     }
     .our-categories {
+        padding: 40px 0 60px;
         .categories-content {
             .categorie {
+                margin-top: 25px;
                 .card-title {
                     font-size: 19px;
+                }
+                .card {
+                    height: 300px;
+                    border: none !important;
+                    .card-body {
+                        padding: 30px 37px;
+                    }
+                    .categorie-img {
+                        margin-top: 30px;
+                        margin-bottom: 55px;
+                        max-width: 35%;
+                    }
                 }
                 .card-text {
                     font-size: 12px;
@@ -891,9 +977,81 @@
             }
         }
     }
+    .our-tools {
+        height: 340px;
+        .tools-content {
+            top: 110px;
+            left: 17px;
+            right: 0;
+            h1 {
+                font-size: 53px;
+            }
+            .btn {
+                font-size: 14px;
+                padding: 9px 0px;
+                height: 40px;
+                width: 130px;
+                margin-top: 40px;
+            }
+        }
+    }
+    .professionally {
+        padding: 60px 0 50px;
+        .title {
+            margin-bottom: 35px;
+        }
+        .slider {
+            .hobbies-item {
+                .card {
+                    border: none;
+                    .card-title {
+                        font-size: 13px;
+                    }
+                    .card-text {
+                        font-size: 13px;
+                    }
+                    .card-body {
+                        padding: 0.5rem 0rem;
+                    }
+                }
+            }
+        }
+    }
+    .ideas {
+        padding: 0px 0 50px;
+        .title {
+            margin-bottom: 50px;
+        }
+        .slider {
+            .hobbies-item {
+                .card {
+                    border: none;
+                    .card-title {
+                        font-size: 13px;
+                    }
+                    .card-text {
+                        font-size: 13px;
+                    }
+                    .card-body {
+                        padding: 0.5rem 0rem;
+                    }
+                }
+            }
+        }
+        // .owl-stage-outer {
+        //     margin: auto;
+        //     margin-left: -56%;
+        // }
+        // .owl-item:active {
+        //     width: 1600px !important;
+        // }
+        // .owl-item {
+        //     width: 1600px !important;
+        // }
+    }
     .products {
         .products-content {
-            padding: 25px 55px 0;
+            padding: 45px 45px 0;
         }
         .pro-content {
             h1 {
@@ -906,79 +1064,95 @@
                 max-width: 40%;
             }
             .btn {
-                padding: 5px 10px;
+                padding: 6px 10px;
                 height: 32px;
-                font-size: 16px;
-                width: 123px;
+                font-size: 14px;
+                width: 105px;
                 margin-top: 30px;
             }
         }
     }
     .article {
+        padding: 60px 0 115px 0;
+        .title {
+            margin-bottom: 35px;
+        }
         .card {
             .card-title {
                 font-size: 12px;
             }
             .card-text {
-                font-size: 14px;
-                max-width: 100%;
+                font-size: 13px;
+                max-width: 95%;
             }
             h4 {
-                font-size: 14px;
+                font-size: 13px;
                 max-width: 100%;
             }
         }
     }
     .footer {
-        padding: 100px 72px;
+        padding: 50px 50px;
+        height: 465px;
         .footer-top {
             h1 {
-                font-size: 40px;
+                font-size: 35px;
             }
             h2 {
-                font-size: 33px;
+                font-size: 27px;
+                margin-bottom: 0px;
             }
             .social-icons {
                 width: 27px;
                 height: 27px;
-                padding: 4px;
+                padding: 2px 0px 0 3px;
                 margin-right: 16px;
             }
             .social-icon {
-                font-size: 15px;
+                font-size: 13px;
             }
             .special-icon {
                 font-size: 27px;
             }
             .address {
-                max-width: 90%;
+                max-width: 75%;
             }
             h4 {
-                font-size: 17px;
+                font-size: 15px;
             }
             .form {
+                margin-bottom: 75px;
+                margin-left: auto;
+                max-width: 90%;
                 .form-control:focus {
-                    font-size: 16px;
+                    font-size: 13px;
                 }
                 .label {
-                    font-size: 16px;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    bottom: 7px;
+                    left: 0px;
                 }
                 .btn {
-                    width: 200px;
-                    height: 64px;
-                    font-size: 18px;
-                    padding: 20px 67px 15px 63px;
-                    top: -30px;
+                    width: 150px;
+                    height: 50px;
+                    font-size: 14px;
+                    padding: 16px 0;
+                    top: -17px;
                 }
             }
         }
         h3 {
-            font-size: 18px;
+            font-size: 14px;
         }
         .footer-bottom {
-            border: 0;
+            padding: 50px 0 0 0;
+            border-top: 0px solid var(--light-color);
             p {
-                font-size: 16px;
+                font-size: 13px;
+            }
+            .last-link {
+                margin-left: 25px;
             }
         }
     }
@@ -1255,3 +1429,228 @@
         max-width: 1674px !important;
     }
 }
+
+// @media (max-width: 1326px) {
+//     .container-xxl {
+//         width: 1130px !important;
+//     }
+//     .title {
+//         h1 {
+//             font-size: 24px;
+//         }
+//         .btn {
+//             font-size: 16px;
+//             padding: 6px 25px 0px;
+//             height: 30px;
+//             width: 110px;
+//         }
+//     }
+//     .topnav {
+//         .language {
+//             margin-left: 77%;
+//             .egy {
+//                 margin-right: 20px;
+//             }
+//             .special {
+//                 font-size: 12px;
+//             }
+//             .egypt-flag {
+//                 top: 7px;
+//                 right: 0px;
+//                 left: 31px;
+//                 .flag {
+//                     max-width: 11%;
+//                 }
+//             }
+//         }
+//         .contact {
+//             margin-left: 60%;
+//             a {
+//                 font-size: 10px;
+//             }
+//         }
+//     }
+//     .head {
+//         // padding: 30px 25px;
+//         .logo {
+//             margin-right: 0px;
+//             padding: 26px;
+//             img {
+//                 max-width: 90%;
+//             }
+//         }
+//         .list {
+//             margin-top: 0px;
+//         }
+//         .nav-link {
+//             font-size: 11px;
+//             padding: 10px 7px;
+//             letter-spacing: 0;
+//         }
+//         .nav-pills {
+//             .btn {
+//                 height: 35px;
+//                 width: 70px;
+//             }
+//         }
+//         .last-content {
+//             margin-left: 0%;
+//             padding: 31px 0;
+//             justify-content: start;
+//             .input {
+//                 width: 230px;
+//                 height: 35px;
+//             }
+//             .btn-1 {
+//                 padding: 11px 0px;
+//                 margin-top: 0px;
+//                 font-size: 10px;
+//                 height: 35px;
+//                 width: 100px;
+//             }
+//             .input:focus {
+//                 font-size: 11px;
+//             }
+//             .label {
+//                 font-size: 11px;
+//                 padding: 11px;
+//             }
+//             .search-icon {
+//                 margin-left: 5px;
+//             }
+//             .icon {
+//                 margin-right: 5px;
+//                 font-size: 13px;
+//             }
+//         }
+//     }
+//     .our-categories {
+//         .categories-content {
+//             .categorie {
+//                 .card-title {
+//                     font-size: 19px;
+//                 }
+//                 .card-text {
+//                     font-size: 12px;
+//                 }
+//                 .special-p {
+//                     max-width: 290px;
+//                 }
+//             }
+//         }
+//     }
+//     .products {
+//         .products-content {
+//             padding: 15px 30px 0;
+//         }
+//         .pro-content {
+//             h1 {
+//                 font-size: 40px;
+//                 max-width: 75%;
+//             }
+//             p {
+//                 font-size: 22px;
+//                 margin-top: 10%;
+//                 max-width: 40%;
+//             }
+//             .btn {
+//                 padding: 5px 10px;
+//                 height: 32px;
+//                 font-size: 16px;
+//                 width: 123px;
+//                 margin-top: 30px;
+//             }
+//         }
+//     }
+//     .article {
+//         .card {
+//             .card-title {
+//                 font-size: 12px;
+//             }
+//             .card-text {
+//                 font-size: 14px;
+//                 max-width: 100%;
+//             }
+//             h4 {
+//                 font-size: 14px;
+//                 max-width: 100%;
+//             }
+//         }
+//     }
+//     .ideas {
+//         .owl-stage-outer {
+//             margin: auto;
+//             margin-left: -43%;
+//         }
+//         .owl-item:active {
+//             width: 1375px !important;
+//         }
+//         .owl-item {
+//             width: 1375px !important;
+//         }
+//     }
+//     .footer {
+//         padding: 100px 72px;
+//         .footer-top {
+//             h1 {
+//                 font-size: 40px;
+//             }
+//             h2 {
+//                 font-size: 33px;
+//             }
+//             .social-icons {
+//                 width: 27px;
+//                 height: 27px;
+//                 padding: 4px;
+//                 margin-right: 16px;
+//             }
+//             .social-icon {
+//                 font-size: 15px;
+//             }
+//             .special-icon {
+//                 font-size: 27px;
+//             }
+//             .address {
+//                 max-width: 90%;
+//             }
+//             h4 {
+//                 font-size: 17px;
+//             }
+//             .form {
+//                 .form-control:focus {
+//                     font-size: 16px;
+//                 }
+//                 .label {
+//                     font-size: 16px;
+//                 }
+//                 .btn {
+//                     width: 200px;
+//                     height: 64px;
+//                     font-size: 18px;
+//                     padding: 20px 67px 15px 63px;
+//                     top: -30px;
+//                 }
+//             }
+//         }
+//         h3 {
+//             font-size: 18px;
+//         }
+//         .footer-bottom {
+//             border: 0;
+//             p {
+//                 font-size: 16px;
+//             }
+//         }
+//     }
+// }
+
+/*xl= =1920×1080 */
+
+
+/*lg= =1536×864 */
+
+
+/*md= =1366×768 */
+
+
+/*sm= =1280×720 */
