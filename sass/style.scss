@@ -67,7 +67,7 @@
         border-radius: 25px;
         color: var(--dark-color);
         font-size: 20px;
-        font-family: 'Avenir-book';
+        font-family: 'Avenir-medium';
         padding: 11px 35px 8px;
         height: 46px;
         width: 143px;
@@ -104,11 +104,12 @@
         }
     }
     .contact {
-        margin-left: 73%;
+        margin-left: 72%;
     }
     a {
         float: left;
-        color: var(--light-color);
+        // color: var(--light-color);
+        color: #d9dfe7;
         // font-family: 'rocgrotesk';
         // font-weight: 'regular';
         font-style: normal;
@@ -119,7 +120,8 @@
         font-size: 11px;
         &:hover {
             text-decoration: none;
-            color: var(--light-color);
+            // color: var(--light-color);
+            color: #d9dfe7;
         }
     }
     .arrow {
@@ -147,20 +149,23 @@
         li {
             a:focus {
                 background-color: transparent;
-                color: var(--light-color);
+                // color: var(--light-color);
+                color: #d9dfe7;
             }
         }
     }
     .nav-link {
         background-color: transparent;
         font-size: 14px;
-        color: var(--light-color);
+        // color: var(--light-color);
+        color: #d9dfe7;
         font-family: 'Avenir-book';
         padding: 10px 13px;
         letter-spacing: 1px;
         &:hover {
             background-color: transparent;
-            color: var(--light-color);
+            // color: var(--light-color);
+            color: #d9dfe7;
         }
     }
     .nav-pills {
@@ -185,28 +190,43 @@
             font-size: 12px;
             font-family: 'Avenir-book';
         }
+        .form:focus label {
+            opacity: 0;
+            display: none;
+        }
         .input {
             background-color: transparent;
-            border: 1px solid var(--light-color);
+            // border: 1px solid var(--light-color);
+            border: 1px solid #d9dfe7;
             height: 39px;
             border-radius: 300px;
             width: 271px;
             position: relative;
         }
         .input:focus {
-            color: var(--light-color);
+            // color: var(--light-color);
+            color: #d9dfe7;
             font-size: 14px;
             box-shadow: none;
+            .label {
+                opacity: 0;
+                display: none;
+            }
+        }
+        .input:focus label {
+            display: none;
         }
         .label {
             position: absolute;
             font-size: 14px;
-            color: var(--light-color);
+            // color: var(--light-color);
+            color: #d9dfe7;
             font-family: 'Avenir-book';
             padding: 9px;
         }
         .icon {
-            color: var(--light-color);
+            // color: var(--light-color);
+            color: #d9dfe7;
             margin-right: 7px;
             font-size: 19px;
         }
@@ -366,6 +386,7 @@
     // .container {
     //     max-width: 1674px !important;
     // }
+    padding: 0px 0 70px;
     .btn {
         background-color: var(--gray-color);
     }
@@ -884,7 +905,7 @@
             }
         }
         .contact {
-            margin-left: 73%;
+            margin-left: 70%;
             a {
                 font-size: 8px;
                 padding: 4px 10px;
@@ -918,7 +939,7 @@
             }
         }
         .last-content {
-            margin-left: 9%;
+            margin-left: 10%;
             padding: 25px 0;
             justify-content: start;
             .input {
@@ -926,18 +947,29 @@
                 height: 33px;
             }
             .btn-1 {
-                padding: 11px 0px;
+                padding: 12px 0px;
                 margin-top: 0px;
-                font-size: 10px;
-                height: 35px;
-                width: 100px;
+                font-size: 9px;
+                height: 33px;
+                width: 85px;
             }
-            .input:focus {
+            .input:focus label {
                 font-size: 11px;
+                opacity: 0;
+                .label {
+                    opacity: 0;
+                }
+            }
+            .form:focus #fname {
+                opacity: 0;
+                display: none;
             }
             .label {
                 font-size: 11px;
                 padding: 11px;
+            }
+            .label:focus {
+                opacity: 0 !important;
             }
             .search-icon {
                 margin-left: 5px;
