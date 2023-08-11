@@ -108,8 +108,8 @@
     }
     a {
         float: left;
-        // color: var(--light-color);
-        color: #d9dfe7;
+        color: var(--light-color);
+        // color: #d9dfe7;
         // font-family: 'rocgrotesk';
         // font-weight: 'regular';
         font-style: normal;
@@ -121,7 +121,8 @@
         &:hover {
             text-decoration: none;
             // color: var(--light-color);
-            color: #d9dfe7;
+            // color: #d9dfe7;
+            color: #a1abb9;
         }
     }
     .arrow {
@@ -150,7 +151,8 @@
             a:focus {
                 background-color: transparent;
                 // color: var(--light-color);
-                color: #d9dfe7;
+                // color: #d9dfe7;
+                color: #a1abb9;
             }
         }
     }
@@ -158,14 +160,16 @@
         background-color: transparent;
         font-size: 14px;
         // color: var(--light-color);
-        color: #d9dfe7;
+        // color: #d9dfe7;
+        color: #a1abb9;
         font-family: 'Avenir-book';
         padding: 10px 13px;
         letter-spacing: 1px;
         &:hover {
             background-color: transparent;
             // color: var(--light-color);
-            color: #d9dfe7;
+            // color: #d9dfe7;
+            color: #a1abb9;
         }
     }
     .nav-pills {
@@ -197,15 +201,21 @@
         .input {
             background-color: transparent;
             // border: 1px solid var(--light-color);
-            border: 1px solid #d9dfe7;
+            border: 1px solid #a1abb9;
             height: 39px;
             border-radius: 300px;
             width: 271px;
+            font-size: 14px;
+            font-family: 'Avenir-book';
+            // color: #d9dfe7;
+            color: #a1abb9;
+            padding: 0px 25px;
             position: relative;
         }
         .input:focus {
             // color: var(--light-color);
-            color: #d9dfe7;
+            // color: #d9dfe7;
+            color: #a1abb9;
             font-size: 14px;
             box-shadow: none;
             .label {
@@ -220,13 +230,15 @@
             position: absolute;
             font-size: 14px;
             // color: var(--light-color);
-            color: #d9dfe7;
+            // color: #d9dfe7;
+            color: #a1abb9;
             font-family: 'Avenir-book';
             padding: 9px;
         }
         .icon {
             // color: var(--light-color);
-            color: #d9dfe7;
+            // color: #d9dfe7;
+            color: #a1abb9;
             margin-right: 7px;
             font-size: 19px;
         }
@@ -866,7 +878,7 @@
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .container-xxl {
-        width: 1130px !important;
+        width: 1170px !important;
         max-width: 1674px !important;
     }
     .title {
@@ -881,11 +893,11 @@
         }
     }
     .topnav {
-        height: 20px;
+        height: 17px;
         .language {
-            margin-left: 74%;
+            margin-left: 75%;
             .egy {
-                margin-right: 15px;
+                margin-right: 10px;
                 font-size: 9px;
                 padding: 3px 15px;
             }
@@ -898,14 +910,14 @@
             .egypt-flag {
                 top: 5px;
                 right: 0px;
-                left: 28px;
+                left: 30px;
                 .flag {
-                    max-width: 7%;
+                    max-width: 6%;
                 }
             }
         }
         .contact {
-            margin-left: 70%;
+            margin-left: 72%;
             a {
                 font-size: 8px;
                 padding: 4px 10px;
@@ -913,63 +925,62 @@
         }
     }
     .head {
-        height: 95px;
+        height: 77px;
         .first-content {
-            padding: 25px 0;
+            padding: 20px 0;
         }
         .logo {
             margin-right: 0px;
-            padding: 21px;
+            padding: 18px 0 0 22px;
             img {
-                max-width: 80%;
+                max-width: 71%;
             }
         }
         .list {
             margin-top: 0px;
         }
         .nav-link {
-            font-size: 11px;
+            font-size: 10px;
             padding: 10px 7px;
-            letter-spacing: 0;
+            letter-spacing: 0.3px;
         }
         .nav-pills {
             .btn {
-                height: 35px;
-                width: 70px;
+                height: 28px;
+                width: 53px;
+                margin: 1px 0 0 5px;
+                padding: 9px 0;
+                font-weight: 600;
+                letter-spacing: 1px;
+                font-size: 9px;
             }
         }
+        .nav-item {
+            margin-left: 10px;
+        }
         .last-content {
-            margin-left: 10%;
-            padding: 25px 0;
+            margin-left: 9%;
+            padding: 20px 0;
             justify-content: start;
             .input {
-                width: 210px;
-                height: 33px;
+                width: 200px;
+                height: 30px;
+                font-size: 10px;
             }
             .btn-1 {
                 padding: 12px 0px;
                 margin-top: 0px;
                 font-size: 9px;
-                height: 33px;
+                height: 30px;
                 width: 85px;
+                padding: 10px 3px 0 0;
             }
-            .input:focus label {
-                font-size: 11px;
-                opacity: 0;
-                .label {
-                    opacity: 0;
-                }
-            }
-            .form:focus #fname {
-                opacity: 0;
-                display: none;
+            .input:focus {
+                font-size: 10px;
             }
             .label {
-                font-size: 11px;
+                font-size: 10px;
                 padding: 11px;
-            }
-            .label:focus {
-                opacity: 0 !important;
             }
             .search-icon {
                 margin-left: 5px;
