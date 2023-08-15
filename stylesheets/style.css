@@ -1,252 +1,72 @@
 @charset "UTF-8";
-/* line 1, ../sass/style.scss */
 :root {
-  --red-color: #B72637;
+  --red-color: #b72637;
   --blue-color: #113663;
-  --light-color: #FFFFFF;
-  --gray-color: #F0F0F0;
+  --light-color: #ffffff;
+  --gray-color: #f0f0f0;
   --dark-color: #000000;
-  --offwhite: #ACACAC;
+  --offwhite: #acacac;
 }
 
 @font-face {
-  font-family: 'Avenir-book';
+  font-family: "Avenir-book";
   src: url("../fonts/Avenir Font/AvenirLTStd-Book.otf");
 }
 @font-face {
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
   src: url("../fonts/Avenir Black.otf");
 }
 @font-face {
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   src: url("../fonts/Avenir-Medium.otf");
 }
 @font-face {
-  font-family: 'Helvetica-bold';
+  font-family: "Helvetica-bold";
   src: url("../fonts/Helvetica Neu Bold.ttf");
 }
 @font-face {
-  font-family: 'Helveticaregular';
+  font-family: "Helveticaregular";
   src: url("../fonts/HelveticaNeue regular.ttf");
 }
 @font-face {
-  font-family: 'Lato-Bold';
+  font-family: "Lato-Bold";
   src: url("../fonts/Lato-Bold.ttf");
 }
 @font-face {
-  font-family: 'Lato-Regular';
+  font-family: "Lato-Regular";
   src: url("../fonts/Lato-Regular.ttf");
 }
 @font-face {
-  font-family: 'rocgrotesk';
-  font-weight: 'medium';
+  font-family: "rocgrotesk";
+  font-weight: "medium";
   src: url("../fonts/rocgrotesk medium.otf");
 }
 @font-face {
-  font-family: 'rocgrotesk';
-  font-weight: 'regular';
+  font-family: "rocgrotesk";
+  font-weight: "regular";
   src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
 }
-/* line 57, ../sass/style.scss */
 .title {
   display: flex;
   justify-content: space-between;
 }
-/* line 60, ../sass/style.scss */
 .title h1 {
   color: var(--dark-color);
   font-size: 30px;
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
 }
-/* line 65, ../sass/style.scss */
 .title .btn {
   background-color: var(--gray-color);
   border-radius: 25px;
   color: var(--dark-color);
   font-size: 20px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   padding: 11px 35px 8px;
   height: 46px;
   width: 143px;
   box-shadow: none !important;
 }
 
-/* line 78, ../sass/style.scss */
-.topnav {
-  background-color: var(--red-color);
-  overflow: hidden;
-  height: 24px;
-}
-/* line 82, ../sass/style.scss */
-.topnav .language {
-  margin-left: 76%;
-  position: relative;
-}
-/* line 85, ../sass/style.scss */
-.topnav .language .dropdown {
-  list-style: none;
-  padding: 0px 0px 0px 7px;
-  font-size: 19px;
-}
-/* line 90, ../sass/style.scss */
-.topnav .language .egy {
-  margin-right: 27px;
-  margin-left: 7px;
-}
-/* line 94, ../sass/style.scss */
-.topnav .language .egypt-flag {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  top: 6px;
-  right: 0px;
-  left: 30px;
-}
-/* line 101, ../sass/style.scss */
-.topnav .language .egypt-flag .flag {
-  max-width: 8%;
-}
-/* line 106, ../sass/style.scss */
-.topnav .contact {
-  margin-left: 72%;
-}
-/* line 109, ../sass/style.scss */
-.topnav a {
-  float: left;
-  color: var(--light-color);
-  font-style: normal;
-  font-weight: 400;
-  text-align: right;
-  padding: 5px 15px;
-  text-decoration: none;
-  font-size: 11px;
-}
-/* line 121, ../sass/style.scss */
-.topnav a:hover {
-  text-decoration: none;
-  color: #a1abb9;
-}
-/* line 128, ../sass/style.scss */
-.topnav .arrow {
-  margin-right: 5px;
-}
-/* line 131, ../sass/style.scss */
-.topnav .special {
-  font-size: 14px;
-  font-family: 'rocgrotesk';
-  font-weight: 'medium';
-  font-style: normal;
-  font-weight: 500;
-  padding: 0;
-}
-
-/* line 141, ../sass/style.scss */
-.head {
-  background-color: var(--blue-color);
-  height: 111px;
-}
-/* line 145, ../sass/style.scss */
-.head .logo {
-  margin-right: 35px;
-  padding: 26px 40px;
-}
-/* line 151, ../sass/style.scss */
-.head .nav li a:focus {
-  background-color: transparent;
-  color: #a1abb9;
-}
-/* line 159, ../sass/style.scss */
-.head .nav-link {
-  background-color: transparent;
-  font-size: 14px;
-  color: #a1abb9;
-  font-family: 'Avenir-book';
-  padding: 10px 13px;
-  letter-spacing: 1px;
-}
-/* line 168, ../sass/style.scss */
-.head .nav-link:hover {
-  background-color: transparent;
-  color: #a1abb9;
-}
-/* line 176, ../sass/style.scss */
-.head .nav-pills .btn {
-  background-color: var(--red-color);
-  border-radius: 25px;
-}
-/* line 181, ../sass/style.scss */
-.head .first-content {
-  padding: 31px 0px 40px;
-}
-/* line 184, ../sass/style.scss */
-.head .last-content {
-  margin-left: 14%;
-  justify-content: space-around;
-  display: flex;
-  padding: 31px 41px 40px 0;
-}
-/* line 189, ../sass/style.scss */
-.head .last-content .btn-1 {
-  height: 40px;
-  width: 107px;
-  letter-spacing: 0;
-  padding: 12px 8px;
-  font-size: 12px;
-  font-family: 'Avenir-book';
-}
-/* line 197, ../sass/style.scss */
-.head .last-content .form:focus label {
-  opacity: 0;
-  display: none;
-}
-/* line 201, ../sass/style.scss */
-.head .last-content .input {
-  background-color: transparent;
-  border: 1px solid #a1abb9;
-  height: 39px;
-  border-radius: 300px;
-  width: 271px;
-  font-size: 14px;
-  font-family: 'Avenir-book';
-  color: #a1abb9;
-  padding: 0px 25px;
-  position: relative;
-}
-/* line 215, ../sass/style.scss */
-.head .last-content .input:focus {
-  color: #a1abb9;
-  font-size: 14px;
-  box-shadow: none;
-}
-/* line 221, ../sass/style.scss */
-.head .last-content .input:focus .label {
-  opacity: 0;
-  display: none;
-}
-/* line 226, ../sass/style.scss */
-.head .last-content .input:focus label {
-  display: none;
-}
-/* line 229, ../sass/style.scss */
-.head .last-content .label {
-  position: absolute;
-  font-size: 14px;
-  color: #a1abb9;
-  font-family: 'Avenir-book';
-  padding: 9px;
-}
-/* line 238, ../sass/style.scss */
-.head .last-content .icon {
-  color: #a1abb9;
-  margin-right: 7px;
-  font-size: 19px;
-}
-/* line 245, ../sass/style.scss */
-.head .last-content .search-icon {
-  margin-left: 15px;
-}
-
-/* line 255, ../sass/style.scss */
 .slider .owl-dots {
   position: absolute;
   top: 90%;
@@ -254,58 +74,47 @@
   left: 1%;
 }
 
-/* line 263, ../sass/style.scss */
 .our-categories {
   background-color: var(--gray-color);
   padding: 59px 0 92px;
 }
-/* line 270, ../sass/style.scss */
 .our-categories .categories-content .btn {
   background-color: var(--light-color);
 }
-/* line 273, ../sass/style.scss */
 .our-categories .categories-content .categorie {
   margin-top: 48px;
 }
-/* line 275, ../sass/style.scss */
 .our-categories .categories-content .categorie .card {
   border-radius: 40px;
   height: 420px;
 }
-/* line 279, ../sass/style.scss */
 .our-categories .categories-content .categorie .categorie-img {
   margin-top: 38px;
   margin-bottom: 80px;
 }
-/* line 283, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-body {
   padding: 58px 37px;
 }
-/* line 286, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-title {
   color: var(--dark-color);
   font-size: 28px;
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
 }
-/* line 291, ../sass/style.scss */
 .our-categories .categories-content .categorie .card-text {
   font-size: 19px;
-  font-family: 'Lato-Regular';
+  font-family: "Lato-Regular";
   color: var(--dark-color);
 }
-/* line 296, ../sass/style.scss */
 .our-categories .categories-content .categorie .special-p {
   max-width: 480px;
 }
 
-/* line 303, ../sass/style.scss */
 .our-tools {
   background: url("../img/tools backgraund.png") center no-repeat;
   background-size: cover;
   height: 496px;
   position: relative;
 }
-/* line 308, ../sass/style.scss */
 .our-tools .tools-content {
   text-align: center;
   top: 179px;
@@ -313,19 +122,17 @@
   left: 0;
   right: 0;
 }
-/* line 314, ../sass/style.scss */
 .our-tools .tools-content h1 {
   font-size: 76px;
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
   color: var(--light-color);
 }
-/* line 319, ../sass/style.scss */
 .our-tools .tools-content .btn {
   background-color: var(--red-color);
   border-radius: 25px;
   color: var(--light-color);
   font-size: 20px;
-  font-family: 'Avenir-book';
+  font-family: "Avenir-book";
   padding: 16px 43px;
   height: 58px;
   width: 181px;
@@ -333,14 +140,12 @@
   margin-top: 65px;
 }
 
-/* line 337, ../sass/style.scss */
 .owl-theme .owl-dots .owl-dot span {
   background-color: transparent !important;
   border: 2px solid var(--light-color);
   width: 12px;
   height: 12px;
 }
-/* line 345, ../sass/style.scss */
 .owl-theme .owl-dots .owl-dot.active span {
   background-color: var(--light-color) !important;
   border: 2px solid var(--light-color);
@@ -348,122 +153,99 @@
   height: 12px;
 }
 
-/* line 355, ../sass/style.scss */
 .professionally {
   padding: 115px 0 157px;
 }
-/* line 360, ../sass/style.scss */
 .professionally .btn {
   background-color: var(--gray-color);
 }
-/* line 363, ../sass/style.scss */
 .professionally .title {
   margin-bottom: 65px;
 }
-/* line 366, ../sass/style.scss */
 .professionally .owl-stage-outer {
   margin: auto;
 }
-/* line 371, ../sass/style.scss */
 .professionally .slider .hobbies-item .card {
   border: none;
 }
-/* line 373, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .card-title {
   font-size: 18px;
   color: var(--dark-color);
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   display: flex;
   justify-content: space-between;
 }
-/* line 380, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .card-text {
   color: var(--offwhite);
   font-size: 18px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
 }
-/* line 385, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .rating {
   max-width: 30%;
 }
-/* line 388, ../sass/style.scss */
 .professionally .slider .hobbies-item .card .portfolio {
   max-width: 100%;
 }
 
-/* line 396, ../sass/style.scss */
 .ideas {
   padding: 0px 0 70px;
 }
-/* line 402, ../sass/style.scss */
 .ideas .btn {
   background-color: var(--gray-color);
 }
-/* line 405, ../sass/style.scss */
 .ideas .title {
   margin-bottom: 77px;
 }
-/* line 420, ../sass/style.scss */
 .ideas .slider .hobbies-item .card {
   border: none;
 }
-/* line 422, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .card-title {
   font-size: 18px;
   color: var(--dark-color);
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   display: flex;
   justify-content: space-between;
 }
-/* line 429, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .card-text {
   color: var(--offwhite);
   font-size: 18px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
 }
-/* line 434, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .rating {
   max-width: 30%;
 }
-/* line 437, ../sass/style.scss */
 .ideas .slider .hobbies-item .card .portfolio {
   max-width: 100%;
 }
 
-/* line 446, ../sass/style.scss */
 .products .products-content {
   background-color: var(--blue-color);
   padding: 70px 79px 0;
 }
-/* line 450, ../sass/style.scss */
 .products .img {
   max-width: 100%;
 }
-/* line 453, ../sass/style.scss */
 .products .pro-content {
   text-align: left;
 }
-/* line 455, ../sass/style.scss */
 .products .pro-content h1 {
   font-size: 60px;
   color: var(--light-color);
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
 }
-/* line 460, ../sass/style.scss */
 .products .pro-content p {
   font-size: 30px;
   color: var(--light-color);
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
   max-width: 45%;
   margin-top: 10%;
 }
-/* line 467, ../sass/style.scss */
 .products .pro-content .btn {
   background-color: var(--light-color);
   border-radius: 25px;
   color: var(--dark-color);
   font-size: 20px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   padding: 10px 25px;
   height: 46px;
   width: 143px;
@@ -471,77 +253,63 @@
   margin-top: 45px;
 }
 
-/* line 482, ../sass/style.scss */
 .article {
   padding: 100px 0 176px 0;
 }
-/* line 487, ../sass/style.scss */
 .article .title {
   margin-bottom: 65px;
 }
-/* line 490, ../sass/style.scss */
 .article .card {
   border-radius: 25px;
   border: none;
 }
-/* line 493, ../sass/style.scss */
 .article .card .card-title {
   font-size: 13px;
   color: var(--offwhite);
   display: flex;
   justify-content: space-between;
 }
-/* line 499, ../sass/style.scss */
 .article .card .card-text {
   color: var(--dark-color);
   font-size: 18px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   max-width: 84%;
 }
-/* line 505, ../sass/style.scss */
 .article .card h4 {
   color: var(--dark-color);
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
   max-width: 90%;
 }
-/* line 510, ../sass/style.scss */
 .article .card .article-img {
   border-radius: 25px;
 }
 
-/* line 516, ../sass/style.scss */
 .footer {
   height: 637px;
   background-color: var(--blue-color);
   padding: 115px 72px;
 }
-/* line 520, ../sass/style.scss */
 .footer .footer-top {
   border-bottom: 2px solid var(--light-color);
 }
-/* line 522, ../sass/style.scss */
 .footer .footer-top h1 {
   font-size: 50px;
   color: var(--light-color);
-  font-family: 'Avenir-book';
+  font-family: "Avenir-book";
 }
-/* line 527, ../sass/style.scss */
 .footer .footer-top h2 {
   font-size: 38px;
   color: var(--light-color);
-  font-family: 'Avenir-book';
+  font-family: "Avenir-book";
   margin-bottom: 30px;
 }
-/* line 533, ../sass/style.scss */
 .footer .footer-top .special {
-  font-family: 'Avenir-black';
+  font-family: "Avenir-black";
 }
-/* line 536, ../sass/style.scss */
 .footer .footer-top .social {
   display: flex;
   margin-top: 35px;
 }
-/* line 540, ../sass/style.scss */
 .footer .footer-top .social-icons {
   border: 2px solid var(--light-color);
   border-radius: 50%;
@@ -550,37 +318,30 @@
   width: 34px;
   height: 32px;
 }
-/* line 548, ../sass/style.scss */
 .footer .footer-top .social-icon {
   font-size: 18px;
   color: var(--light-color);
   padding-left: 2px;
 }
-/* line 553, ../sass/style.scss */
 .footer .footer-top .special-icon {
   font-size: 32px;
 }
-/* line 556, ../sass/style.scss */
 .footer .footer-top .address {
   line-height: 29px;
   max-width: 80%;
 }
-/* line 560, ../sass/style.scss */
 .footer .footer-top h4 {
-  font-family: 'Avenir-book';
+  font-family: "Avenir-book";
   font-size: 21px;
   color: var(--light-color);
 }
-/* line 565, ../sass/style.scss */
 .footer .footer-top .news {
   margin-bottom: 0;
 }
-/* line 568, ../sass/style.scss */
 .footer .footer-top .form {
   position: relative;
   margin-bottom: 106px;
 }
-/* line 571, ../sass/style.scss */
 .footer .footer-top .form .form-control {
   border: 1px solid var(--light-color);
   margin-top: 96px;
@@ -590,22 +351,19 @@
   background: transparent;
   padding: 6px 10px;
 }
-/* line 580, ../sass/style.scss */
 .footer .footer-top .form .form-control:focus {
   box-shadow: none;
   color: var(--light-color);
   font-size: 21px;
 }
-/* line 585, ../sass/style.scss */
 .footer .footer-top .form .label {
   position: absolute;
   font-size: 21px;
   color: var(--light-color);
-  font-family: 'Avenir-book';
+  font-family: "Avenir-book";
   bottom: 21px;
   left: -12px;
 }
-/* line 593, ../sass/style.scss */
 .footer .footer-top .form .btn {
   position: absolute;
   top: -38px;
@@ -616,388 +374,298 @@
   height: 73px;
   font-size: 21px;
   padding: 23px 67px 22px 68px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   background: var(--light-color);
   color: var(--dark-color);
   transition: 0.3s;
   border-radius: 0;
 }
-/* line 611, ../sass/style.scss */
 .footer a {
   text-decoration: none;
 }
-/* line 613, ../sass/style.scss */
 .footer a:hover {
   text-decoration: none;
   color: var(--light-color);
 }
-/* line 618, ../sass/style.scss */
 .footer h3 {
   font-size: 21px;
   color: var(--light-color);
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   margin-bottom: 30px;
 }
-/* line 624, ../sass/style.scss */
 .footer .footer-bottom {
   display: flex;
   padding: 60px 0 0 0;
   justify-content: space-between;
   border-top: 2px solid var(--light-color);
 }
-/* line 629, ../sass/style.scss */
 .footer .footer-bottom p {
   font-size: 18px;
-  font-family: 'Avenir-medium';
+  font-family: "Avenir-medium";
   color: var(--light-color);
 }
-/* line 634, ../sass/style.scss */
 .footer .footer-bottom .last-link {
   margin-left: 38px;
 }
 
 @media (min-width: 1700px) and (max-width: 1900px) {
-  /* line 642, ../sass/style.scss */
   .title h1 {
     font-size: 28px;
   }
-  /* line 645, ../sass/style.scss */
   .title .btn {
     font-size: 19px;
     padding: 8px 30px 0px;
     height: 40px;
     width: 140px;
   }
-
-  /* line 653, ../sass/style.scss */
   .topnav .language {
     margin-left: 74%;
   }
-  /* line 656, ../sass/style.scss */
   .topnav .language .egypt-flag .flag {
     max-width: 8%;
   }
-  /* line 661, ../sass/style.scss */
   .topnav .contact {
     margin-left: 70%;
   }
-
-  /* line 665, ../sass/style.scss */
   .head {
     height: 108px;
   }
-  /* line 668, ../sass/style.scss */
   .head .logo {
     margin-right: 35px;
   }
-  /* line 671, ../sass/style.scss */
   .head .nav-link {
     font-size: 13px;
     padding: 10px 13px;
     letter-spacing: 1px;
   }
-  /* line 676, ../sass/style.scss */
   .head .last-content {
     margin-left: 12%;
     justify-content: start;
     padding: 31px 30px 40px 0;
   }
-  /* line 680, ../sass/style.scss */
   .head .last-content .input {
     width: 250px;
   }
-  /* line 683, ../sass/style.scss */
   .head .last-content .btn-1 {
     padding: 12px 12px;
     margin-top: 0px;
     font-size: 11px;
   }
-  /* line 688, ../sass/style.scss */
   .head .last-content .input:focus {
     font-size: 13px;
   }
-  /* line 691, ../sass/style.scss */
   .head .last-content .label {
     font-size: 13px;
     padding: 11px;
   }
-  /* line 695, ../sass/style.scss */
   .head .last-content .icon {
     margin-right: 5px;
     font-size: 17px;
   }
-
-  /* line 704, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-title {
     font-size: 23px;
   }
-  /* line 707, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-text {
     font-size: 15px;
   }
-
-  /* line 714, ../sass/style.scss */
   .products .products-content {
     padding: 35px 69px 0;
   }
-  /* line 718, ../sass/style.scss */
   .products .pro-content h1 {
     font-size: 55px;
     max-width: 70%;
   }
-  /* line 722, ../sass/style.scss */
   .products .pro-content p {
     font-size: 28px;
     max-width: 40%;
   }
-  /* line 726, ../sass/style.scss */
   .products .pro-content .btn {
     padding: 8px 0px;
     height: 40px;
     width: 140px;
     margin-top: 30px;
   }
-
-  /* line 735, ../sass/style.scss */
   .ideas .owl-stage-outer {
     margin: auto;
     margin-left: -43%;
   }
-  /* line 739, ../sass/style.scss */
   .ideas .owl-item:active {
     width: 1983px !important;
   }
-  /* line 742, ../sass/style.scss */
   .ideas .owl-item {
     width: 1983px !important;
   }
-
-  /* line 748, ../sass/style.scss */
   .article .card .card-title {
     font-size: 13px;
   }
-  /* line 751, ../sass/style.scss */
   .article .card .card-text {
     font-size: 16px;
     max-width: 97%;
   }
-  /* line 755, ../sass/style.scss */
   .article .card h4 {
     font-size: 16px;
     max-width: 100%;
   }
 }
 @media (min-width: 1400px) and (max-width: 1699px) {
-  /* line 765, ../sass/style.scss */
   .title h1 {
     font-size: 27px;
   }
-  /* line 768, ../sass/style.scss */
   .title .btn {
     font-size: 18px;
     padding: 6px 30px 0px;
     height: 36px;
     width: 133px;
   }
-
-  /* line 776, ../sass/style.scss */
   .topnav .language {
     margin-left: 74%;
   }
-  /* line 779, ../sass/style.scss */
   .topnav .contact {
     margin-left: 62%;
   }
-
-  /* line 785, ../sass/style.scss */
   .head .logo {
     margin-right: 0px;
   }
-  /* line 788, ../sass/style.scss */
   .head .nav-link {
     font-size: 12px;
     padding: 10px 10px;
     letter-spacing: 0.4px;
   }
-  /* line 793, ../sass/style.scss */
   .head .last-content {
     margin-left: 3%;
     padding: 31px 0;
     justify-content: start;
   }
-  /* line 797, ../sass/style.scss */
   .head .last-content .input {
     width: 230px;
   }
-  /* line 800, ../sass/style.scss */
   .head .last-content .btn-1 {
     padding: 13px 0px;
     margin-top: 0px;
     font-size: 11px;
   }
-  /* line 805, ../sass/style.scss */
   .head .last-content .input:focus {
     font-size: 12px;
   }
-  /* line 808, ../sass/style.scss */
   .head .last-content .label {
     font-size: 12px;
     padding: 11px;
   }
-  /* line 812, ../sass/style.scss */
   .head .last-content .icon {
     margin-right: 5px;
     font-size: 15px;
   }
-
-  /* line 821, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-title {
     font-size: 23px;
   }
-  /* line 824, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-text {
     font-size: 15px;
   }
-
-  /* line 831, ../sass/style.scss */
   .products .products-content {
     padding: 20px 69px 0;
   }
-  /* line 835, ../sass/style.scss */
   .products .pro-content h1 {
     font-size: 50px;
   }
-  /* line 838, ../sass/style.scss */
   .products .pro-content p {
     font-size: 27px;
     margin-top: 6%;
   }
-  /* line 842, ../sass/style.scss */
   .products .pro-content .btn {
     padding: 5px 18px;
     height: 36px;
     width: 133px;
     margin-top: 30px;
   }
-
-  /* line 851, ../sass/style.scss */
   .ideas .owl-stage-outer {
     margin: auto;
     margin-left: -43%;
   }
-  /* line 855, ../sass/style.scss */
   .ideas .owl-item:active {
     width: 1620px !important;
   }
-  /* line 858, ../sass/style.scss */
   .ideas .owl-item {
     width: 1620px !important;
   }
-
-  /* line 864, ../sass/style.scss */
   .article .card .card-title {
     font-size: 13px;
   }
-  /* line 867, ../sass/style.scss */
   .article .card .card-text {
     font-size: 16px;
     max-width: 97%;
   }
-  /* line 871, ../sass/style.scss */
   .article .card h4 {
     font-size: 16px;
     max-width: 100%;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
-  /* line 880, ../sass/style.scss */
   .container-xxl {
     width: 1170px !important;
     max-width: 1674px !important;
   }
-
-  /* line 885, ../sass/style.scss */
   .title h1 {
     font-size: 21px;
   }
-  /* line 888, ../sass/style.scss */
   .title .btn {
     font-size: 14px;
     padding: 5px 19px 0px;
     height: 30px;
     width: 100px;
   }
-
-  /* line 895, ../sass/style.scss */
   .topnav {
     height: 17px;
   }
-  /* line 897, ../sass/style.scss */
   .topnav .language {
     margin-left: 75%;
   }
-  /* line 899, ../sass/style.scss */
   .topnav .language .egy {
     margin-right: 10px;
     font-size: 9px;
     padding: 3px 15px;
   }
-  /* line 904, ../sass/style.scss */
   .topnav .language .special {
     font-size: 11px;
   }
-  /* line 907, ../sass/style.scss */
   .topnav .language .dropdown {
     font-size: 14px;
   }
-  /* line 910, ../sass/style.scss */
   .topnav .language .egypt-flag {
     top: 5px;
     right: 0px;
     left: 30px;
   }
-  /* line 914, ../sass/style.scss */
   .topnav .language .egypt-flag .flag {
     max-width: 6%;
   }
-  /* line 919, ../sass/style.scss */
   .topnav .contact {
     margin-left: 72%;
   }
-  /* line 921, ../sass/style.scss */
   .topnav .contact a {
     font-size: 8px;
     padding: 4px 10px;
   }
-
-  /* line 927, ../sass/style.scss */
   .head {
     height: 77px;
   }
-  /* line 929, ../sass/style.scss */
   .head .first-content {
     padding: 20px 0;
   }
-  /* line 932, ../sass/style.scss */
   .head .logo {
     margin-right: 0px;
     padding: 18px 0 0 22px;
   }
-  /* line 935, ../sass/style.scss */
   .head .logo img {
     max-width: 71%;
   }
-  /* line 939, ../sass/style.scss */
   .head .list {
     margin-top: 0px;
   }
-  /* line 942, ../sass/style.scss */
   .head .nav-link {
     font-size: 10px;
     padding: 10px 7px;
     letter-spacing: 0.3px;
   }
-  /* line 948, ../sass/style.scss */
   .head .nav-pills .btn {
     height: 28px;
     width: 53px;
@@ -1007,23 +675,19 @@
     letter-spacing: 1px;
     font-size: 9px;
   }
-  /* line 958, ../sass/style.scss */
   .head .nav-item {
     margin-left: 10px;
   }
-  /* line 961, ../sass/style.scss */
   .head .last-content {
     margin-left: 9%;
     padding: 20px 0;
     justify-content: start;
   }
-  /* line 965, ../sass/style.scss */
   .head .last-content .input {
     width: 200px;
     height: 30px;
     font-size: 10px;
   }
-  /* line 970, ../sass/style.scss */
   .head .last-content .btn-1 {
     padding: 12px 0px;
     margin-top: 0px;
@@ -1032,76 +696,58 @@
     width: 85px;
     padding: 10px 3px 0 0;
   }
-  /* line 978, ../sass/style.scss */
   .head .last-content .input:focus {
     font-size: 10px;
   }
-  /* line 981, ../sass/style.scss */
   .head .last-content .label {
     font-size: 10px;
     padding: 11px;
   }
-  /* line 985, ../sass/style.scss */
   .head .last-content .search-icon {
     margin-left: 5px;
   }
-  /* line 988, ../sass/style.scss */
   .head .last-content .icon {
     margin-right: 5px;
     font-size: 13px;
   }
-
-  /* line 994, ../sass/style.scss */
   .our-categories {
     padding: 40px 0 60px;
   }
-  /* line 997, ../sass/style.scss */
   .our-categories .categories-content .categorie {
     margin-top: 25px;
   }
-  /* line 999, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-title {
     font-size: 19px;
   }
-  /* line 1002, ../sass/style.scss */
   .our-categories .categories-content .categorie .card {
     height: 300px;
     border: none !important;
   }
-  /* line 1005, ../sass/style.scss */
   .our-categories .categories-content .categorie .card .card-body {
     padding: 30px 37px;
   }
-  /* line 1008, ../sass/style.scss */
   .our-categories .categories-content .categorie .card .categorie-img {
     margin-top: 30px;
     margin-bottom: 55px;
     max-width: 35%;
   }
-  /* line 1014, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-text {
     font-size: 12px;
   }
-  /* line 1017, ../sass/style.scss */
   .our-categories .categories-content .categorie .special-p {
     max-width: 290px;
   }
-
-  /* line 1023, ../sass/style.scss */
   .our-tools {
     height: 340px;
   }
-  /* line 1025, ../sass/style.scss */
   .our-tools .tools-content {
     top: 110px;
     left: 17px;
     right: 0;
   }
-  /* line 1029, ../sass/style.scss */
   .our-tools .tools-content h1 {
     font-size: 53px;
   }
-  /* line 1032, ../sass/style.scss */
   .our-tools .tools-content .btn {
     font-size: 14px;
     padding: 9px 0px;
@@ -1109,73 +755,54 @@
     width: 130px;
     margin-top: 40px;
   }
-
-  /* line 1041, ../sass/style.scss */
   .professionally {
     padding: 60px 0 50px;
   }
-  /* line 1043, ../sass/style.scss */
   .professionally .title {
     margin-bottom: 35px;
   }
-  /* line 1048, ../sass/style.scss */
   .professionally .slider .hobbies-item .card {
     border: none;
   }
-  /* line 1050, ../sass/style.scss */
   .professionally .slider .hobbies-item .card .card-title {
     font-size: 13px;
   }
-  /* line 1053, ../sass/style.scss */
   .professionally .slider .hobbies-item .card .card-text {
     font-size: 13px;
   }
-  /* line 1056, ../sass/style.scss */
   .professionally .slider .hobbies-item .card .card-body {
     padding: 0.5rem 0rem;
   }
-
-  /* line 1063, ../sass/style.scss */
   .ideas {
     padding: 0px 0 50px;
   }
-  /* line 1065, ../sass/style.scss */
   .ideas .title {
     margin-bottom: 50px;
   }
-  /* line 1070, ../sass/style.scss */
   .ideas .slider .hobbies-item .card {
     border: none;
   }
-  /* line 1072, ../sass/style.scss */
   .ideas .slider .hobbies-item .card .card-title {
     font-size: 13px;
   }
-  /* line 1075, ../sass/style.scss */
   .ideas .slider .hobbies-item .card .card-text {
     font-size: 13px;
   }
-  /* line 1078, ../sass/style.scss */
   .ideas .slider .hobbies-item .card .card-body {
     padding: 0.5rem 0rem;
   }
-
-  /* line 1096, ../sass/style.scss */
   .products .products-content {
     padding: 45px 45px 0;
   }
-  /* line 1100, ../sass/style.scss */
   .products .pro-content h1 {
     font-size: 40px;
     max-width: 75%;
   }
-  /* line 1104, ../sass/style.scss */
   .products .pro-content p {
     font-size: 22px;
     margin-top: 10%;
     max-width: 40%;
   }
-  /* line 1109, ../sass/style.scss */
   .products .pro-content .btn {
     padding: 6px 10px;
     height: 32px;
@@ -1183,85 +810,66 @@
     width: 105px;
     margin-top: 30px;
   }
-
-  /* line 1118, ../sass/style.scss */
   .article {
     padding: 60px 0 115px 0;
   }
-  /* line 1120, ../sass/style.scss */
   .article .title {
     margin-bottom: 35px;
   }
-  /* line 1124, ../sass/style.scss */
   .article .card .card-title {
     font-size: 12px;
   }
-  /* line 1127, ../sass/style.scss */
   .article .card .card-text {
     font-size: 13px;
     max-width: 95%;
   }
-  /* line 1131, ../sass/style.scss */
   .article .card h4 {
     font-size: 13px;
     max-width: 100%;
   }
-
-  /* line 1137, ../sass/style.scss */
   .footer {
     padding: 50px 50px;
     height: 465px;
   }
-  /* line 1141, ../sass/style.scss */
   .footer .footer-top h1 {
     font-size: 35px;
   }
-  /* line 1144, ../sass/style.scss */
   .footer .footer-top h2 {
     font-size: 27px;
     margin-bottom: 0px;
   }
-  /* line 1148, ../sass/style.scss */
   .footer .footer-top .social-icons {
     width: 27px;
     height: 27px;
     padding: 2px 0px 0 3px;
     margin-right: 16px;
   }
-  /* line 1154, ../sass/style.scss */
   .footer .footer-top .social-icon {
     font-size: 13px;
   }
-  /* line 1157, ../sass/style.scss */
   .footer .footer-top .special-icon {
     font-size: 27px;
   }
-  /* line 1160, ../sass/style.scss */
   .footer .footer-top .address {
     max-width: 75%;
   }
-  /* line 1163, ../sass/style.scss */
   .footer .footer-top h4 {
     font-size: 15px;
   }
-  /* line 1166, ../sass/style.scss */
   .footer .footer-top .form {
     margin-bottom: 75px;
     margin-left: auto;
     max-width: 90%;
   }
-  /* line 1170, ../sass/style.scss */
   .footer .footer-top .form .form-control:focus {
     font-size: 13px;
   }
-  /* line 1173, ../sass/style.scss */
   .footer .footer-top .form .label {
     font-size: 13px;
     letter-spacing: 1px;
     bottom: 7px;
     left: 0px;
   }
-  /* line 1179, ../sass/style.scss */
   .footer .footer-top .form .btn {
     width: 150px;
     height: 50px;
@@ -1269,177 +877,135 @@
     padding: 16px 0;
     top: -17px;
   }
-  /* line 1188, ../sass/style.scss */
   .footer h3 {
     font-size: 14px;
   }
-  /* line 1191, ../sass/style.scss */
   .footer .footer-bottom {
     padding: 50px 0 0 0;
     border-top: 0px solid var(--light-color);
   }
-  /* line 1194, ../sass/style.scss */
   .footer .footer-bottom p {
     font-size: 13px;
   }
-  /* line 1197, ../sass/style.scss */
   .footer .footer-bottom .last-link {
     margin-left: 25px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  /* line 1207, ../sass/style.scss */
   .container-xxl {
     width: 495px !important;
     max-width: 1674px !important;
   }
-
-  /* line 1212, ../sass/style.scss */
   .title h1 {
     font-size: 20px;
     margin-top: 5px;
   }
-  /* line 1216, ../sass/style.scss */
   .title .btn {
     font-size: 15px;
     padding: 5px 15px 0px;
     height: 30px;
     width: 100px;
   }
-
-  /* line 1224, ../sass/style.scss */
   .topnav .language {
     margin-left: 40%;
   }
-  /* line 1226, ../sass/style.scss */
   .topnav .language .egy {
     margin-right: 20px;
   }
-  /* line 1229, ../sass/style.scss */
   .topnav .language .special {
     font-size: 12px;
   }
-  /* line 1233, ../sass/style.scss */
   .topnav .contact {
     margin-left: 20%;
   }
-  /* line 1235, ../sass/style.scss */
   .topnav .contact a {
     font-size: 10px;
   }
-
-  /* line 1240, ../sass/style.scss */
   .head {
     padding: 30px 25px;
   }
-  /* line 1242, ../sass/style.scss */
   .head .logo {
     margin-right: 10px;
   }
-  /* line 1244, ../sass/style.scss */
   .head .logo img {
     max-width: 100%;
   }
-  /* line 1248, ../sass/style.scss */
   .head .ul {
     display: grid;
   }
-  /* line 1251, ../sass/style.scss */
   .head .ul-2 {
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 1255, ../sass/style.scss */
   .head .nav-item {
     text-align: center;
   }
-  /* line 1258, ../sass/style.scss */
   .head .nav-link {
     font-size: 11px;
     padding: 10px 10px;
     letter-spacing: 0.6px;
   }
-  /* line 1263, ../sass/style.scss */
   .head .last-content {
     margin-left: 12%;
     display: flex;
     flex-direction: column-reverse;
   }
-  /* line 1267, ../sass/style.scss */
   .head .last-content .form {
     margin-top: 15%;
   }
-  /* line 1270, ../sass/style.scss */
   .head .last-content .input {
     width: 185px;
   }
-  /* line 1273, ../sass/style.scss */
   .head .last-content .btn-1 {
     padding: 10px 12px;
     margin-top: 0px;
     font-size: 11px;
     margin-bottom: 10px;
   }
-  /* line 1279, ../sass/style.scss */
   .head .last-content .input:focus {
     font-size: 11px;
   }
-  /* line 1282, ../sass/style.scss */
   .head .last-content .label {
     font-size: 11px;
     padding: 11px;
   }
-  /* line 1286, ../sass/style.scss */
   .head .last-content .search-icon {
     margin-left: 5px;
   }
-  /* line 1289, ../sass/style.scss */
   .head .last-content .icon {
     margin-right: 5px;
     font-size: 13px;
   }
-
-  /* line 1298, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-title {
     font-size: 15px;
   }
-  /* line 1301, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-text {
     font-size: 10px;
   }
-  /* line 1304, ../sass/style.scss */
   .our-categories .categories-content .categorie .card {
     height: 280px;
     margin-bottom: 20px;
   }
-  /* line 1308, ../sass/style.scss */
   .our-categories .categories-content .categorie .card-body {
     padding: 35px 37px;
   }
-  /* line 1311, ../sass/style.scss */
   .our-categories .categories-content .categorie .categorie-img {
     margin-top: 30px;
     margin-bottom: 30px;
     max-width: 40%;
   }
-  /* line 1316, ../sass/style.scss */
   .our-categories .categories-content .categorie .special-p {
     max-width: 250px;
   }
-
-  /* line 1322, ../sass/style.scss */
   .our-tools {
     height: 250px;
   }
-  /* line 1324, ../sass/style.scss */
   .our-tools .tools-content {
     top: 20px;
   }
-  /* line 1326, ../sass/style.scss */
   .our-tools .tools-content h1 {
     font-size: 45px;
   }
-  /* line 1329, ../sass/style.scss */
   .our-tools .tools-content .btn {
     font-size: 18px;
     padding: 10px 32px;
@@ -1447,45 +1013,33 @@
     width: 150px;
     margin-top: 40px;
   }
-
-  /* line 1342, ../sass/style.scss */
   .professionally .slider .hobbies-item .card .card-title {
     font-size: 15px;
   }
-  /* line 1345, ../sass/style.scss */
   .professionally .slider .hobbies-item .card .card-text {
     font-size: 13px;
   }
-  /* line 1348, ../sass/style.scss */
   .professionally .slider .hobbies-item .card .rating {
     max-width: 35%;
   }
-
-  /* line 1359, ../sass/style.scss */
   .ideas .slider .hobbies-item .card .card-title {
     font-size: 15px;
   }
-  /* line 1362, ../sass/style.scss */
   .ideas .slider .hobbies-item .card .card-text {
     font-size: 13px;
   }
-  /* line 1365, ../sass/style.scss */
   .ideas .slider .hobbies-item .card .rating {
     max-width: 35%;
   }
-
-  /* line 1374, ../sass/style.scss */
   .products .pro-content h1 {
     font-size: 40px;
     max-width: 75%;
   }
-  /* line 1378, ../sass/style.scss */
   .products .pro-content p {
     font-size: 22px;
     margin-top: 10%;
     max-width: 40%;
   }
-  /* line 1383, ../sass/style.scss */
   .products .pro-content .btn {
     padding: 5px 10px;
     height: 32px;
@@ -1494,67 +1048,51 @@
     margin-top: 20px;
     margin-bottom: 15px;
   }
-
-  /* line 1395, ../sass/style.scss */
   .article .card .card-title {
     font-size: 12px;
   }
-  /* line 1398, ../sass/style.scss */
   .article .card .card-text {
     font-size: 14px;
     max-width: 80%;
   }
-  /* line 1402, ../sass/style.scss */
   .article .card h4 {
     font-size: 14px;
     max-width: 55%;
   }
-
-  /* line 1408, ../sass/style.scss */
   .footer {
     padding: 40px 72px;
     height: auto;
   }
-  /* line 1412, ../sass/style.scss */
   .footer .footer-top h1 {
     font-size: 40px;
   }
-  /* line 1415, ../sass/style.scss */
   .footer .footer-top h2 {
     font-size: 33px;
   }
-  /* line 1418, ../sass/style.scss */
   .footer .footer-top .social-icons {
     width: 27px;
     height: 27px;
     padding: 4px;
     margin-right: 16px;
   }
-  /* line 1424, ../sass/style.scss */
   .footer .footer-top .social-icon {
     font-size: 15px;
   }
-  /* line 1427, ../sass/style.scss */
   .footer .footer-top .special-icon {
     font-size: 27px;
   }
-  /* line 1430, ../sass/style.scss */
   .footer .footer-top .address {
     max-width: 40%;
   }
-  /* line 1433, ../sass/style.scss */
   .footer .footer-top h4 {
     font-size: 17px;
   }
-  /* line 1437, ../sass/style.scss */
   .footer .footer-top .form .form-control:focus {
     font-size: 16px;
   }
-  /* line 1440, ../sass/style.scss */
   .footer .footer-top .form .label {
     font-size: 16px;
   }
-  /* line 1443, ../sass/style.scss */
   .footer .footer-top .form .btn {
     width: 200px;
     height: 64px;
@@ -1562,27 +1100,22 @@
     padding: 20px 67px 15px 63px;
     top: -30px;
   }
-  /* line 1452, ../sass/style.scss */
   .footer h3 {
     font-size: 18px;
   }
-  /* line 1455, ../sass/style.scss */
   .footer .footer-bottom {
     border: 0;
     display: inline-block;
     margin-left: 25%;
   }
-  /* line 1459, ../sass/style.scss */
   .footer .footer-bottom p {
     font-size: 16px;
   }
-  /* line 1462, ../sass/style.scss */
   .footer .footer-bottom .last-a {
     justify-content: space-between;
   }
 }
 @media (min-width: 1900px) {
-  /* line 1470, ../sass/style.scss */
   .container-xxl {
     width: 1674px !important;
     max-width: 1674px !important;
@@ -1592,3 +1125,165 @@
 /*lg= =1536×864 */
 /*md= =1366×768 */
 /*sm= =1280×720 */
+.topnav {
+  background-color: #B72637;
+  height: 24px;
+}
+.topnav .language-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topnav .language-section .country-btn {
+  color: #FFFFFF;
+  height: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+}
+.topnav .language-section .country-btn:hover {
+  color: #FFFFFF;
+}
+.topnav .language-section .country-btn img {
+  height: 10px;
+}
+.topnav .language-section .language-btn {
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 30px;
+}
+.topnav .social-links {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+.topnav .social-links a {
+  color: #FFFFFF;
+  margin: 0 10px;
+  font-size: 10px;
+}
+
+.dropdown-toggle::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  border: 0;
+  position: absolute;
+  left: -55%;
+  top: 25%;
+  background-image: url("../img/chevron-down.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: #113663;
+  height: 111px;
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+nav .nav-item {
+  margin-right: 15px;
+}
+nav .nav-item .nav-link {
+  background-color: transparent;
+  font-size: 14px;
+  color: #ACACAC;
+  font-family: "Avenir-book";
+  padding: 5px 10px !important;
+  letter-spacing: 1px;
+}
+nav .nav-item .nav-link:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #ACACAC;
+}
+nav .nav-item .nav-link.active {
+  background-color: #B72637;
+  border-radius: 25px;
+}
+nav .nav-item .nav-link.active:hover {
+  background-color: #B72637;
+}
+nav .navbar-brand {
+  padding: 5px !important;
+}
+nav .first-content {
+  padding: 31px 0px 40px;
+}
+nav .last-content {
+  margin-left: 14%;
+  justify-content: space-around;
+  display: flex;
+  padding: 31px 41px 40px 0;
+}
+nav .last-content .btn-1 {
+  height: 40px;
+  width: 107px;
+  letter-spacing: 0;
+  padding: 12px 8px;
+  font-size: 12px;
+  font-family: "Avenir-book";
+}
+nav .last-content .form:focus label {
+  opacity: 0;
+  display: none;
+}
+nav .last-content .input {
+  background-color: transparent;
+  border: 1px solid #a1abb9;
+  height: 39px;
+  border-radius: 300px;
+  width: 271px;
+  font-size: 14px;
+  font-family: "Avenir-book";
+  color: #a1abb9;
+  padding: 0px 25px;
+  position: relative;
+}
+nav .last-content .input:focus {
+  color: #a1abb9;
+  font-size: 14px;
+  box-shadow: none;
+}
+nav .last-content .input:focus .label {
+  opacity: 0;
+  display: none;
+}
+nav .last-content .input:focus label {
+  display: none;
+}
+nav .last-content .label {
+  position: absolute;
+  font-size: 14px;
+  color: #a1abb9;
+  font-family: "Avenir-book";
+  padding: 9px;
+}
+nav .last-content .icon {
+  color: #a1abb9;
+  margin-right: 7px;
+  font-size: 19px;
+}
+nav .last-content .search-icon {
+  margin-left: 15px;
+}
+
+button.btn, a.btn {
+  border-radius: 25px;
+  padding: 5px 10px;
+  outline: 0;
+  font-size: 12px;
+}
+button.large-btn, a.large-btn {
+  min-width: 140px;
+}
+button.btn-red, a.btn-red {
+  color: #FFFFFF;
+  border: 1px solid #B72637;
+  background-color: #B72637;
+}
+
+/*# sourceMappingURL=style.css.map */

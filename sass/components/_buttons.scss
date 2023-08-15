@@ -1,0 +1,19 @@
+button, a {
+    &.btn {
+        border-radius: $default-border-radius;
+        padding: 5px 10px;
+    
+        outline: 0;
+        font-size: 12px;
+    }
+    
+    &.large-btn {
+        min-width: 140px;
+    }
+    
+    &.btn-red {
+        color: $light-color;
+        border: 1px solid $red-color;
+        background-color: $red-color;
+    }
+}

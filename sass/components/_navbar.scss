@@ -1,0 +1,110 @@
+nav {
+    background-color: $blue-color;
+    height: 111px;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+
+    .nav-item {
+        margin-right: 15px;
+        .nav-link {
+            background-color: transparent;
+            font-size: 14px;
+            color: $offwhite;
+            font-family: "Avenir-book";
+            padding: 5px 10px !important;
+            letter-spacing: 1px;
+    
+    
+            
+            &:hover {
+                text-decoration: none;
+                background-color: transparent;                
+                color: $offwhite;
+            }
+
+            &.active {
+                background-color: $red-color;
+                border-radius: $default-border-radius;
+                &:hover {
+                    background-color: $red-color;
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        padding: 5px !important;
+    }
+
+    .first-content {
+        padding: 31px 0px 40px;
+    }
+    .last-content {
+        margin-left: 14%;
+        justify-content: space-around;
+        display: flex;
+        padding: 31px 41px 40px 0;
+        .btn-1 {
+            height: 40px;
+            width: 107px;
+            letter-spacing: 0;
+            padding: 12px 8px;
+            font-size: 12px;
+            font-family: "Avenir-book";
+        }
+        .form:focus label {
+            opacity: 0;
+            display: none;
+        }
+        .input {
+            background-color: transparent;
+            // border: 1px solid $light-color);
+            border: 1px solid #a1abb9;
+            height: 39px;
+            border-radius: 300px;
+            width: 271px;
+            font-size: 14px;
+            font-family: "Avenir-book";
+            // color: #d9dfe7;
+            color: #a1abb9;
+            padding: 0px 25px;
+            position: relative;
+        }
+        .input:focus {
+            // color: $light-color);
+            // color: #d9dfe7;
+            color: #a1abb9;
+            font-size: 14px;
+            box-shadow: none;
+            .label {
+                opacity: 0;
+                display: none;
+            }
+        }
+        .input:focus label {
+            display: none;
+        }
+        .label {
+            position: absolute;
+            font-size: 14px;
+            // color: $light-color);
+            // color: #d9dfe7;
+            color: #a1abb9;
+            font-family: "Avenir-book";
+            padding: 9px;
+        }
+        .icon {
+            // color: $light-color);
+            // color: #d9dfe7;
+            color: #a1abb9;
+            margin-right: 7px;
+            font-size: 19px;
+        }
+        .search-icon {
+            margin-left: 15px;
+        }
+    }
+    // .list {
+    //     margin-top: -4px;
+    // }
+}

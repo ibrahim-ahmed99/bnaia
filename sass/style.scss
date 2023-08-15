@@ -1,58 +1,13 @@
 :root {
-    --red-color: #B72637;
+    --red-color: #b72637;
     --blue-color: #113663;
-    --light-color: #FFFFFF;
-    --gray-color: #F0F0F0;
+    --light-color: #ffffff;
+    --gray-color: #f0f0f0;
     --dark-color: #000000;
-    --offwhite: #ACACAC;
+    --offwhite: #acacac;
 }
 
-@font-face {
-    font-family: 'Avenir-book';
-    src: url("../fonts/Avenir Font/AvenirLTStd-Book.otf");
-}
-
-@font-face {
-    font-family: 'Avenir-black';
-    src: url("../fonts/Avenir\ Black.otf");
-}
-
-@font-face {
-    font-family: 'Avenir-medium';
-    src: url("../fonts/Avenir-Medium.otf");
-}
-
-@font-face {
-    font-family: 'Helvetica-bold';
-    src: url("../fonts/Helvetica\ Neu\ Bold.ttf");
-}
-
-@font-face {
-    font-family: 'Helveticaregular';
-    src: url("../fonts/HelveticaNeue\ regular.ttf");
-}
-
-@font-face {
-    font-family: 'Lato-Bold';
-    src: url("../fonts/Lato-Bold.ttf");
-}
-
-@font-face {
-    font-family: 'Lato-Regular';
-    src: url("../fonts/Lato-Regular.ttf");
-}
-
-@font-face {
-    font-family: 'rocgrotesk';
-    font-weight: 'medium';
-    src: url("../fonts/rocgrotesk\ medium.otf");
-}
-
-@font-face {
-    font-family: 'rocgrotesk';
-    font-weight: 'regular';
-    src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
-}
+@import "./theme/fonts";
 
 .title {
     display: flex;
@@ -60,195 +15,19 @@
     h1 {
         color: var(--dark-color);
         font-size: 30px;
-        font-family: 'Avenir-black';
+        font-family: "Avenir-black";
     }
     .btn {
         background-color: var(--gray-color);
         border-radius: 25px;
         color: var(--dark-color);
         font-size: 20px;
-        font-family: 'Avenir-medium';
+        font-family: "Avenir-medium";
         padding: 11px 35px 8px;
         height: 46px;
         width: 143px;
         box-shadow: none !important;
     }
-}
-
-.topnav {
-    background-color: var(--red-color);
-    overflow: hidden;
-    height: 24px;
-    .language {
-        margin-left: 76%;
-        position: relative;
-        .dropdown {
-            list-style: none;
-            padding: 0px 0px 0px 7px;
-            font-size: 19px;
-        }
-        .egy {
-            margin-right: 27px;
-            margin-left: 7px;
-        }
-        .egypt-flag {
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 6px;
-            right: 0px;
-            left: 30px;
-            .flag {
-                max-width: 8%;
-            }
-        }
-    }
-    .contact {
-        margin-left: 72%;
-    }
-    a {
-        float: left;
-        color: var(--light-color);
-        // color: #d9dfe7;
-        // font-family: 'rocgrotesk';
-        // font-weight: 'regular';
-        font-style: normal;
-        font-weight: 400;
-        text-align: right;
-        padding: 5px 15px;
-        text-decoration: none;
-        font-size: 11px;
-        &:hover {
-            text-decoration: none;
-            // color: var(--light-color);
-            // color: #d9dfe7;
-            color: #a1abb9;
-        }
-    }
-    .arrow {
-        margin-right: 5px;
-    }
-    .special {
-        font-size: 14px;
-        font-family: 'rocgrotesk';
-        font-weight: 'medium';
-        font-style: normal;
-        font-weight: 500;
-        padding: 0;
-    }
-}
-
-.head {
-    background-color: var(--blue-color);
-    // padding: 40px 43px;
-    height: 111px;
-    .logo {
-        margin-right: 35px;
-        padding: 26px 40px;
-    }
-    .nav {
-        li {
-            a:focus {
-                background-color: transparent;
-                // color: var(--light-color);
-                // color: #d9dfe7;
-                color: #a1abb9;
-            }
-        }
-    }
-    .nav-link {
-        background-color: transparent;
-        font-size: 14px;
-        // color: var(--light-color);
-        // color: #d9dfe7;
-        color: #a1abb9;
-        font-family: 'Avenir-book';
-        padding: 10px 13px;
-        letter-spacing: 1px;
-        &:hover {
-            background-color: transparent;
-            // color: var(--light-color);
-            // color: #d9dfe7;
-            color: #a1abb9;
-        }
-    }
-    .nav-pills {
-        .btn {
-            background-color: var(--red-color);
-            border-radius: 25px;
-        }
-    }
-    .first-content {
-        padding: 31px 0px 40px;
-    }
-    .last-content {
-        margin-left: 14%;
-        justify-content: space-around;
-        display: flex;
-        padding: 31px 41px 40px 0;
-        .btn-1 {
-            height: 40px;
-            width: 107px;
-            letter-spacing: 0;
-            padding: 12px 8px;
-            font-size: 12px;
-            font-family: 'Avenir-book';
-        }
-        .form:focus label {
-            opacity: 0;
-            display: none;
-        }
-        .input {
-            background-color: transparent;
-            // border: 1px solid var(--light-color);
-            border: 1px solid #a1abb9;
-            height: 39px;
-            border-radius: 300px;
-            width: 271px;
-            font-size: 14px;
-            font-family: 'Avenir-book';
-            // color: #d9dfe7;
-            color: #a1abb9;
-            padding: 0px 25px;
-            position: relative;
-        }
-        .input:focus {
-            // color: var(--light-color);
-            // color: #d9dfe7;
-            color: #a1abb9;
-            font-size: 14px;
-            box-shadow: none;
-            .label {
-                opacity: 0;
-                display: none;
-            }
-        }
-        .input:focus label {
-            display: none;
-        }
-        .label {
-            position: absolute;
-            font-size: 14px;
-            // color: var(--light-color);
-            // color: #d9dfe7;
-            color: #a1abb9;
-            font-family: 'Avenir-book';
-            padding: 9px;
-        }
-        .icon {
-            // color: var(--light-color);
-            // color: #d9dfe7;
-            color: #a1abb9;
-            margin-right: 7px;
-            font-size: 19px;
-        }
-        .search-icon {
-            margin-left: 15px;
-        }
-    }
-    // .list {
-    //     margin-top: -4px;
-    // }
 }
 
 .slider {
@@ -286,11 +65,11 @@
             .card-title {
                 color: var(--dark-color);
                 font-size: 28px;
-                font-family: 'Avenir-black';
+                font-family: "Avenir-black";
             }
             .card-text {
                 font-size: 19px;
-                font-family: 'Lato-Regular';
+                font-family: "Lato-Regular";
                 color: var(--dark-color);
             }
             .special-p {
@@ -301,7 +80,7 @@
 }
 
 .our-tools {
-    background: url('../img/tools\ backgraund.png') center no-repeat;
+    background: url("../img/tools\ backgraund.png") center no-repeat;
     background-size: cover;
     height: 496px;
     position: relative;
@@ -313,7 +92,7 @@
         right: 0;
         h1 {
             font-size: 76px;
-            font-family: 'Avenir-black';
+            font-family: "Avenir-black";
             color: var(--light-color);
         }
         .btn {
@@ -321,7 +100,7 @@
             border-radius: 25px;
             color: var(--light-color);
             font-size: 20px;
-            font-family: 'Avenir-book';
+            font-family: "Avenir-book";
             padding: 16px 43px;
             height: 58px;
             width: 181px;
@@ -373,14 +152,14 @@
                 .card-title {
                     font-size: 18px;
                     color: var(--dark-color);
-                    font-family: 'Avenir-medium';
+                    font-family: "Avenir-medium";
                     display: flex;
                     justify-content: space-between;
                 }
                 .card-text {
                     color: var(--offwhite);
                     font-size: 18px;
-                    font-family: 'Avenir-medium';
+                    font-family: "Avenir-medium";
                 }
                 .rating {
                     max-width: 30%;
@@ -422,14 +201,14 @@
                 .card-title {
                     font-size: 18px;
                     color: var(--dark-color);
-                    font-family: 'Avenir-medium';
+                    font-family: "Avenir-medium";
                     display: flex;
                     justify-content: space-between;
                 }
                 .card-text {
                     color: var(--offwhite);
                     font-size: 18px;
-                    font-family: 'Avenir-medium';
+                    font-family: "Avenir-medium";
                 }
                 .rating {
                     max-width: 30%;
@@ -455,12 +234,12 @@
         h1 {
             font-size: 60px;
             color: var(--light-color);
-            font-family: 'Avenir-black';
+            font-family: "Avenir-black";
         }
         p {
             font-size: 30px;
             color: var(--light-color);
-            font-family: 'Avenir-black';
+            font-family: "Avenir-black";
             max-width: 45%;
             margin-top: 10%;
         }
@@ -469,7 +248,7 @@
             border-radius: 25px;
             color: var(--dark-color);
             font-size: 20px;
-            font-family: 'Avenir-medium';
+            font-family: "Avenir-medium";
             padding: 10px 25px;
             height: 46px;
             width: 143px;
@@ -499,12 +278,12 @@
         .card-text {
             color: var(--dark-color);
             font-size: 18px;
-            font-family: 'Avenir-medium';
+            font-family: "Avenir-medium";
             max-width: 84%;
         }
         h4 {
             color: var(--dark-color);
-            font-family: 'Avenir-black';
+            font-family: "Avenir-black";
             max-width: 90%;
         }
         .article-img {
@@ -522,16 +301,16 @@
         h1 {
             font-size: 50px;
             color: var(--light-color);
-            font-family: 'Avenir-book';
+            font-family: "Avenir-book";
         }
         h2 {
             font-size: 38px;
             color: var(--light-color);
-            font-family: 'Avenir-book';
+            font-family: "Avenir-book";
             margin-bottom: 30px;
         }
         .special {
-            font-family: 'Avenir-black';
+            font-family: "Avenir-black";
         }
         .social {
             display: flex;
@@ -558,7 +337,7 @@
             max-width: 80%;
         }
         h4 {
-            font-family: 'Avenir-book';
+            font-family: "Avenir-book";
             font-size: 21px;
             color: var(--light-color);
         }
@@ -586,7 +365,7 @@
                 position: absolute;
                 font-size: 21px;
                 color: var(--light-color);
-                font-family: 'Avenir-book';
+                font-family: "Avenir-book";
                 bottom: 21px;
                 left: -12px;
             }
@@ -600,7 +379,7 @@
                 height: 73px;
                 font-size: 21px;
                 padding: 23px 67px 22px 68px;
-                font-family: 'Avenir-medium';
+                font-family: "Avenir-medium";
                 background: var(--light-color);
                 color: var(--dark-color);
                 transition: 0.3s;
@@ -618,7 +397,7 @@
     h3 {
         font-size: 21px;
         color: var(--light-color);
-        font-family: 'Avenir-medium';
+        font-family: "Avenir-medium";
         margin-bottom: 30px;
     }
     .footer-bottom {
@@ -628,7 +407,7 @@
         border-top: 2px solid var(--light-color);
         p {
             font-size: 18px;
-            font-family: 'Avenir-medium';
+            font-family: "Avenir-medium";
             color: var(--light-color);
         }
         .last-link {
@@ -1201,7 +980,8 @@
     }
 }
 
-@media (min-width:768px) and (max-width: 1199px) {}
+@media (min-width: 768px) and (max-width: 1199px) {
+}
 
 @media (min-width: 576px) and (max-width: 767px) {
     .container-xxl {
@@ -1689,11 +1469,13 @@
 
 /*xl= =1920×1080 */
 
-
 /*lg= =1536×864 */
-
 
 /*md= =1366×768 */
 
-
 /*sm= =1280×720 */
+
+@import "./theme/variables";
+@import "./components/top-nav";
+@import "./components/_navbar";
+@import "./components/buttons";
