@@ -79,36 +79,36 @@
     }
 }
 
-.our-tools {
-    background: url("../img/tools\ backgraund.png") center no-repeat;
-    background-size: cover;
-    height: 496px;
-    position: relative;
-    .tools-content {
-        text-align: center;
-        top: 179px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        h1 {
-            font-size: 76px;
-            font-family: "Avenir-black";
-            color: var(--light-color);
-        }
-        .btn {
-            background-color: var(--red-color);
-            border-radius: 25px;
-            color: var(--light-color);
-            font-size: 20px;
-            font-family: "Avenir-book";
-            padding: 16px 43px;
-            height: 58px;
-            width: 181px;
-            box-shadow: none;
-            margin-top: 65px;
-        }
-    }
-}
+// .our-tools {
+//     background: url("../img/tools\ backgraund.png") center no-repeat;
+//     background-size: cover;
+//     height: 496px;
+//     position: relative;
+//     .tools-content {
+//         text-align: center;
+//         top: 179px;
+//         position: absolute;
+//         left: 0;
+//         right: 0;
+//         h1 {
+//             font-size: 76px;
+//             font-family: "Avenir-black";
+//             color: var(--light-color);
+//         }
+//         .btn {
+//             background-color: var(--red-color);
+//             border-radius: 25px;
+//             color: var(--light-color);
+//             font-size: 20px;
+//             font-family: "Avenir-book";
+//             padding: 16px 43px;
+//             height: 58px;
+//             width: 181px;
+//             box-shadow: none;
+//             margin-top: 65px;
+//         }
+//     }
+// }
 
 .owl-theme {
     .owl-dots {
@@ -799,24 +799,24 @@
             }
         }
     }
-    .our-tools {
-        height: 340px;
-        .tools-content {
-            top: 110px;
-            left: 17px;
-            right: 0;
-            h1 {
-                font-size: 53px;
-            }
-            .btn {
-                font-size: 14px;
-                padding: 9px 0px;
-                height: 40px;
-                width: 130px;
-                margin-top: 40px;
-            }
-        }
-    }
+    // .our-tools {
+    //     height: 340px;
+    //     .tools-content {
+    //         top: 110px;
+    //         left: 17px;
+    //         right: 0;
+    //         h1 {
+    //             font-size: 53px;
+    //         }
+    //         .btn {
+    //             font-size: 14px;
+    //             padding: 9px 0px;
+    //             height: 40px;
+    //             width: 130px;
+    //             margin-top: 40px;
+    //         }
+    //     }
+    // }
     .professionally {
         padding: 60px 0 50px;
         .title {
@@ -1099,22 +1099,22 @@
             }
         }
     }
-    .our-tools {
-        height: 250px;
-        .tools-content {
-            top: 20px;
-            h1 {
-                font-size: 45px;
-            }
-            .btn {
-                font-size: 18px;
-                padding: 10px 32px;
-                height: 45px;
-                width: 150px;
-                margin-top: 40px;
-            }
-        }
-    }
+    // .our-tools {
+    //     height: 250px;
+    //     .tools-content {
+    //         top: 20px;
+    //         h1 {
+    //             font-size: 45px;
+    //         }
+    //         .btn {
+    //             font-size: 18px;
+    //             padding: 10px 32px;
+    //             height: 45px;
+    //             width: 150px;
+    //             margin-top: 40px;
+    //         }
+    //     }
+    // }
     .professionally {
         .slider {
             .hobbies-item {
@@ -1479,3 +1479,6 @@
 @import "./components/top-nav";
 @import "./components/_navbar";
 @import "./components/buttons";
+@import "./components/category-card";
+@import "./components/heading";
+@import "./components/our-tools";
