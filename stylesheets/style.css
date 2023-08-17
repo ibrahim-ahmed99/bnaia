@@ -109,37 +109,6 @@
   max-width: 480px;
 }
 
-.our-tools {
-  background: url("../img/tools backgraund.png") center no-repeat;
-  background-size: cover;
-  height: 496px;
-  position: relative;
-}
-.our-tools .tools-content {
-  text-align: center;
-  top: 179px;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-.our-tools .tools-content h1 {
-  font-size: 76px;
-  font-family: "Avenir-black";
-  color: var(--light-color);
-}
-.our-tools .tools-content .btn {
-  background-color: var(--red-color);
-  border-radius: 25px;
-  color: var(--light-color);
-  font-size: 20px;
-  font-family: "Avenir-book";
-  padding: 16px 43px;
-  height: 58px;
-  width: 181px;
-  box-shadow: none;
-  margin-top: 65px;
-}
-
 .owl-theme .owl-dots .owl-dot span {
   background-color: transparent !important;
   border: 2px solid var(--light-color);
@@ -737,24 +706,6 @@
   .our-categories .categories-content .categorie .special-p {
     max-width: 290px;
   }
-  .our-tools {
-    height: 340px;
-  }
-  .our-tools .tools-content {
-    top: 110px;
-    left: 17px;
-    right: 0;
-  }
-  .our-tools .tools-content h1 {
-    font-size: 53px;
-  }
-  .our-tools .tools-content .btn {
-    font-size: 14px;
-    padding: 9px 0px;
-    height: 40px;
-    width: 130px;
-    margin-top: 40px;
-  }
   .professionally {
     padding: 60px 0 50px;
   }
@@ -996,22 +947,6 @@
   }
   .our-categories .categories-content .categorie .special-p {
     max-width: 250px;
-  }
-  .our-tools {
-    height: 250px;
-  }
-  .our-tools .tools-content {
-    top: 20px;
-  }
-  .our-tools .tools-content h1 {
-    font-size: 45px;
-  }
-  .our-tools .tools-content .btn {
-    font-size: 18px;
-    padding: 10px 32px;
-    height: 45px;
-    width: 150px;
-    margin-top: 40px;
   }
   .professionally .slider .hobbies-item .card .card-title {
     font-size: 15px;
@@ -1344,6 +1279,73 @@ button.btn-red, a.btn-red {
 button.btn-red:hover, a.btn-red:hover {
   color: white;
   background-color: #B72637;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 40px;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 40px;
+  height: 100%;
+}
+@media screen and (max-width: 480px) {
+  .category-card {
+    align-items: center;
+  }
+}
+.category-card img {
+  width: 88px;
+  height: 65px;
+  display: block;
+  margin: 35px 0;
+}
+.category-card p {
+  font-size: 14px;
+}
+
+.heading.with-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading .label {
+  font-weight: bold;
+  font-size: 30px;
+}
+.heading .btn-white {
+  background-color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 23px;
+  padding: 8px 10px;
+}
+
+.our-tools {
+  background: url("../img/tools backgraund.png") center no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.our-tools .tools-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-tools .tools-content .label {
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+.our-tools .tools-content .btn-red {
+  font-size: 20px;
+  padding: 10px 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

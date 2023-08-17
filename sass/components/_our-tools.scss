@@ -1,0 +1,23 @@
+@import "../mixins/flex.scss";
+
+.our-tools {
+    background: url("../img/tools\ backgraund.png") center no-repeat;
+    height: 500px;
+    @include flex-center;
+
+    .tools-content {
+        @include flex-center;
+        flex-direction: column;
+        .label {
+            margin-bottom: 60px;
+            text-align: center;
+            font-size: 70px;
+            color: white;
+        }
+
+        .btn-red {
+            font-size: 20px;
+            padding: 10px 40px;
+        }
+    }
+}

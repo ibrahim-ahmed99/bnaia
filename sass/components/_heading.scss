@@ -1,0 +1,20 @@
+.heading {
+    &.with-btn {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .label {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .btn-white {
+        background-color: white;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 23px;
+        padding: 8px 10px;
+    }
+}
