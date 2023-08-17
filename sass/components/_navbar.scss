@@ -1,20 +1,37 @@
 nav {
     background-color: $blue-color;
-    height: 111px;
+    
+    @media screen and (min-width: 1200px) {
+        height: 111px;
+    }
+
     border-radius: 0 !important;
     margin-bottom: 0 !important;
 
     .nav-item {
-        margin-right: 15px;
+
         .nav-link {
             background-color: transparent;
-            font-size: 14px;
+            font-size: 12px;
             color: $offwhite;
             font-family: "Avenir-book";
-            padding: 5px 10px !important;
+
+            @media screen and (min-width: 1200px) {
+                padding: 5px !important;
+            }
+
+            padding: 5px !important;
+
             letter-spacing: 1px;
     
-    
+            &.with-icon {
+                display: flex;
+                align-items: center;
+
+                svg {
+                    margin-right: 5px;
+                }
+            }
             
             &:hover {
                 text-decoration: none;
@@ -104,7 +121,47 @@ nav {
             margin-left: 15px;
         }
     }
-    // .list {
-    //     margin-top: -4px;
-    // }
+
+    .search-input {
+        position: relative;
+
+        input {
+            background-color: transparent;
+            color: white;
+            border-radius: 25px !important;
+
+            &::placeholder {
+                color: white;
+            }
+
+            &:focus {
+                background: transparent;
+                box-shadow: none;
+                border: 1px solid white;
+                color: white;
+
+                // z-index: 2;
+                // transition: all 0.1s ease;
+                // position: relative;
+                // background: #113663;
+
+                // .search-icon {
+                //     display: none;
+                // }
+            }
+            
+            padding-left: 30px;
+        }
+
+
+        .search-icon {
+            z-index: 1;
+            position: absolute;
+            top: 50%;
+            left: 10px;
+
+            width: 16px;
+            transform: translateY(-50%);
+        }        
+    }
 }
