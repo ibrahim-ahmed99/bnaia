@@ -252,19 +252,50 @@
         </div>
       </div>
 
-      <div
-        class="owl-carousel owl-theme mb-5"
-      >
-        <div class="professional-card">
+      <div class="container">
+        <div class="owl-carousel owl-theme mb-5">
+          <div class="professional-card">
+            <img
+              class="professional-card-img"
+              src="img/portfolio/Mask Group 1.png"
+              alt="professional-card-img"
+            />
+            <div class="d-flex justify-content-between align-items-center mt-3">
+              <h5 class="card-title">PROFESSIONAL NAME</h5>
+              <i class="fa-regular fa-heart icon"></i>
+            </div>
+            <p class="card-text">Type Name</p>
+            <div>
+              <span>4.7</span>
+              <div class="rating">
+                <i class="checked fas fa-star icon"></i>
+                <i class="checked fas fa-star icon"></i>
+                <i class="checked fas fa-star icon"></i>
+                <i class="checked fa-regular fa-star-half-stroke icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-categories">
+      <div class="container">
+        <div class="heading with-btn mb-3">
+          <h1 class="label">TOP IDEAS</h1>
+          <a class="btn btn-white" href="">View All</a>
+        </div>
+      </div>
+
+      <div class="owl-carousel owl-theme mb-5">
+        <div class="professional-card wide">
           <img
             class="professional-card-img"
             src="img/portfolio/Mask Group 1.png"
             alt="professional-card-img"
           />
           <div class="d-flex justify-content-between align-items-center mt-3">
-            <h5 class="card-title">
-              PROFESSIONAL NAME
-            </h5>
+            <h5 class="card-title">PROFESSIONAL NAME</h5>
             <i class="fa-regular fa-heart icon"></i>
           </div>
           <p class="card-text">Type Name</p>
@@ -291,43 +322,41 @@
   <script src="./js/aos.js"></script>
   <script>
     // AOS.init();
-    $(document).ready(function() {
-    //     $('.counter').counterUp({
-    //         delay: 10,
-    //         time: 1000
-    //     });
-    // });
-    // $('#myButton').click(function() {
-    //     $.scrollTo($('#skill'), 1000);
-    //     $.scrollTo($('#projects'), 1000);
-    //     $.scrollTo($('#home'), 1000);
-    //     $.scrollTo($('#about'), 1000);
-    //     $.scrollTo($('#hobbies'), 1000);
+    $(document).ready(function () {
+      //     $('.counter').counterUp({
+      //         delay: 10,
+      //         time: 1000
+      //     });
+      // });
+      // $('#myButton').click(function() {
+      //     $.scrollTo($('#skill'), 1000);
+      //     $.scrollTo($('#projects'), 1000);
+      //     $.scrollTo($('#home'), 1000);
+      //     $.scrollTo($('#about'), 1000);
+      //     $.scrollTo($('#hobbies'), 1000);
 
       $(".owl-carousel").owlCarousel({
         nav: true,
         loop: true,
         center: true,
         margin: 16,
-        
+
         // dots: true,
         responsive: {
           0: {
-          items: 1
+            items: 1,
           },
           600: {
-            items: 2
+            items: 2,
           },
           1024: {
-            items: 3
+            items: 3,
           },
           1200: {
-            items: 4
-          }
+            items: 4,
+          },
         },
       });
     });
-
-
   </script>
 </html>

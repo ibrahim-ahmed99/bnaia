@@ -6,6 +6,15 @@
         height: 500px;
         object-fit: fill;
     }
+    
+    &.wide {
+        .professional-card-img {
+            border-radius: 25px;
+            overflow: hidden;
+            height: 250px;
+            object-fit: cover;
+        }
+    }
 
     .card-title {
         // margin-top: 10px;

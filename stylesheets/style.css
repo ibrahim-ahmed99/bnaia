@@ -1356,6 +1356,12 @@ button.btn-red:hover, a.btn-red:hover {
   height: 500px;
   object-fit: fill;
 }
+.professional-card.wide .professional-card-img {
+  border-radius: 25px;
+  overflow: hidden;
+  height: 250px;
+  object-fit: cover;
+}
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
