@@ -1,17 +1,15 @@
 .professional-card {
     font-size: 18px;
     padding: 15px;
-
     .professional-card-img {
-        height: 500px;
+        // height: 500px;
         width: 100%;
-        object-fit: fill;
-
+        // object-fit: fill;
+        object-fit: contain;
         @media screen and (max-width: 600px) {
             height: auto !important;
         }
     }
-
     &.wide {
         .professional-card-img {
             border-radius: 25px;
@@ -23,16 +21,14 @@
             object-fit: fill;
         }
     }
-
-    .card-title {
-        // margin-top: 10px;
-    }
+    // .card-title {
+    //     margin-top: 10px;
+    // }
     .card-text {
         color: $offwhite;
         margin: 0;
         padding: 0;
     }
-
     .rating {
         display: inline;
         .checked {
@@ -43,7 +39,6 @@
 
 .slider-wrapper {
     position: relative;
-
     .professional-prev-btn,
     .professional-next-btn {
         position: absolute;
@@ -52,14 +47,12 @@
         font-size: 30px;
         transform: translateY(-50%);
     }
-
     .professional-prev-btn {
         right: 100%;
         @media screen and (max-width: 600px) {
             right: 95%;
         }
     }
-
     .professional-next-btn {
         left: 100%;
         @media screen and (max-width: 600px) {

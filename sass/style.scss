@@ -11,12 +11,9 @@
 @import "./components/hero-section";
 @import "./components/top-article";
 @import "./components/footer";
-
 // vendors
 @import "./vendors/slick.scss";
 @import "./vendors/slick-theme.scss";
-
-
 section {
     padding: 20px 0;
     background-color: $gray-color;

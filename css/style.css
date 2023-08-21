@@ -37,15 +37,18 @@
   font-weight: "regular";
   src: url("../fonts/rocgrotesk/RocGrotesk-regular.ttf");
 }
+/* line 1, ../sass/components/_top-nav.scss */
 .topnav {
   background-color: #B72637;
   height: 24px;
 }
+/* line 5, ../sass/components/_top-nav.scss */
 .topnav .language-section {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+/* line 9, ../sass/components/_top-nav.scss */
 .topnav .language-section .country-btn {
   line-height: 0.32;
   color: #FFFFFF;
@@ -54,30 +57,38 @@
   margin: 0;
   font-size: 10px;
 }
+/* line 16, ../sass/components/_top-nav.scss */
 .topnav .language-section .country-btn:hover {
   color: #FFFFFF;
+  border: none;
 }
+/* line 20, ../sass/components/_top-nav.scss */
 .topnav .language-section .country-btn img {
   height: 10px;
 }
+/* line 24, ../sass/components/_top-nav.scss */
 .topnav .language-section .language-btn {
   color: #FFFFFF;
   display: inline-block;
   margin-left: 30px;
   font-size: 12px;
 }
+/* line 31, ../sass/components/_top-nav.scss */
 .topnav .social-links {
   display: flex;
   justify-content: end;
   align-items: center;
   height: 100%;
 }
+/* line 36, ../sass/components/_top-nav.scss */
 .topnav .social-links a {
   color: #FFFFFF;
   margin: 0 10px;
   font-size: 10px;
+  text-decoration: none;
 }
 
+/* line 45, ../sass/components/_top-nav.scss */
 .dropdown-toggle::after {
   content: "";
   display: inline-block;
@@ -92,6 +103,7 @@
   background-repeat: no-repeat;
 }
 
+/* line 1, ../sass/components/_main-carousel.scss */
 .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
@@ -99,24 +111,29 @@
 }
 
 @media screen and (max-width: 500px) {
+  /* line 8, ../sass/components/_main-carousel.scss */
   .carousel-item {
     height: 300px;
   }
+  /* line 10, ../sass/components/_main-carousel.scss */
   .carousel-item img {
     height: 300px;
     object-fit: cover;
   }
 }
+/* line 1, ../sass/components/_navbar.scss */
 nav {
   background-color: #113663;
   border-radius: 0 !important;
   margin-bottom: 0 !important;
 }
 @media screen and (min-width: 1200px) {
+  /* line 1, ../sass/components/_navbar.scss */
   nav {
     height: 111px;
   }
 }
+/* line 13, ../sass/components/_navbar.scss */
 nav .nav-item .nav-link {
   background-color: transparent;
   font-size: 12px;
@@ -126,47 +143,58 @@ nav .nav-item .nav-link {
   letter-spacing: 1px;
 }
 @media screen and (min-width: 1200px) {
+  /* line 13, ../sass/components/_navbar.scss */
   nav .nav-item .nav-link {
     padding: 10px !important;
   }
 }
 @media screen and (max-width: 1200px) {
+  /* line 13, ../sass/components/_navbar.scss */
   nav .nav-item .nav-link {
     margin-bottom: 10px;
   }
 }
+/* line 31, ../sass/components/_navbar.scss */
 nav .nav-item .nav-link.with-icon {
   display: flex;
   align-items: center;
 }
+/* line 35, ../sass/components/_navbar.scss */
 nav .nav-item .nav-link.with-icon svg {
   margin-right: 5px;
 }
+/* line 40, ../sass/components/_navbar.scss */
 nav .nav-item .nav-link:hover {
   text-decoration: none;
   background-color: transparent;
   color: #ACACAC;
 }
+/* line 46, ../sass/components/_navbar.scss */
 nav .nav-item .nav-link.active {
   background-color: #B72637;
   border-radius: 25px;
   color: #FFFFFF;
 }
+/* line 50, ../sass/components/_navbar.scss */
 nav .nav-item .nav-link.active:hover {
   background-color: #B72637;
 }
+/* line 57, ../sass/components/_navbar.scss */
 nav .navbar-brand {
   padding: 5px !important;
 }
+/* line 61, ../sass/components/_navbar.scss */
 nav .first-content {
   padding: 31px 0px 40px;
 }
+/* line 64, ../sass/components/_navbar.scss */
 nav .last-content {
   margin-left: 14%;
   justify-content: space-around;
   display: flex;
   padding: 31px 41px 40px 0;
 }
+/* line 69, ../sass/components/_navbar.scss */
 nav .last-content .btn-1 {
   height: 40px;
   width: 107px;
@@ -175,10 +203,12 @@ nav .last-content .btn-1 {
   font-size: 12px;
   font-family: "Avenir-book";
 }
+/* line 77, ../sass/components/_navbar.scss */
 nav .last-content .form:focus label {
   opacity: 0;
   display: none;
 }
+/* line 81, ../sass/components/_navbar.scss */
 nav .last-content .input {
   background-color: transparent;
   border: 1px solid #a1abb9;
@@ -191,18 +221,22 @@ nav .last-content .input {
   padding: 0px 25px;
   position: relative;
 }
+/* line 95, ../sass/components/_navbar.scss */
 nav .last-content .input:focus {
   color: #a1abb9;
   font-size: 14px;
   box-shadow: none;
 }
+/* line 101, ../sass/components/_navbar.scss */
 nav .last-content .input:focus .label {
   opacity: 0;
   display: none;
 }
+/* line 106, ../sass/components/_navbar.scss */
 nav .last-content .input:focus label {
   display: none;
 }
+/* line 109, ../sass/components/_navbar.scss */
 nav .last-content .label {
   position: absolute;
   font-size: 14px;
@@ -210,32 +244,39 @@ nav .last-content .label {
   font-family: "Avenir-book";
   padding: 9px;
 }
+/* line 118, ../sass/components/_navbar.scss */
 nav .last-content .icon {
   color: #a1abb9;
   margin-right: 7px;
   font-size: 19px;
 }
+/* line 125, ../sass/components/_navbar.scss */
 nav .last-content .search-icon {
   margin-left: 15px;
 }
+/* line 130, ../sass/components/_navbar.scss */
 nav .search-input {
   position: relative;
 }
+/* line 133, ../sass/components/_navbar.scss */
 nav .search-input input {
   background-color: transparent;
   color: white;
   border-radius: 25px !important;
   padding-left: 30px;
 }
+/* line 138, ../sass/components/_navbar.scss */
 nav .search-input input::placeholder {
   color: white;
 }
+/* line 142, ../sass/components/_navbar.scss */
 nav .search-input input:focus {
   background: transparent;
   box-shadow: none;
   border: 1px solid white;
   color: white;
 }
+/* line 162, ../sass/components/_navbar.scss */
 nav .search-input .search-icon {
   z-index: 1;
   position: absolute;
@@ -245,30 +286,36 @@ nav .search-input .search-icon {
   transform: translateY(-50%);
 }
 
+/* line 2, ../sass/components/_buttons.scss */
 button.btn, a.btn {
   border-radius: 25px;
   padding: 5px 10px;
   outline: 0;
   font-size: 12px;
 }
+/* line 10, ../sass/components/_buttons.scss */
 button.large-btn, a.large-btn {
   min-width: 100px;
 }
+/* line 14, ../sass/components/_buttons.scss */
 button.btn-red, a.btn-red {
   color: #FFFFFF;
   border: 1px solid #B72637;
   background-color: #B72637;
 }
+/* line 19, ../sass/components/_buttons.scss */
 button.btn-red:hover, a.btn-red:hover {
   color: white;
   background-color: #B72637;
 }
+/* line 25, ../sass/components/_buttons.scss */
 button.btn-white, a.btn-white {
   color: #000000;
   border: 1px solid #FFFFFF;
   background-color: #FFFFFF;
 }
 
+/* line 1, ../sass/components/_category-card.scss */
 .category-card {
   display: flex;
   flex-direction: column;
@@ -281,29 +328,35 @@ button.btn-white, a.btn-white {
   height: 100%;
 }
 @media screen and (max-width: 480px) {
+  /* line 1, ../sass/components/_category-card.scss */
   .category-card {
     align-items: center;
   }
 }
+/* line 14, ../sass/components/_category-card.scss */
 .category-card img {
   width: 88px;
   height: 65px;
   display: block;
   margin: 35px 0;
 }
+/* line 20, ../sass/components/_category-card.scss */
 .category-card p {
   font-size: 14px;
 }
 
+/* line 2, ../sass/components/_heading.scss */
 .heading.with-btn {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/* line 8, ../sass/components/_heading.scss */
 .heading .label {
   font-weight: bold;
   font-size: 30px;
 }
+/* line 13, ../sass/components/_heading.scss */
 .heading .btn-white {
   background-color: white;
   font-size: 14px;
@@ -312,6 +365,7 @@ button.btn-white, a.btn-white {
   padding: 8px 10px;
 }
 
+/* line 3, ../sass/components/_our-tools.scss */
 .our-tools {
   background: url("../img/tools backgraund.png") center no-repeat;
   height: 500px;
@@ -319,37 +373,43 @@ button.btn-white, a.btn-white {
   justify-content: center;
   align-items: center;
 }
+/* line 8, ../sass/components/_our-tools.scss */
 .our-tools .tools-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+/* line 11, ../sass/components/_our-tools.scss */
 .our-tools .tools-content .label {
   margin-bottom: 60px;
   text-align: center;
   font-size: 70px;
   color: white;
 }
+/* line 18, ../sass/components/_our-tools.scss */
 .our-tools .tools-content .btn-red {
   font-size: 20px;
   padding: 10px 40px;
 }
 
+/* line 1, ../sass/components/_professional-card.scss */
 .professional-card {
   font-size: 18px;
   padding: 15px;
 }
+/* line 4, ../sass/components/_professional-card.scss */
 .professional-card .professional-card-img {
-  height: 500px;
   width: 100%;
-  object-fit: fill;
+  object-fit: contain;
 }
 @media screen and (max-width: 600px) {
+  /* line 4, ../sass/components/_professional-card.scss */
   .professional-card .professional-card-img {
     height: auto !important;
   }
 }
+/* line 14, ../sass/components/_professional-card.scss */
 .professional-card.wide .professional-card-img {
   border-radius: 25px;
   overflow: hidden;
@@ -357,25 +417,31 @@ button.btn-white, a.btn-white {
   object-fit: fill;
 }
 @media screen and (max-width: 600px) {
+  /* line 14, ../sass/components/_professional-card.scss */
   .professional-card.wide .professional-card-img {
     height: auto !important;
   }
 }
+/* line 27, ../sass/components/_professional-card.scss */
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
   padding: 0;
 }
+/* line 32, ../sass/components/_professional-card.scss */
 .professional-card .rating {
   display: inline;
 }
+/* line 34, ../sass/components/_professional-card.scss */
 .professional-card .rating .checked {
   color: gold;
 }
 
+/* line 40, ../sass/components/_professional-card.scss */
 .slider-wrapper {
   position: relative;
 }
+/* line 42, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   position: absolute;
@@ -384,26 +450,32 @@ button.btn-white, a.btn-white {
   font-size: 30px;
   transform: translateY(-50%);
 }
+/* line 50, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn {
   right: 100%;
 }
 @media screen and (max-width: 600px) {
+  /* line 50, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-prev-btn {
     right: 95%;
   }
 }
+/* line 56, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-next-btn {
   left: 100%;
 }
 @media screen and (max-width: 600px) {
+  /* line 56, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-next-btn {
     left: 95%;
   }
 }
 
+/* line 3, ../sass/components/_hero-section.scss */
 .hero-section img {
   height: 300px;
 }
+/* line 7, ../sass/components/_hero-section.scss */
 .hero-section .hero-text {
   height: 100%;
   color: white;
@@ -414,29 +486,36 @@ button.btn-white, a.btn-white {
   background-color: #113663;
 }
 
+/* line 2, ../sass/components/_top-article.scss */
 .top-article {
   padding: 40px 0 60px;
 }
+/* line 4, ../sass/components/_top-article.scss */
 .top-article .card {
   border: none;
   background-color: transparent;
 }
 
+/* line 1, ../sass/components/_footer.scss */
 footer {
   background-color: #113663;
 }
+/* line 4, ../sass/components/_footer.scss */
 footer * {
   color: white;
 }
+/* line 9, ../sass/components/_footer.scss */
 footer .footer-input input {
   border-radius: 0;
   border: 0;
   border-bottom: 1px solid #FFFFFF;
   background: transparent;
 }
+/* line 15, ../sass/components/_footer.scss */
 footer .footer-input input::placeholder {
   color: #FFFFFF;
 }
+/* line 20, ../sass/components/_footer.scss */
 footer .footer-input .footer-btn {
   color: #000000;
   background-color: #FFFFFF;
@@ -446,6 +525,7 @@ footer .footer-input .footer-btn {
 }
 
 /* Slider */
+/* line 3, ../sass/vendors/slick.scss */
 .slick-slider {
   position: relative;
   display: block;
@@ -461,6 +541,7 @@ footer .footer-input .footer-btn {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* line 17, ../sass/vendors/slick.scss */
 .slick-list {
   position: relative;
   overflow: hidden;
@@ -468,14 +549,17 @@ footer .footer-input .footer-btn {
   margin: 0;
   padding: 0;
 }
+/* line 24, ../sass/vendors/slick.scss */
 .slick-list:focus {
   outline: none;
 }
+/* line 28, ../sass/vendors/slick.scss */
 .slick-list.dragging {
   cursor: pointer;
   cursor: hand;
 }
 
+/* line 33, ../sass/vendors/slick.scss */
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
@@ -485,6 +569,7 @@ footer .footer-input .footer-btn {
   transform: translate3d(0, 0, 0);
 }
 
+/* line 42, ../sass/vendors/slick.scss */
 .slick-track {
   position: relative;
   left: 0;
@@ -493,65 +578,79 @@ footer .footer-input .footer-btn {
   margin-left: auto;
   margin-right: auto;
 }
+/* line 50, ../sass/vendors/slick.scss */
 .slick-track:before, .slick-track:after {
   content: "";
   display: table;
 }
+/* line 56, ../sass/vendors/slick.scss */
 .slick-track:after {
   clear: both;
 }
+/* line 60, ../sass/vendors/slick.scss */
 .slick-loading .slick-track {
   visibility: hidden;
 }
 
+/* line 64, ../sass/vendors/slick.scss */
 .slick-slide {
   float: left;
   height: 100%;
   min-height: 1px;
   display: none;
 }
-[dir=rtl] .slick-slide {
+/* line 68, ../sass/vendors/slick.scss */
+[dir="rtl"] .slick-slide {
   float: right;
 }
+/* line 71, ../sass/vendors/slick.scss */
 .slick-slide img {
   display: block;
 }
+/* line 74, ../sass/vendors/slick.scss */
 .slick-slide.slick-loading img {
   display: none;
 }
+/* line 80, ../sass/vendors/slick.scss */
 .slick-slide.dragging img {
   pointer-events: none;
 }
+/* line 84, ../sass/vendors/slick.scss */
 .slick-initialized .slick-slide {
   display: block;
 }
+/* line 88, ../sass/vendors/slick.scss */
 .slick-loading .slick-slide {
   visibility: hidden;
 }
+/* line 92, ../sass/vendors/slick.scss */
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent;
 }
 
+/* line 98, ../sass/vendors/slick.scss */
 .slick-arrow.slick-hidden {
   display: none;
 }
 
 /* Slider */
+/* line 45, ../sass/vendors/slick-theme.scss */
 .slick-loading .slick-list {
-  background: #fff url("./ajax-loader.gif") center center no-repeat;
+  background: #fff url('/images/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
 @font-face {
   font-family: "slick";
-  src: url("./fonts/slick.eot");
-  src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
+  src: url('/fonts/slick.eot');
+  src: url('/fonts/slick.eot?#iefix') format("embedded-opentype"), url('/fonts/slick.woff') format("woff"), url('/fonts/slick.ttf') format("truetype"), url('/fonts/slick.svg#slick') format("svg");
   font-weight: normal;
   font-style: normal;
 }
 /* Arrows */
+/* line 63, ../sass/vendors/slick-theme.scss */
 .slick-prev,
 .slick-next {
   position: absolute;
@@ -571,6 +670,7 @@ footer .footer-input .footer-btn {
   border: none;
   outline: none;
 }
+/* line 81, ../sass/vendors/slick-theme.scss */
 .slick-prev:hover, .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
@@ -578,15 +678,18 @@ footer .footer-input .footer-btn {
   background: transparent;
   color: transparent;
 }
+/* line 85, ../sass/vendors/slick-theme.scss */
 .slick-prev:hover:before, .slick-prev:focus:before,
 .slick-next:hover:before,
 .slick-next:focus:before {
   opacity: 1;
 }
+/* line 89, ../sass/vendors/slick-theme.scss */
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before {
   opacity: 0.25;
 }
+/* line 92, ../sass/vendors/slick-theme.scss */
 .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
@@ -598,39 +701,49 @@ footer .footer-input .footer-btn {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* line 103, ../sass/vendors/slick-theme.scss */
 .slick-prev {
   left: -25px;
 }
-[dir=rtl] .slick-prev {
+/* line 105, ../sass/vendors/slick-theme.scss */
+[dir="rtl"] .slick-prev {
   left: auto;
   right: -25px;
 }
+/* line 109, ../sass/vendors/slick-theme.scss */
 .slick-prev:before {
   content: "←";
 }
-[dir=rtl] .slick-prev:before {
+/* line 111, ../sass/vendors/slick-theme.scss */
+[dir="rtl"] .slick-prev:before {
   content: "→";
 }
 
+/* line 117, ../sass/vendors/slick-theme.scss */
 .slick-next {
   right: -25px;
 }
-[dir=rtl] .slick-next {
+/* line 119, ../sass/vendors/slick-theme.scss */
+[dir="rtl"] .slick-next {
   left: -25px;
   right: auto;
 }
+/* line 123, ../sass/vendors/slick-theme.scss */
 .slick-next:before {
   content: "→";
 }
-[dir=rtl] .slick-next:before {
+/* line 125, ../sass/vendors/slick-theme.scss */
+[dir="rtl"] .slick-next:before {
   content: "←";
 }
 
 /* Dots */
+/* line 133, ../sass/vendors/slick-theme.scss */
 .slick-dotted.slick-slider {
   margin-bottom: 30px;
 }
 
+/* line 137, ../sass/vendors/slick-theme.scss */
 .slick-dots {
   position: absolute;
   bottom: -25px;
@@ -641,6 +754,7 @@ footer .footer-input .footer-btn {
   margin: 0;
   width: 100%;
 }
+/* line 146, ../sass/vendors/slick-theme.scss */
 .slick-dots li {
   position: relative;
   display: inline-block;
@@ -650,6 +764,7 @@ footer .footer-input .footer-btn {
   padding: 0;
   cursor: pointer;
 }
+/* line 154, ../sass/vendors/slick-theme.scss */
 .slick-dots li button {
   border: 0;
   background: transparent;
@@ -663,12 +778,15 @@ footer .footer-input .footer-btn {
   padding: 5px;
   cursor: pointer;
 }
+/* line 166, ../sass/vendors/slick-theme.scss */
 .slick-dots li button:hover, .slick-dots li button:focus {
   outline: none;
 }
+/* line 168, ../sass/vendors/slick-theme.scss */
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
   opacity: 1;
 }
+/* line 172, ../sass/vendors/slick-theme.scss */
 .slick-dots li button:before {
   position: absolute;
   top: 0;
@@ -685,14 +803,14 @@ footer .footer-input .footer-btn {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* line 189, ../sass/vendors/slick-theme.scss */
 .slick-dots li.slick-active button:before {
   color: black;
   opacity: 0.75;
 }
 
+/* line 20, ../sass/style.scss */
 section {
   padding: 20px 0;
   background-color: #F0F0F0;
 }
-
-/*# sourceMappingURL=style.css.map */
