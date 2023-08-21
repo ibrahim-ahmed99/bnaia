@@ -4,15 +4,23 @@
 
     .professional-card-img {
         height: 500px;
+        width: 100%;
         object-fit: fill;
+
+        @media screen and (max-width: 600px) {
+            height: auto !important;
+        }
     }
-    
+
     &.wide {
         .professional-card-img {
             border-radius: 25px;
             overflow: hidden;
-            height: 250px;
-            object-fit: cover;
+            height: 200px;
+            @media screen and (max-width: 600px) {
+                height: auto !important;
+            }
+            object-fit: fill;
         }
     }
 
@@ -28,7 +36,34 @@
     .rating {
         display: inline;
         .checked {
-            color: gold
+            color: gold;
+        }
+    }
+}
+
+.slider-wrapper {
+    position: relative;
+
+    .professional-prev-btn,
+    .professional-next-btn {
+        position: absolute;
+        top: 50%;
+        z-index: 99;
+        font-size: 30px;
+        transform: translateY(-50%);
+    }
+
+    .professional-prev-btn {
+        right: 100%;
+        @media screen and (max-width: 600px) {
+            right: 95%;
+        }
+    }
+
+    .professional-next-btn {
+        left: 100%;
+        @media screen and (max-width: 600px) {
+            left: 95%;
         }
     }
 }

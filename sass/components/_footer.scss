@@ -1,0 +1,29 @@
+footer {
+    background-color: $blue-color;
+    
+    * {
+        color: white;
+    }
+
+    .footer-input {
+        input {
+            border-radius: 0;
+            border: 0;
+            border-bottom: 1px solid $light-color;
+
+            background: transparent;
+            &::placeholder {
+                color: $light-color;
+            }
+        }
+
+        .footer-btn {
+            color: $dark-color;
+            background-color:  $light-color;
+            border: none;
+            font-weight: bold;
+
+            padding: 15px 50px;
+        }
+    }
+}
