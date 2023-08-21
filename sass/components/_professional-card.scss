@@ -1,0 +1,25 @@
+.professional-card {
+    font-size: 18px;
+    padding: 15px;
+
+    .professional-card-img {
+        height: 500px;
+        object-fit: fill;
+    }
+
+    .card-title {
+        // margin-top: 10px;
+    }
+    .card-text {
+        color: $offwhite;
+        margin: 0;
+        padding: 0;
+    }
+
+    .rating {
+        display: inline;
+        .checked {
+            color: gold
+        }
+    }
+}

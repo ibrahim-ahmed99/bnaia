@@ -1348,4 +1348,24 @@ button.btn-red:hover, a.btn-red:hover {
   padding: 10px 40px;
 }
 
+.professional-card {
+  font-size: 18px;
+  padding: 15px;
+}
+.professional-card .professional-card-img {
+  height: 500px;
+  object-fit: fill;
+}
+.professional-card .card-text {
+  color: #ACACAC;
+  margin: 0;
+  padding: 0;
+}
+.professional-card .rating {
+  display: inline;
+}
+.professional-card .rating .checked {
+  color: gold;
+}
+
 /*# sourceMappingURL=style.css.map */
