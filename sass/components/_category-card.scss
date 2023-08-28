@@ -1,6 +1,17 @@
-// .our-categories {
-//     background-color: $gray-color;
-// }
+.our-categories {
+    .btn {
+        background: $gray-color;
+    }
+}
+
+// .populer {}
+.first-categorie {
+    background-color: $gray-color;
+    .btn {
+        background: $light-color;
+    }
+}
+
 .category-card {
     display: flex;
     flex-direction: column;

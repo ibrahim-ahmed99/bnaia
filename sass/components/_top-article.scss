@@ -1,5 +1,8 @@
 .top-article {
     padding: 40px 0 60px;
+    .btn {
+        background: $gray-color;
+    }
     .card {
         border: none;
         background-color: transparent;

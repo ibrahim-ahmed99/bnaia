@@ -323,7 +323,21 @@ button.btn-white, a.btn-white {
   background-color: #FFFFFF;
 }
 
-/* line 4, ../sass/components/_category-card.scss */
+/* line 2, ../sass/components/_category-card.scss */
+.our-categories .btn {
+  background: #F0F0F0;
+}
+
+/* line 8, ../sass/components/_category-card.scss */
+.first-categorie {
+  background-color: #F0F0F0;
+}
+/* line 10, ../sass/components/_category-card.scss */
+.first-categorie .btn {
+  background: #FFFFFF;
+}
+
+/* line 15, ../sass/components/_category-card.scss */
 .category-card {
   display: flex;
   flex-direction: column;
@@ -336,24 +350,24 @@ button.btn-white, a.btn-white {
   height: 100%;
 }
 @media screen and (max-width: 480px) {
-  /* line 4, ../sass/components/_category-card.scss */
+  /* line 15, ../sass/components/_category-card.scss */
   .category-card {
     align-items: center;
   }
 }
-/* line 17, ../sass/components/_category-card.scss */
+/* line 28, ../sass/components/_category-card.scss */
 .category-card img {
   width: 88px;
   height: 65px;
   display: block;
   margin: 35px 0;
 }
-/* line 23, ../sass/components/_category-card.scss */
+/* line 34, ../sass/components/_category-card.scss */
 .category-card p {
   font-size: 14px;
 }
 
-/* line 28, ../sass/components/_category-card.scss */
+/* line 39, ../sass/components/_category-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   top: 40% !important;
@@ -505,6 +519,10 @@ button.btn-white, a.btn-white {
   padding: 40px 0 60px;
 }
 /* line 3, ../sass/components/_top-article.scss */
+.top-article .btn {
+  background: #F0F0F0;
+}
+/* line 6, ../sass/components/_top-article.scss */
 .top-article .card {
   border: none;
   background-color: transparent;
