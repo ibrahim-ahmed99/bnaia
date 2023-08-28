@@ -1,5 +1,6 @@
 @import "./theme/fonts";
 @import "./theme/variables";
+// home //
 @import "./components/top-nav";
 @import "./components/main-carousel";
 @import "./components/_navbar";
@@ -11,10 +12,14 @@
 @import "./components/hero-section";
 @import "./components/top-article";
 @import "./components/footer";
-// vendors
+// professionals //
+@import "./components/faq";
+@import "./components/contracting";
+@import "./components/ideas-slider";
+@import "./components/pro-listed";
+// vendors //
 @import "./vendors/slick.scss";
 @import "./vendors/slick-theme.scss";
 section {
     padding: 20px 0;
-    background-color: $gray-color;
 }

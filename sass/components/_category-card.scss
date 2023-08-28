@@ -1,3 +1,6 @@
+// .our-categories {
+//     background-color: $gray-color;
+// }
 .category-card {
     display: flex;
     flex-direction: column;
@@ -20,4 +23,9 @@
     p {
         font-size: 14px;
     }
+}
+
+.slider-wrapper .professional-prev-btn,
+.slider-wrapper .professional-next-btn {
+    top: 40% !important;
 }
