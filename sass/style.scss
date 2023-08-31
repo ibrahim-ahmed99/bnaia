@@ -1,3 +1,4 @@
+// theme //
 @import "./theme/fonts";
 @import "./theme/variables";
 // home //
@@ -17,6 +18,12 @@
 @import "./components/contracting";
 @import "./components/ideas-slider";
 @import "./components/pro-listed";
+@import "./components/main-detalis";
+@import "./components/description";
+@import "./components/table";
+@import "./components/select";
+// article //
+@import "./components/article";
 // vendors //
 @import "./vendors/slick.scss";
 @import "./vendors/slick-theme.scss";

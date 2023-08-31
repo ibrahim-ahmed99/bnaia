@@ -1,8 +1,7 @@
 .hero-section {
-
     img {
         height: 300px;
-
+        object-fit: cover;
     }
     .hero-text {
         height: 100%;
@@ -12,5 +11,30 @@
         justify-content: space-between;
         align-items: start;
         background-color: #113663;
+    }
+    .products-h {
+        font-size: 35px;
+    }
+    .article-h {
+        font-size: 45px;
+    }
+    p {
+        font-family: "Avenir-black";
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .hero-section {
+        .products-h {
+            font-size: 23px;
+        }
+        .article-h {
+            font-size: 27px;
+        }
+        p {
+            font-family: "Avenir-black";
+            font-size: 17px;
+        }
     }
 }
