@@ -1,0 +1,176 @@
+.table {
+    margin-top: 65px;
+    .more {
+        display: flex;
+        justify-content: center;
+        .lode {
+            flex-direction: column;
+            display: flex;
+            font-family: "Avenir-medium";
+            font-size: 20px;
+            padding: 90px 0;
+            &:active {
+                border: none;
+            }
+        }
+    }
+    .nav-pills {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        .nav-item {
+            .nav-link {
+                color: $dark-color;
+                &.active {
+                    background-color: $blue-color;
+                    border-radius: $default-border-radius;
+                    color: $light-color;
+                    &:hover {
+                        background-color: $blue-color;
+                    }
+                }
+            }
+        }
+    }
+    .tab-content {
+        .card {
+            border: none;
+            .card-text {
+                font-family: "Avenir-book";
+                font-size: 16px;
+            }
+        }
+        .last-card {
+            border: 2px solid #000;
+            border-radius: 25px;
+            text-align: center;
+            padding: 50px;
+            h1 {
+                font-size: 53px;
+                // font-family: "Avenir-Heavy";
+                text-align: left;
+            }
+            img {
+                border: 1px solid #000;
+                border-radius: 25px;
+            }
+            .mine-card {
+                border: 1px solid #000;
+                border-radius: 25px;
+                height: 100%;
+                position: relative;
+                .plus-icon {
+                    border-radius: 50%;
+                    padding: 10px;
+                    background-color: $blue-color;
+                    color: $light-color;
+                    position: absolute;
+                    top: 50%;
+                    left: 40%;
+                    transform: translateY(-50%);
+                    .fa-plus {
+                        font-size: 25px;
+                    }
+                }
+            }
+            .list-group {
+                margin-top: 80px;
+                li {
+                    border-bottom: 1px solid #000;
+                    // border-top: 1px solid;
+                    padding: 25px;
+                    font-family: "Avenir-book";
+                    font-size: 18px;
+                }
+                span {
+                    color: transparent;
+                }
+            }
+            .result-btn {
+                background-color: $blue-color;
+                color: $light-color;
+                font-size: 18px;
+                width: 100%;
+                margin-top: 90px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .table .tab-content .last-card h1 {
+        font-size: 41px;
+    }
+    .table .tab-content .last-card .list-group li {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .table .tab-content .last-card {
+        padding: 20px;
+    }
+    .table .tab-content .last-card h1 {
+        font-size: 28px;
+    }
+    .table .tab-content .last-card .mine-card .plus-icon {
+        left: 35%;
+    }
+    .table .tab-content .last-card .mine-card .plus-icon .fa-plus {
+        font-size: 20px;
+    }
+    .table .tab-content .last-card .list-group {
+        margin-top: 50px;
+    }
+    .table .tab-content .last-card .list-group li {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 767px) {
+    .table .tab-content .last-card {
+        padding: 20px;
+    }
+    .nav-link {
+        padding: 4px;
+    }
+    .table .tab-content .last-card h1 {
+        font-size: 21px;
+    }
+    .table .tab-content .last-card .mine-card .plus-icon {
+        left: 30%;
+    }
+    .table .tab-content .last-card .mine-card .plus-icon .fa-plus {
+        font-size: 16px;
+    }
+    .table .tab-content .last-card .list-group {
+        margin-top: 30px;
+    }
+    .table .tab-content .last-card .list-group li {
+        font-size: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .table .tab-content .last-card {
+        padding: 20px;
+    }
+    .nav-link {
+        padding: 4px;
+    }
+    .table .tab-content .last-card h1 {
+        font-size: 19px;
+    }
+    .table .tab-content .last-card .mine-card .plus-icon {
+        left: 27%;
+    }
+    .table .tab-content .last-card .mine-card .plus-icon .fa-plus {
+        font-size: 16px;
+    }
+    .table .tab-content .last-card .list-group {
+        margin-top: 30px;
+    }
+    .table .tab-content .last-card .list-group li {
+        font-size: 4px;
+    }
+}

@@ -1,0 +1,39 @@
+.article {
+    .card {
+        border: none;
+        .card-title {
+            font-family: "Avenir-medium";
+            font-size: 15px;
+        }
+        span {
+            font-size: 18px;
+            font-family: "Avenir-black";
+        }
+        .card-text {
+            font-family: "Avenir-book";
+            font-size: 19px;
+            text-align: left;
+        }
+        .main-p {
+            max-width: 65%;
+        }
+    }
+    .next {
+        display: flex;
+        justify-content: end;
+        .lode {
+            flex-direction: row;
+            align-items: center;
+            display: flex;
+            font-family: "Avenir-medium";
+            font-size: 20px;
+            padding: 90px 0;
+            &:active {
+                border: none;
+            }
+            .arrow {
+                padding-left: 5px;
+            }
+        }
+    }
+}

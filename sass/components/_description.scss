@@ -1,0 +1,17 @@
+.description {
+    background: $gray-color;
+    margin-top: 40px;
+    padding: 80px 0;
+    .content {
+        text-align: left;
+        h2 {
+            font-size: 30px;
+            font-family: "Avenir-Heavy";
+            margin-bottom: 70px;
+        }
+        p {
+            font-size: 18px;
+            font-family: "Avenir-book";
+        }
+    }
+}

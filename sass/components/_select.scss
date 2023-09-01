@@ -1,0 +1,45 @@
+.select-section {
+    padding: 50px 0;
+    .more {
+        display: flex;
+        justify-content: center;
+        .lode {
+            flex-direction: column;
+            display: flex;
+            font-family: "Avenir-medium";
+            font-size: 20px;
+            padding: 90px 0;
+            &:active {
+                border: none;
+            }
+        }
+    }
+    form {
+        margin-bottom: 90px;
+        label {
+            font-size: 24px;
+            font-family: "gt-regular";
+        }
+        select {
+            border: 2px solid #000;
+            border-radius: 25px;
+            color: $dark-color;
+            padding: 7px;
+            font-size: 18px;
+            margin-inline: 7px;
+            font-family: "Avenir-book";
+            &.active {
+                background: $blue-color;
+                border: 2px solid #113663;
+                color: $light-color;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .select-section form {
+        display: flex;
+        flex-direction: column;
+    }
+}

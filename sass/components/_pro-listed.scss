@@ -1,0 +1,54 @@
+.professional-listed {
+    .more {
+        display: flex;
+        justify-content: center;
+        .lode {
+            flex-direction: column;
+            display: flex;
+            font-family: "Avenir-medium";
+            font-size: 20px;
+            padding: 90px 0;
+            &:active {
+                border: none;
+            }
+        }
+    }
+    .card {
+        background: $gray-color;
+        text-align: center;
+        padding: 30px 0;
+        border: 1px solid #113663;
+        margin-bottom: 40px;
+        h2 {
+            font-size: 25px;
+            color: $dark-color;
+            font-family: "gt-regular";
+        }
+        p {
+            font-size: 18px;
+            font-family: "Avenir-medium";
+            text-align: left;
+        }
+        .listed-img {
+            max-width: 60%;
+            object-fit: contain;
+            border-radius: none !important;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .professional-listed {
+        .card {
+            h2 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 15px;
+            }
+            .listed-img {
+                max-width: 95%;
+            }
+        }
+    }
+}
