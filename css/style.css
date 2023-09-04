@@ -437,7 +437,16 @@ button.btn-white, a.btn-white {
     height: auto !important;
   }
 }
-/* line 14, ../sass/components/_professional-card.scss */
+/* line 13, ../sass/components/_professional-card.scss */
+.professional-card .portfolio {
+  object-fit: cover !important;
+}
+/* line 16, ../sass/components/_professional-card.scss */
+.professional-card a {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 26, ../sass/components/_professional-card.scss */
 .professional-card.wide .professional-card-img {
   border-radius: 25px;
   overflow: hidden;
@@ -445,31 +454,31 @@ button.btn-white, a.btn-white {
   object-fit: fill;
 }
 @media screen and (max-width: 600px) {
-  /* line 14, ../sass/components/_professional-card.scss */
+  /* line 26, ../sass/components/_professional-card.scss */
   .professional-card.wide .professional-card-img {
     height: auto !important;
   }
 }
-/* line 27, ../sass/components/_professional-card.scss */
+/* line 39, ../sass/components/_professional-card.scss */
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
   padding: 0;
 }
-/* line 32, ../sass/components/_professional-card.scss */
+/* line 44, ../sass/components/_professional-card.scss */
 .professional-card .rating {
   display: inline;
 }
-/* line 34, ../sass/components/_professional-card.scss */
+/* line 46, ../sass/components/_professional-card.scss */
 .professional-card .rating .checked {
   color: gold;
 }
 
-/* line 40, ../sass/components/_professional-card.scss */
+/* line 52, ../sass/components/_professional-card.scss */
 .slider-wrapper {
   position: relative;
 }
-/* line 42, ../sass/components/_professional-card.scss */
+/* line 54, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   position: absolute;
@@ -478,22 +487,22 @@ button.btn-white, a.btn-white {
   font-size: 30px;
   transform: translateY(-50%);
 }
-/* line 50, ../sass/components/_professional-card.scss */
+/* line 62, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn {
   right: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 50, ../sass/components/_professional-card.scss */
+  /* line 62, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-prev-btn {
     right: 95%;
   }
 }
-/* line 56, ../sass/components/_professional-card.scss */
+/* line 68, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-next-btn {
   left: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 56, ../sass/components/_professional-card.scss */
+  /* line 68, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-next-btn {
     left: 95%;
   }
@@ -522,22 +531,28 @@ button.btn-white, a.btn-white {
 .hero-section .article-h {
   font-size: 45px;
 }
-/* line 21, ../sass/components/_hero-section.scss */
+/* line 22, ../sass/components/_hero-section.scss */
+.hero-section .btn:hover {
+  color: #000000;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+/* line 28, ../sass/components/_hero-section.scss */
 .hero-section p {
   font-family: "Avenir-black";
   font-size: 20px;
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  /* line 29, ../sass/components/_hero-section.scss */
+  /* line 36, ../sass/components/_hero-section.scss */
   .hero-section .products-h {
     font-size: 23px;
   }
-  /* line 32, ../sass/components/_hero-section.scss */
+  /* line 39, ../sass/components/_hero-section.scss */
   .hero-section .article-h {
     font-size: 27px;
   }
-  /* line 35, ../sass/components/_hero-section.scss */
+  /* line 42, ../sass/components/_hero-section.scss */
   .hero-section p {
     font-family: "Avenir-black";
     font-size: 17px;
@@ -561,22 +576,29 @@ button.btn-white, a.btn-white {
 footer {
   background-color: #113663;
 }
-/* line 4, ../sass/components/_footer.scss */
+/* line 3, ../sass/components/_footer.scss */
 footer * {
   color: white;
 }
-/* line 9, ../sass/components/_footer.scss */
+/* line 7, ../sass/components/_footer.scss */
 footer .footer-input input {
   border-radius: 0;
   border: 0;
   border-bottom: 1px solid #FFFFFF;
   background: transparent;
 }
-/* line 15, ../sass/components/_footer.scss */
+/* line 12, ../sass/components/_footer.scss */
 footer .footer-input input::placeholder {
   color: #FFFFFF;
 }
-/* line 20, ../sass/components/_footer.scss */
+/* line 15, ../sass/components/_footer.scss */
+footer .footer-input input:focus {
+  box-shadow: none;
+  border-radius: none;
+  background: transparent;
+  color: #FFFFFF;
+}
+/* line 22, ../sass/components/_footer.scss */
 footer .footer-input .footer-btn {
   color: #000000;
   background-color: #FFFFFF;
@@ -623,18 +645,23 @@ footer .footer-input .footer-btn {
   margin-bottom: 30px;
 }
 /* line 32, ../sass/components/_faq.scss */
+.faq .answer a {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 36, ../sass/components/_faq.scss */
 .faq .answer img {
   margin-bottom: 50px;
 }
-/* line 37, ../sass/components/_faq.scss */
+/* line 41, ../sass/components/_faq.scss */
 .faq .result h2 {
   margin-bottom: 0 !important;
 }
-/* line 40, ../sass/components/_faq.scss */
+/* line 44, ../sass/components/_faq.scss */
 .faq .result h1 {
   color: transparent;
 }
-/* line 43, ../sass/components/_faq.scss */
+/* line 47, ../sass/components/_faq.scss */
 .faq .result .specially-h {
   color: #000000 !important;
 }
@@ -658,7 +685,6 @@ footer .footer-input .footer-btn {
 /* line 10, ../sass/components/_contracting.scss */
 .Contracting .dealer-content h1 {
   font-size: 50px;
-  font-family: "Avenir-Heavy";
   margin-left: 20px;
 }
 @media screen and (max-width: 768px) {
@@ -711,12 +737,16 @@ footer .footer-input .footer-btn {
   font-family: "gt-regular";
 }
 /* line 27, ../sass/components/_pro-listed.scss */
+.professional-listed .card a {
+  text-decoration: none;
+}
+/* line 30, ../sass/components/_pro-listed.scss */
 .professional-listed .card p {
   font-size: 18px;
   font-family: "Avenir-medium";
   text-align: left;
 }
-/* line 32, ../sass/components/_pro-listed.scss */
+/* line 35, ../sass/components/_pro-listed.scss */
 .professional-listed .card .listed-img {
   max-width: 60%;
   object-fit: contain;
@@ -724,15 +754,15 @@ footer .footer-input .footer-btn {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 43, ../sass/components/_pro-listed.scss */
+  /* line 46, ../sass/components/_pro-listed.scss */
   .professional-listed .card h2 {
     font-size: 20px;
   }
-  /* line 46, ../sass/components/_pro-listed.scss */
+  /* line 49, ../sass/components/_pro-listed.scss */
   .professional-listed .card p {
     font-size: 15px;
   }
-  /* line 49, ../sass/components/_pro-listed.scss */
+  /* line 52, ../sass/components/_pro-listed.scss */
   .professional-listed .card .listed-img {
     max-width: 95%;
   }
@@ -756,7 +786,6 @@ footer .footer-input .footer-btn {
 .main-detalis .card .card-body .card-title {
   font-size: 40px;
   margin-top: 20px;
-  font-family: "Avenir-Heavy";
 }
 /* line 20, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .card-text {

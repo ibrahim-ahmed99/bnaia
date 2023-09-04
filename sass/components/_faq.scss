@@ -29,6 +29,10 @@
             font-family: "Avenir-black";
             margin-bottom: 30px;
         }
+        a {
+            text-decoration: none;
+            color: $dark-color
+        }
         img {
             margin-bottom: 50px;
         }

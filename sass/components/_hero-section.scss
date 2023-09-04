@@ -18,6 +18,13 @@
     .article-h {
         font-size: 45px;
     }
+    .btn {
+        &:hover {
+            color: #000000;
+            border: 1px solid #FFFFFF;
+            background-color: #FFFFFF;
+        }
+    }
     p {
         font-family: "Avenir-black";
         font-size: 20px;

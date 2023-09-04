@@ -10,6 +10,25 @@
             height: auto !important;
         }
     }
+    .portfolio {
+        object-fit: cover !important;
+    }
+    img {
+        width: 9%;
+        height: 9%;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    a {
+        text-decoration: none;
+        color: $dark-color;
+        // &:focus {
+        //     .icon {
+        //         background: red;
+        //     }
+        // }
+    }
     &.wide {
         .professional-card-img {
             border-radius: 25px;
