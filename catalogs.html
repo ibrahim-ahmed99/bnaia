@@ -107,7 +107,7 @@
             <form action="/action_page.php">
                 <label for="cars">Filter</label>
                 <select class="select active" name="cars" id="cars">
-                    
+
                   <option value="volvo">By Service</option>
                   <option value="saab">Saab</option>
                   <option value="opel">Opel</option>
@@ -416,9 +416,11 @@
                             <a href="">
                                 <h5 class="card-title">BOOK NAME</h5>
                             </a>
-                            <a class="like" href="javascript:void(0)">
+                            <a class="like-link" href="javascript:void(0)">
                                 <i class="fa-regular fa-heart"></i>
-                                <!-- <i class="fa-solid fa-heart d-none"></i> -->
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart "></i>
                             </a>
 
                         </div>
@@ -468,18 +470,13 @@
 </script>
 <script>
     $(document).ready(function() {
-        $('.like').click(function() {
-
-            let $element = $(this).find('.fa-heart');
-            if ($element.hasClass('fa-solid')) {
-                $element.addClass('fa-regular');
-                $element.removeClass('fa-solid');
-            } else {
-                $element.addClass('fa-solid');
-                $element.removeClass('fa-regular');
-            }
-
-
+        $('.like-link').click(function() {
+            $(this).parent().find('.dislike-link').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+        $('.dislike-link').click(function() {
+            $(this).parent().find('.like-link').removeClass('d-none');
+            $(this).addClass('d-none');
         });
     });
 </script>
