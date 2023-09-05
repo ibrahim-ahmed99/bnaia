@@ -104,8 +104,9 @@
 
         <button class="question">
                 <h3>CATEGORY NAME</h3>
-            <h3>BROWSE ALL CATEGORIES <i class="fa-solid fa-plus"></i></h3>
-            </button>
+                <h3 class="open">BROWSE ALL CATEGORIES <i class="fa-solid fa-plus"></i></h3>
+                <h3 class="close d-none">CLOSE <i class="fa-solid fa-xmark"></i></h3>
+                        </button>
         <div class="answer">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
@@ -239,7 +240,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -260,7 +265,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -281,7 +290,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -302,7 +315,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -323,7 +340,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -344,7 +365,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -365,7 +390,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -386,7 +415,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -407,7 +440,11 @@
                             <a href="">
                                 <h5 class="card-title">PROFESSIONAL NAME</h5>
                             </a>
-                            <a href=""> <i class="fa-regular fa-heart icon"></i>
+                            <a class="like-link" href="javascript:void(0)">
+                                <i class="fa-regular fa-heart"></i>
+                            </a>
+                            <a class="dislike-link d-none" href="javascript:void(0)">
+                                <i class="fa-solid fa-heart " style="color: red;"></i>
                             </a>
                         </div>
                         <p class="card-text">Type Name</p>
@@ -427,7 +464,26 @@
         </div>
     </section>
 
+    <section id="carouselExample" class="carousel slide m-0 p-0">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
 
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/proslider/1.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="./img/proslider/2.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="./img/proslider/1.png" class="d-block w-100" alt="..." />
+            </div>
+
+        </div>
+    </section>
 
     <section class="professional-listed">
         <div class="container">
@@ -597,6 +653,30 @@
 </script>
 <script>
     $(document).ready(function() {
+        $('.like-link').click(function() {
+            $(this).parent().find('.dislike-link').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+        $('.dislike-link').click(function() {
+            $(this).parent().find('.like-link').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('.open').click(function() {
+            $(this).parent().find('.close').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+        $('.close').click(function() {
+            $(this).parent().find('.open').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
         AOS.init();
 
         $(".professional-carousel").slick({
@@ -649,6 +729,8 @@
                 },
             }, ],
         });
+ 
+        
     });
 </script>
 

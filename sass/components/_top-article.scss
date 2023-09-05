@@ -6,24 +6,20 @@
     .card {
         border: none;
         background-color: transparent;
-        // .card-body {
-        //     .card-title {
-        //         font-size: 13px;
-        //         color: $offwhite;
-        //         display: flex;
-        //         justify-content: space-between;
-        //     }
-        //     .card-text {
-        //         color: $dark-color;
-        //         font-size: 18px;
-        //         font-family: "Avenir-medium";
-        //         max-width: 84%;
-        //     }
-        //     h4 {
-        //         color: $dark-color;
-        //         font-family: "Avenir-black";
-        //         max-width: 90%;
-        //     }
-        // }
+        .card-body {
+            .card-title {
+                font-family: "Avenir-medium";
+                font-size: 15px;
+            }
+            .card-text {
+                font-family: "Avenir-book";
+                font-size: 18px;
+            }
+            span {
+                font-size: 18px;
+                font-family: "Avenir-black";
+                color: $dark-color;
+            }
+        }
     }
 }

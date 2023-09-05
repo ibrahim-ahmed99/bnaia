@@ -442,11 +442,20 @@ button.btn-white, a.btn-white {
   object-fit: cover !important;
 }
 /* line 16, ../sass/components/_professional-card.scss */
+.professional-card img {
+  width: 9%;
+  height: 9%;
+}
+/* line 19, ../sass/components/_professional-card.scss */
+.professional-card img:hover {
+  cursor: pointer;
+}
+/* line 23, ../sass/components/_professional-card.scss */
 .professional-card a {
   text-decoration: none;
   color: #000000;
 }
-/* line 26, ../sass/components/_professional-card.scss */
+/* line 33, ../sass/components/_professional-card.scss */
 .professional-card.wide .professional-card-img {
   border-radius: 25px;
   overflow: hidden;
@@ -454,31 +463,31 @@ button.btn-white, a.btn-white {
   object-fit: fill;
 }
 @media screen and (max-width: 600px) {
-  /* line 26, ../sass/components/_professional-card.scss */
+  /* line 33, ../sass/components/_professional-card.scss */
   .professional-card.wide .professional-card-img {
     height: auto !important;
   }
 }
-/* line 39, ../sass/components/_professional-card.scss */
+/* line 46, ../sass/components/_professional-card.scss */
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
   padding: 0;
 }
-/* line 44, ../sass/components/_professional-card.scss */
+/* line 51, ../sass/components/_professional-card.scss */
 .professional-card .rating {
   display: inline;
 }
-/* line 46, ../sass/components/_professional-card.scss */
+/* line 53, ../sass/components/_professional-card.scss */
 .professional-card .rating .checked {
   color: gold;
 }
 
-/* line 52, ../sass/components/_professional-card.scss */
+/* line 59, ../sass/components/_professional-card.scss */
 .slider-wrapper {
   position: relative;
 }
-/* line 54, ../sass/components/_professional-card.scss */
+/* line 61, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   position: absolute;
@@ -487,22 +496,22 @@ button.btn-white, a.btn-white {
   font-size: 30px;
   transform: translateY(-50%);
 }
-/* line 62, ../sass/components/_professional-card.scss */
+/* line 69, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn {
   right: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 62, ../sass/components/_professional-card.scss */
+  /* line 69, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-prev-btn {
     right: 95%;
   }
 }
-/* line 68, ../sass/components/_professional-card.scss */
+/* line 75, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-next-btn {
   left: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 68, ../sass/components/_professional-card.scss */
+  /* line 75, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-next-btn {
     left: 95%;
   }
@@ -570,6 +579,22 @@ button.btn-white, a.btn-white {
 .top-article .card {
   border: none;
   background-color: transparent;
+}
+/* line 10, ../sass/components/_top-article.scss */
+.top-article .card .card-body .card-title {
+  font-family: "Avenir-medium";
+  font-size: 15px;
+}
+/* line 14, ../sass/components/_top-article.scss */
+.top-article .card .card-body .card-text {
+  font-family: "Avenir-book";
+  font-size: 18px;
+}
+/* line 18, ../sass/components/_top-article.scss */
+.top-article .card .card-body span {
+  font-size: 18px;
+  font-family: "Avenir-black";
+  color: #000000;
 }
 
 /* line 1, ../sass/components/_footer.scss */
