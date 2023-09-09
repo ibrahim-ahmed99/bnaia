@@ -14,9 +14,7 @@
 </head>
 
 <body>
-
-
-    <header></header>
+    <?php include('header.php') ?>
     <section id="" class="m-0 p-0">
         <div class="main-slider">
             <div class="">
@@ -792,12 +790,7 @@
 </script>
 
   <script>
-      $(document).ready(function () {
-
-        $("header").load("header.html");
-
-
-
+    $(document).ready(function () {
       AOS.init();
 
       $(".main-slider").slick({
