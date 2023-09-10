@@ -23,6 +23,10 @@
             font-size: 25px;
             color: $dark-color;
             font-family: "gt-regular";
+            scale: 1;
+            &:hover {
+                scale: 1.03;
+            }
         }
         a {
             text-decoration: none;
@@ -34,6 +38,10 @@
         }
         .listed-img {
             max-width: 60%;
+            opacity: 1;
+            &:hover {
+                opacity: 0.8;
+            }
             object-fit: contain;
             border-radius: none !important;
         }

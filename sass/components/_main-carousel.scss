@@ -1,15 +1,28 @@
-.carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
+.main-slider {
+    margin-bottom: 0% !important;
+    overflow: hidden;
+    .slick-dots {
+        bottom: 10px;
+        .slick-active {
+            background: #fff !important;
+        }
+        li {
+            background: transparent;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            width: 11px;
+            height: 11px;
+        }
+    }
 }
 
 @media screen and (max-width: 500px) {
-    .carousel-item {
-        height: 300px;
-        img {
-            height: 300px;
-            object-fit: cover;
+    .main-slider {
+        .slick-slide {
+            img {
+                height: 300px;
+                object-fit: cover;
+            }
         }
     }
 }

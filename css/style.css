@@ -9,7 +9,7 @@
 }
 @font-face {
   font-family: "Avenir-Heavy";
-  src: url("../fonts/Avenir/Avenir-Heavy.otf");
+  src: url("../fonts/Avenir Font/Avenir-Heavy.otf");
 }
 @font-face {
   font-family: "Avenir-medium";
@@ -112,19 +112,30 @@
 }
 
 /* line 1, ../sass/components/_main-carousel.scss */
-.carousel-indicators [data-bs-target] {
-  width: 10px;
-  height: 10px;
+.main-slider {
+  margin-bottom: 0% !important;
+  overflow: hidden;
+}
+/* line 4, ../sass/components/_main-carousel.scss */
+.main-slider .slick-dots {
+  bottom: 10px;
+}
+/* line 6, ../sass/components/_main-carousel.scss */
+.main-slider .slick-dots .slick-active {
+  background: #fff !important;
+}
+/* line 9, ../sass/components/_main-carousel.scss */
+.main-slider .slick-dots li {
+  background: transparent;
+  border: 1px solid #fff;
   border-radius: 50%;
+  width: 11px;
+  height: 11px;
 }
 
 @media screen and (max-width: 500px) {
-  /* line 8, ../sass/components/_main-carousel.scss */
-  .carousel-item {
-    height: 300px;
-  }
-  /* line 10, ../sass/components/_main-carousel.scss */
-  .carousel-item img {
+  /* line 22, ../sass/components/_main-carousel.scss */
+  .main-slider .slick-slide img {
     height: 300px;
     object-fit: cover;
   }
@@ -430,6 +441,12 @@ button.btn-white, a.btn-white {
 .professional-card .professional-card-img {
   width: 100%;
   object-fit: contain;
+  opacity: 1;
+  border-radius: 8%;
+}
+/* line 11, ../sass/components/_professional-card.scss */
+.professional-card .professional-card-img:hover {
+  opacity: 0.8;
 }
 @media screen and (max-width: 600px) {
   /* line 4, ../sass/components/_professional-card.scss */
@@ -437,25 +454,25 @@ button.btn-white, a.btn-white {
     height: auto !important;
   }
 }
-/* line 13, ../sass/components/_professional-card.scss */
+/* line 18, ../sass/components/_professional-card.scss */
 .professional-card .portfolio {
   object-fit: cover !important;
 }
-/* line 16, ../sass/components/_professional-card.scss */
+/* line 21, ../sass/components/_professional-card.scss */
 .professional-card img {
   width: 9%;
   height: 9%;
 }
-/* line 19, ../sass/components/_professional-card.scss */
+/* line 24, ../sass/components/_professional-card.scss */
 .professional-card img:hover {
   cursor: pointer;
 }
-/* line 23, ../sass/components/_professional-card.scss */
+/* line 28, ../sass/components/_professional-card.scss */
 .professional-card a {
   text-decoration: none;
   color: #000000;
 }
-/* line 33, ../sass/components/_professional-card.scss */
+/* line 38, ../sass/components/_professional-card.scss */
 .professional-card.wide .professional-card-img {
   border-radius: 25px;
   overflow: hidden;
@@ -463,31 +480,39 @@ button.btn-white, a.btn-white {
   object-fit: fill;
 }
 @media screen and (max-width: 600px) {
-  /* line 33, ../sass/components/_professional-card.scss */
+  /* line 38, ../sass/components/_professional-card.scss */
   .professional-card.wide .professional-card-img {
     height: auto !important;
   }
 }
-/* line 46, ../sass/components/_professional-card.scss */
+/* line 51, ../sass/components/_professional-card.scss */
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
   padding: 0;
 }
-/* line 51, ../sass/components/_professional-card.scss */
+/* line 56, ../sass/components/_professional-card.scss */
+.professional-card .card-title {
+  scale: 1;
+}
+/* line 58, ../sass/components/_professional-card.scss */
+.professional-card .card-title:hover {
+  scale: 1.03;
+}
+/* line 62, ../sass/components/_professional-card.scss */
 .professional-card .rating {
   display: inline;
 }
-/* line 53, ../sass/components/_professional-card.scss */
+/* line 64, ../sass/components/_professional-card.scss */
 .professional-card .rating .checked {
   color: gold;
 }
 
-/* line 59, ../sass/components/_professional-card.scss */
+/* line 70, ../sass/components/_professional-card.scss */
 .slider-wrapper {
   position: relative;
 }
-/* line 61, ../sass/components/_professional-card.scss */
+/* line 72, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   position: absolute;
@@ -496,22 +521,22 @@ button.btn-white, a.btn-white {
   font-size: 30px;
   transform: translateY(-50%);
 }
-/* line 69, ../sass/components/_professional-card.scss */
+/* line 80, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn {
   right: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 69, ../sass/components/_professional-card.scss */
+  /* line 80, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-prev-btn {
     right: 95%;
   }
 }
-/* line 75, ../sass/components/_professional-card.scss */
+/* line 86, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-next-btn {
   left: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 75, ../sass/components/_professional-card.scss */
+  /* line 86, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-next-btn {
     left: 95%;
   }
@@ -760,87 +785,101 @@ footer .footer-input .footer-btn {
   font-size: 25px;
   color: #000000;
   font-family: "gt-regular";
+  scale: 1;
 }
 /* line 27, ../sass/components/_pro-listed.scss */
+.professional-listed .card h2:hover {
+  scale: 1.03;
+}
+/* line 31, ../sass/components/_pro-listed.scss */
 .professional-listed .card a {
   text-decoration: none;
 }
-/* line 30, ../sass/components/_pro-listed.scss */
+/* line 34, ../sass/components/_pro-listed.scss */
 .professional-listed .card p {
   font-size: 18px;
   font-family: "Avenir-medium";
   text-align: left;
 }
-/* line 35, ../sass/components/_pro-listed.scss */
+/* line 39, ../sass/components/_pro-listed.scss */
 .professional-listed .card .listed-img {
   max-width: 60%;
+  opacity: 1;
   object-fit: contain;
   border-radius: none !important;
 }
+/* line 42, ../sass/components/_pro-listed.scss */
+.professional-listed .card .listed-img:hover {
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 768px) {
-  /* line 46, ../sass/components/_pro-listed.scss */
+  /* line 54, ../sass/components/_pro-listed.scss */
   .professional-listed .card h2 {
     font-size: 20px;
   }
-  /* line 49, ../sass/components/_pro-listed.scss */
+  /* line 57, ../sass/components/_pro-listed.scss */
   .professional-listed .card p {
     font-size: 15px;
   }
-  /* line 52, ../sass/components/_pro-listed.scss */
+  /* line 60, ../sass/components/_pro-listed.scss */
   .professional-listed .card .listed-img {
     max-width: 95%;
   }
 }
 /* line 2, ../sass/components/_main-detalis.scss */
+.main-detalis .slick-slider .slick-list {
+  border-radius: 0 25px 25px 0;
+}
+/* line 5, ../sass/components/_main-detalis.scss */
 .main-detalis .card {
   border: none;
   margin: 30px;
 }
-/* line 5, ../sass/components/_main-detalis.scss */
+/* line 8, ../sass/components/_main-detalis.scss */
 .main-detalis .card .slider-img {
   height: 650px;
 }
-/* line 8, ../sass/components/_main-detalis.scss */
+/* line 11, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body {
   background: #F0F0F0;
   border-radius: 35px 0 0px 35px;
   padding: 30px 0 22px 40px;
 }
-/* line 15, ../sass/components/_main-detalis.scss */
+/* line 18, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .card-title {
   font-size: 40px;
   margin-top: 20px;
 }
-/* line 20, ../sass/components/_main-detalis.scss */
+/* line 23, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .card-text {
   font-size: 18px;
   font-family: "Avenir-book";
 }
-/* line 24, ../sass/components/_main-detalis.scss */
+/* line 27, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .btn {
   font-size: 14px;
   background: #113663;
   font-family: "Avenir-medium";
   color: #FFFFFF;
 }
-/* line 30, ../sass/components/_main-detalis.scss */
+/* line 33, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .div-2 {
   margin: 40px 0;
 }
-/* line 33, ../sass/components/_main-detalis.scss */
+/* line 36, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body h3 {
   color: #000000;
   font-family: "Avenir-medium";
   font-size: 32px;
 }
-/* line 38, ../sass/components/_main-detalis.scss */
+/* line 41, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body h4 {
   font-family: "Avenir-medium";
   font-size: 40px;
   color: #000000;
 }
-/* line 43, ../sass/components/_main-detalis.scss */
+/* line 46, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body span {
   font-size: 13px;
   color: #919191;
@@ -848,82 +887,82 @@ footer .footer-input .footer-btn {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 55, ../sass/components/_main-detalis.scss */
+  /* line 58, ../sass/components/_main-detalis.scss */
   .main-detalis .card .slider-img {
     height: 537px;
   }
-  /* line 58, ../sass/components/_main-detalis.scss */
+  /* line 61, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body {
     padding: 30px 0 23px 40px;
   }
-  /* line 60, ../sass/components/_main-detalis.scss */
+  /* line 63, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .img-name {
     max-width: 35%;
   }
-  /* line 63, ../sass/components/_main-detalis.scss */
+  /* line 66, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-title {
     font-size: 25px;
   }
-  /* line 66, ../sass/components/_main-detalis.scss */
+  /* line 69, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-text {
     font-size: 12px;
   }
-  /* line 69, ../sass/components/_main-detalis.scss */
+  /* line 72, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .btn {
     font-size: 11px;
   }
-  /* line 72, ../sass/components/_main-detalis.scss */
+  /* line 75, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h3 {
     font-size: 20px;
   }
-  /* line 75, ../sass/components/_main-detalis.scss */
+  /* line 78, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h4 {
     font-size: 23px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 86, ../sass/components/_main-detalis.scss */
+  /* line 89, ../sass/components/_main-detalis.scss */
   .main-detalis .card .slider-img {
     height: auto;
   }
-  /* line 89, ../sass/components/_main-detalis.scss */
+  /* line 92, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body {
     padding: 5px 0 0px 25px;
   }
-  /* line 91, ../sass/components/_main-detalis.scss */
+  /* line 94, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .img-name {
     max-width: 35%;
   }
-  /* line 94, ../sass/components/_main-detalis.scss */
+  /* line 97, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-title {
     font-size: 16px;
     margin-top: 9px;
   }
-  /* line 98, ../sass/components/_main-detalis.scss */
+  /* line 101, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-text {
     font-size: 8px;
   }
-  /* line 101, ../sass/components/_main-detalis.scss */
+  /* line 104, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .btn {
     font-size: 8px;
   }
-  /* line 104, ../sass/components/_main-detalis.scss */
+  /* line 107, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .div-2 {
     margin: 10px 0;
   }
-  /* line 107, ../sass/components/_main-detalis.scss */
+  /* line 110, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h3 {
     font-size: 14px;
   }
-  /* line 110, ../sass/components/_main-detalis.scss */
+  /* line 113, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h4 {
     font-size: 14px;
   }
-  /* line 113, ../sass/components/_main-detalis.scss */
+  /* line 116, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .pdf-img {
     max-width: 15%;
   }
-  /* line 116, ../sass/components/_main-detalis.scss */
+  /* line 119, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h6 {
     font-size: 10px;
   }
