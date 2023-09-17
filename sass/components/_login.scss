@@ -1,0 +1,116 @@
+.btn-white {
+    &:hover {
+        color: #000000;
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+    }
+}
+
+.btn-red {
+    padding: 10px !important;
+    margin-left: 12px;
+}
+
+.btn-blue {
+    background: #113563;
+    color: $light-color;
+    padding: 8px;
+    font-size: 18px;
+    // font-family: "Avenir-Heavy";
+    border-radius: 25px;
+    &:hover {
+        color: $light-color;
+    }
+}
+
+.btn-2 {
+    border: 2px solid #1C2323;
+    font-size: 14px;
+    padding: 8px;
+    // font-family: "Avenir-Heavy";
+    border-radius: 25px;
+    color: #1C2323;
+}
+
+.sign-up {
+    background: $gray-color;
+    padding: 50px 0;
+    .card {
+        background: $light-color;
+        border: none;
+        border-radius: 25px;
+        // max-width: 100vh;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        ul {
+            border-radius: $default-border-radius;
+            list-style: none;
+            display: flex;
+            margin-bottom: 50px;
+            justify-content: space-between;
+            padding: 2px 20px 2px 2px;
+            align-items: center;
+            border: 2px solid $blue-color;
+            .nav-link {
+                color: $blue-color;
+                font-family: "Avenir-medium";
+                background: transparent;
+                font-size: 30px;
+            }
+            .btn {
+                color: $light-color;
+                border: 1px solid #B72637;
+                background-color: $red-color;
+                padding: 0px 40px;
+                border-radius: $default-border-radius;
+            }
+            &:focus {
+                color: $light-color;
+                border: 1px solid #B72637;
+                background-color: $red-color;
+                padding: 0px 40px;
+                border-radius: $default-border-radius;
+                &:hover {
+                    background-color: $red-color;
+                }
+            }
+        }
+        .card-body {
+            .form-control {
+                border-radius: 25px;
+                background: #F0F0F0;
+                padding: 8px;
+            }
+            label {
+                color: #1C2323;
+                font-size: 14px;
+                font-family: "Avenir-medium";
+                display: flex;
+                padding-left: 30px;
+            }
+            .Account {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-red {
+        margin-left: 0;
+    }
+    .sign-up {
+        .card {
+            padding: 30px;
+            ul {
+                .nav-link {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

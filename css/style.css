@@ -1602,7 +1602,131 @@ footer .footer-input .footer-btn {
   opacity: 0.75;
 }
 
-/* line 30, ../sass/style.scss */
+/* line 2, ../sass/components/_login.scss */
+.btn-white:hover {
+  color: #000000;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+
+/* line 9, ../sass/components/_login.scss */
+.btn-red {
+  padding: 10px !important;
+  margin-left: 12px;
+}
+
+/* line 14, ../sass/components/_login.scss */
+.btn-blue {
+  background: #113563;
+  color: #FFFFFF;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 25px;
+}
+/* line 21, ../sass/components/_login.scss */
+.btn-blue:hover {
+  color: #FFFFFF;
+}
+
+/* line 26, ../sass/components/_login.scss */
+.btn-2 {
+  border: 2px solid #1C2323;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 25px;
+  color: #1C2323;
+}
+
+/* line 35, ../sass/components/_login.scss */
+.sign-up {
+  background: #F0F0F0;
+  padding: 50px 0;
+}
+/* line 38, ../sass/components/_login.scss */
+.sign-up .card {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 25px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+/* line 48, ../sass/components/_login.scss */
+.sign-up .card ul {
+  border-radius: 25px;
+  list-style: none;
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: space-between;
+  padding: 2px 20px 2px 2px;
+  align-items: center;
+  border: 2px solid #113663;
+}
+/* line 57, ../sass/components/_login.scss */
+.sign-up .card ul .nav-link {
+  color: #113663;
+  font-family: "Avenir-medium";
+  background: transparent;
+  font-size: 30px;
+}
+/* line 63, ../sass/components/_login.scss */
+.sign-up .card ul .btn {
+  color: #FFFFFF;
+  border: 1px solid #B72637;
+  background-color: #B72637;
+  padding: 0px 40px;
+  border-radius: 25px;
+}
+/* line 70, ../sass/components/_login.scss */
+.sign-up .card ul:focus {
+  color: #FFFFFF;
+  border: 1px solid #B72637;
+  background-color: #B72637;
+  padding: 0px 40px;
+  border-radius: 25px;
+}
+/* line 76, ../sass/components/_login.scss */
+.sign-up .card ul:focus:hover {
+  background-color: #B72637;
+}
+/* line 82, ../sass/components/_login.scss */
+.sign-up .card .card-body .form-control {
+  border-radius: 25px;
+  background: #F0F0F0;
+  padding: 8px;
+}
+/* line 87, ../sass/components/_login.scss */
+.sign-up .card .card-body label {
+  color: #1C2323;
+  font-size: 14px;
+  font-family: "Avenir-medium";
+  display: flex;
+  padding-left: 30px;
+}
+/* line 94, ../sass/components/_login.scss */
+.sign-up .card .card-body .Account {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 103, ../sass/components/_login.scss */
+  .btn-red {
+    margin-left: 0;
+  }
+
+  /* line 107, ../sass/components/_login.scss */
+  .sign-up .card {
+    padding: 30px;
+  }
+  /* line 110, ../sass/components/_login.scss */
+  .sign-up .card ul .nav-link {
+    font-size: 25px;
+  }
+}
+/* line 32, ../sass/style.scss */
 section {
   padding: 20px 0;
 }
