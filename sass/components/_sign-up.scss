@@ -1,0 +1,56 @@
+.sign-up {
+    h2 {
+        font-size: 30px;
+        font-family: "Avenir-medium";
+        color: $blue-color;
+    }
+    .uturn {
+        a {
+            text-decoration: none;
+            display: flex;
+            img {
+                transform: translateY(-10%);
+                margin-right: 25px;
+            }
+        }
+    }
+    .card {
+        padding: 35px;
+        .card-body {
+            select {
+                border-radius: 25px;
+                background: #F0F0F0;
+                padding: 8px;
+                font-family: "Avenir-medium";
+                border: none;
+                font-size: 14px;
+                color: #6a6464;
+                width: 100%;
+            }
+            .password {
+                position: relative;
+            }
+            .show {
+                position: absolute;
+                color: #777777;
+                font-size: 12px;
+                position: absolute;
+                top: 35%;
+                transform: translateY(50%);
+                left: 35%;
+            }
+            .show-2 {
+                position: absolute;
+                color: #777777;
+                font-size: 12px;
+                position: absolute;
+                top: 35%;
+                right: 11%;
+                transform: translateY(50%);
+            }
+            .address {
+                padding: 30px;
+            }
+        }
+    }
+}

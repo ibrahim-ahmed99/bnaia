@@ -632,27 +632,29 @@ footer * {
 }
 /* line 7, ../sass/components/_footer.scss */
 footer .footer-input input {
-  border-radius: 0;
-  border: 0;
+  margin-right: 10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
   border-bottom: 1px solid #FFFFFF;
   background: transparent;
 }
-/* line 12, ../sass/components/_footer.scss */
+/* line 15, ../sass/components/_footer.scss */
 footer .footer-input input::placeholder {
   color: #FFFFFF;
 }
-/* line 15, ../sass/components/_footer.scss */
+/* line 18, ../sass/components/_footer.scss */
 footer .footer-input input:focus {
   box-shadow: none;
   border-radius: none;
   background: transparent;
   color: #FFFFFF;
 }
-/* line 22, ../sass/components/_footer.scss */
+/* line 25, ../sass/components/_footer.scss */
 footer .footer-input .footer-btn {
   color: #000000;
   background-color: #FFFFFF;
   border: none;
+  border-radius: 25px;
   font-weight: bold;
   padding: 15px 50px;
 }
@@ -1696,8 +1698,10 @@ footer .footer-input .footer-btn {
   border-radius: 25px;
   background: #F0F0F0;
   padding: 8px;
+  font-family: "Avenir-medium";
+  font-size: 14px;
 }
-/* line 87, ../sass/components/_login.scss */
+/* line 89, ../sass/components/_login.scss */
 .sign-up .card .card-body label {
   color: #1C2323;
   font-size: 14px;
@@ -1705,28 +1709,443 @@ footer .footer-input .footer-btn {
   display: flex;
   padding-left: 30px;
 }
-/* line 94, ../sass/components/_login.scss */
+/* line 96, ../sass/components/_login.scss */
 .sign-up .card .card-body .Account {
   display: flex;
   justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 103, ../sass/components/_login.scss */
+  /* line 105, ../sass/components/_login.scss */
   .btn-red {
     margin-left: 0;
   }
 
-  /* line 107, ../sass/components/_login.scss */
+  /* line 109, ../sass/components/_login.scss */
   .sign-up .card {
     padding: 30px;
   }
-  /* line 110, ../sass/components/_login.scss */
+  /* line 112, ../sass/components/_login.scss */
   .sign-up .card ul .nav-link {
     font-size: 25px;
   }
 }
-/* line 32, ../sass/style.scss */
+/* line 2, ../sass/components/_sign-up.scss */
+.sign-up h2 {
+  font-size: 30px;
+  font-family: "Avenir-medium";
+  color: #113663;
+}
+/* line 8, ../sass/components/_sign-up.scss */
+.sign-up .uturn a {
+  text-decoration: none;
+  display: flex;
+}
+/* line 11, ../sass/components/_sign-up.scss */
+.sign-up .uturn a img {
+  transform: translateY(-10%);
+  margin-right: 25px;
+}
+/* line 17, ../sass/components/_sign-up.scss */
+.sign-up .card {
+  padding: 35px;
+}
+/* line 20, ../sass/components/_sign-up.scss */
+.sign-up .card .card-body select {
+  border-radius: 25px;
+  background: #F0F0F0;
+  padding: 8px;
+  font-family: "Avenir-medium";
+  border: none;
+  font-size: 14px;
+  color: #6a6464;
+  width: 100%;
+}
+/* line 30, ../sass/components/_sign-up.scss */
+.sign-up .card .card-body .password {
+  position: relative;
+}
+/* line 33, ../sass/components/_sign-up.scss */
+.sign-up .card .card-body .show {
+  position: absolute;
+  color: #777777;
+  font-size: 12px;
+  position: absolute;
+  top: 35%;
+  transform: translateY(50%);
+  left: 35%;
+}
+/* line 42, ../sass/components/_sign-up.scss */
+.sign-up .card .card-body .show-2 {
+  position: absolute;
+  color: #777777;
+  font-size: 12px;
+  position: absolute;
+  top: 35%;
+  right: 11%;
+  transform: translateY(50%);
+}
+/* line 51, ../sass/components/_sign-up.scss */
+.sign-up .card .card-body .address {
+  padding: 30px;
+}
+
+/* line 1, ../sass/components/_price.scss */
+.main-price {
+  padding: 80px 0 0 0;
+}
+/* line 3, ../sass/components/_price.scss */
+.main-price .main-card {
+  background: #113663;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  padding: 65px 0 15px;
+}
+/* line 12, ../sass/components/_price.scss */
+.main-price .main-card .plus-icon {
+  border-radius: 50%;
+  padding: 45px;
+  background: #FFFFFF;
+}
+/* line 16, ../sass/components/_price.scss */
+.main-price .main-card .plus-icon .fa-plus {
+  color: #000000;
+  font-size: 35px;
+}
+/* line 22, ../sass/components/_price.scss */
+.main-price .card-content {
+  margin-top: 60px;
+  text-align: center;
+}
+/* line 25, ../sass/components/_price.scss */
+.main-price .card-content h5 {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-family: "Avenir-medium";
+}
+/* line 30, ../sass/components/_price.scss */
+.main-price .card-content .average {
+  color: #FFFFFF;
+  font-family: "Avenir-medium";
+  border: 1px solid #FFFFFF;
+  border-radius: 23px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+/* line 39, ../sass/components/_price.scss */
+.main-price .card-content .average h6 {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 42, ../sass/components/_price.scss */
+.main-price .card-content .average h6 img {
+  max-width: 85%;
+}
+/* line 47, ../sass/components/_price.scss */
+.main-price .card-content .ul {
+  text-align: left;
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* line 54, ../sass/components/_price.scss */
+.main-price .card-content .ul li {
+  color: #FFFFFF;
+  font-family: "Avenir-medium";
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+/* line 64, ../sass/components/_price.scss */
+.main-price .main-content {
+  display: flex;
+  align-items: center;
+}
+/* line 67, ../sass/components/_price.scss */
+.main-price .main-content h1 {
+  font-size: 40px;
+  margin-right: 10px;
+}
+/* line 73, ../sass/components/_price.scss */
+.main-price .description-name .card {
+  border-radius: 25px;
+  border: 1px solid;
+  padding: 20px;
+}
+/* line 77, ../sass/components/_price.scss */
+.main-price .description-name .card h4 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Avenir-medium";
+}
+/* line 83, ../sass/components/_price.scss */
+.main-price .description-name .card a {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 87, ../sass/components/_price.scss */
+.main-price .description-name .card p {
+  font-size: 15px;
+  font-family: "Avenir-book";
+}
+/* line 94, ../sass/components/_price.scss */
+.main-price .buttons .btn {
+  font-size: 18px;
+  font-family: "Avenir-medium";
+  border: 1px solid;
+  margin-right: 10px;
+}
+/* line 101, ../sass/components/_price.scss */
+.main-price .table {
+  margin-top: -10%;
+  background: #F0F0F0;
+  margin-bottom: 0;
+  padding: 40px 0 80px 0;
+}
+/* line 106, ../sass/components/_price.scss */
+.main-price .table .nav-pills {
+  justify-content: left;
+  margin-bottom: 70px;
+}
+/* line 109, ../sass/components/_price.scss */
+.main-price .table .nav-pills .nav-item {
+  margin-right: 15px;
+}
+/* line 111, ../sass/components/_price.scss */
+.main-price .table .nav-pills .nav-item .nav-link {
+  border: 1px solid;
+  border-radius: 25px;
+  font-family: "Avenir-medium";
+  font-size: 18px;
+}
+/* line 118, ../sass/components/_price.scss */
+.main-price .table .nav-pills .special {
+  transform: translateY(15%);
+}
+/* line 123, ../sass/components/_price.scss */
+.main-price .table .tab-content .card {
+  border-radius: 25px;
+  position: relative;
+}
+/* line 126, ../sass/components/_price.scss */
+.main-price .table .tab-content .card .card-body {
+  background: #F0F0F0;
+  padding: 7px 0;
+}
+/* line 129, ../sass/components/_price.scss */
+.main-price .table .tab-content .card .card-body .card-text {
+  font-size: 13px;
+}
+/* line 133, ../sass/components/_price.scss */
+.main-price .table .tab-content .card .mine-select {
+  position: absolute;
+  font-family: "Avenir-medium";
+  font-size: 15px;
+  border: 1px solid;
+  border-radius: 25px;
+  width: 35%;
+  height: 30px;
+  left: 60%;
+  top: 5%;
+  text-align: center;
+}
+/* line 151, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card {
+  border: 1px solid;
+  border-radius: 25px;
+  height: 84%;
+  position: relative;
+}
+/* line 156, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .plus-btn {
+  border: none;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+/* line 165, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .fa-plus {
+  font-size: 50px;
+  color: #000000;
+}
+/* line 169, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+/* line 174, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .ul .like-link {
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 6px 20px;
+  background: #F0F0F0;
+  color: #777777;
+}
+/* line 181, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .ul .dislike-link {
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 6px 20px;
+  background: #113663;
+  color: #FFFFFF;
+}
+/* line 189, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .image {
+  display: flex;
+}
+/* line 191, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .image .photo {
+  text-align: center;
+  padding: 100px;
+  border-radius: 20px;
+  background: #F0F0F0;
+  margin-bottom: 50px;
+}
+/* line 198, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .image .fa-image,
+.main-price .table .tab-content .special-card .image .add-photo {
+  color: #777;
+  font-size: 30px;
+}
+/* line 203, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .image .add {
+  border: none;
+  margin-left: 20px;
+  padding: 15px;
+  border-radius: 20px;
+}
+/* line 210, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .form-control {
+  border-radius: 25px;
+  background: #F0F0F0;
+  padding: 4px;
+  font-family: "Avenir-medium";
+  font-size: 13px;
+}
+/* line 216, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .form-control:focus {
+  box-shadow: none;
+  border: none;
+}
+/* line 221, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .Description {
+  padding: 60px;
+  border-radius: 20px;
+}
+/* line 225, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .tags {
+  padding: 20px;
+}
+/* line 228, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .select {
+  border-radius: 25px;
+  background: #F0F0F0;
+  padding: 4px;
+  font-family: "Avenir-medium";
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  color: #777777;
+}
+/* line 238, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .modal-footer {
+  background: #113663;
+}
+/* line 240, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .modal-footer .btn {
+  border: 1px solid;
+  border-radius: 25px;
+  background: #F0F0F0;
+  color: #113663;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+/* line 248, ../sass/components/_price.scss */
+.main-price .table .tab-content .special-card .modal-footer .btn-1 {
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  background: #113663;
+  color: #FFFFFF;
+  padding: 5px 15px;
+  font-size: 14px;
+}
+/* line 258, ../sass/components/_price.scss */
+.main-price .table .tab-content .card-title {
+  font-size: 18px;
+  font-family: "Avenir-medium";
+  text-align: center;
+}
+/* line 263, ../sass/components/_price.scss */
+.main-price .table .tab-content .select-servicrs {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  padding: 10px 20px;
+  font-family: "Avenir-medium";
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* line 274, ../sass/components/_price.scss */
+.main-price .table .tab-content .add-new {
+  border: none;
+  font-family: "Avenir-medium";
+  font-size: 18px;
+}
+/* line 278, ../sass/components/_price.scss */
+.main-price .table .tab-content .add-new a {
+  text-decoration: none;
+  padding: 1px;
+  color: #000;
+  border-radius: 50%;
+  border: 1px solid;
+  margin-right: 5px;
+}
+/* line 285, ../sass/components/_price.scss */
+.main-price .table .tab-content .add-new a .fa-plus {
+  transform: translateX(3px);
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 295, ../sass/components/_price.scss */
+  .main-price .main-content h1 {
+    font-size: 28px;
+  }
+
+  /* line 298, ../sass/components/_price.scss */
+  .main-price .table .tab-content .special-card {
+    height: 90%;
+  }
+
+  /* line 301, ../sass/components/_price.scss */
+  .main-price .table .tab-content .special-card .plus-btn {
+    left: 40%;
+  }
+
+  /* line 304, ../sass/components/_price.scss */
+  .main-price .table {
+    margin-top: 0%;
+  }
+
+  /* line 307, ../sass/components/_price.scss */
+  .main-price .table .nav-pills .special {
+    margin: auto;
+  }
+}
+/* line 35, ../sass/style.scss */
 section {
   padding: 20px 0;
 }

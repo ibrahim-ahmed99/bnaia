@@ -1,0 +1,310 @@
+.main-price {
+    padding: 80px 0 0 0;
+    .main-card {
+        background: $blue-color;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        padding: 65px 0 15px;
+        // height: 400px;
+        .plus-icon {
+            border-radius: 50%;
+            padding: 45px;
+            background: $light-color;
+            .fa-plus {
+                color: $dark-color;
+                font-size: 35px;
+            }
+        }
+    }
+    .card-content {
+        margin-top: 60px;
+        text-align: center;
+        h5 {
+            font-size: 18px;
+            color: $light-color;
+            font-family: "Avenir-medium";
+        }
+        .average {
+            color: $light-color;
+            font-family: "Avenir-medium";
+            border: 1px solid $light-color;
+            border-radius: 23px;
+            display: flex;
+            flex-direction: column;
+            // width: 100vh;
+            padding: 15px;
+            h6 {
+                display: flex;
+                justify-content: space-between;
+                img {
+                    max-width: 85%;
+                }
+            }
+        }
+        .ul {
+            text-align: left;
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            li {
+                color: $light-color;
+                font-family: "Avenir-medium";
+                font-size: 18px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .main-content {
+        display: flex;
+        align-items: center;
+        h1 {
+            font-size: 40px;
+            margin-right: 10px;
+        }
+    }
+    .description-name {
+        .card {
+            border-radius: 25px;
+            border: 1px solid;
+            padding: 20px;
+            h4 {
+                display: flex;
+                justify-content: space-between;
+                font-size: 16px;
+                font-family: "Avenir-medium";
+            }
+            a {
+                text-decoration: none;
+                color: $dark-color;
+            }
+            p {
+                font-size: 15px;
+                font-family: "Avenir-book";
+            }
+        }
+    }
+    .buttons {
+        .btn {
+            font-size: 18px;
+            font-family: "Avenir-medium";
+            border: 1px solid;
+            margin-right: 10px;
+        }
+    }
+    .table {
+        margin-top: -10%;
+        background: $gray-color;
+        margin-bottom: 0;
+        padding: 40px 0 80px 0;
+        .nav-pills {
+            justify-content: left;
+            margin-bottom: 70px;
+            .nav-item {
+                margin-right: 15px;
+                .nav-link {
+                    border: 1px solid;
+                    border-radius: 25px;
+                    font-family: "Avenir-medium";
+                    font-size: 18px;
+                }
+            }
+            .special {
+                transform: translateY(15%);
+            }
+        }
+        .tab-content {
+            .card {
+                border-radius: 25px;
+                position: relative;
+                .card-body {
+                    background: #F0F0F0;
+                    padding: 7px 0;
+                    .card-text {
+                        font-size: 13px;
+                    }
+                }
+                .mine-select {
+                    position: absolute;
+                    font-family: "Avenir-medium";
+                    font-size: 15px;
+                    border: 1px solid;
+                    border-radius: 25px;
+                    width: 35%;
+                    height: 30px;
+                    left: 60%;
+                    top: 5%;
+                    text-align: center;
+                }
+                // img {
+                //     &:hover {
+                //         scale: 1.01;
+                //     }
+                // }
+            }
+            .special-card {
+                border: 1px solid;
+                border-radius: 25px;
+                height: 84%;
+                position: relative;
+                .plus-btn {
+                    // padding: 50% 40%;
+                    border: none;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    top: 40%;
+                    left: 35%;
+                }
+                .fa-plus {
+                    font-size: 50px;
+                    color: $dark-color;
+                }
+                .ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                    .like-link {
+                        text-decoration: none;
+                        border-radius: 25px;
+                        padding: 6px 20px;
+                        background: $gray-color;
+                        color: #777777;
+                    }
+                    .dislike-link {
+                        text-decoration: none;
+                        border-radius: 25px;
+                        padding: 6px 20px;
+                        background: $blue-color;
+                        color: $light-color;
+                    }
+                }
+                .image {
+                    display: flex;
+                    .photo {
+                        text-align: center;
+                        padding: 100px;
+                        border-radius: 20px;
+                        background: $gray-color;
+                        margin-bottom: 50px;
+                    }
+                    .fa-image,
+                    .add-photo {
+                        color: #777;
+                        font-size: 30px;
+                    }
+                    .add {
+                        border: none;
+                        margin-left: 20px;
+                        padding: 15px;
+                        border-radius: 20px;
+                    }
+                }
+                .form-control {
+                    border-radius: 25px;
+                    background: $gray-color;
+                    padding: 4px;
+                    font-family: "Avenir-medium";
+                    font-size: 13px;
+                    &:focus {
+                        box-shadow: none;
+                        border: none;
+                    }
+                }
+                .Description {
+                    padding: 60px;
+                    border-radius: 20px;
+                }
+                .tags {
+                    padding: 20px;
+                }
+                .select {
+                    border-radius: 25px;
+                    background: $gray-color;
+                    padding: 4px;
+                    font-family: "Avenir-medium";
+                    font-size: 14px;
+                    width: 100%;
+                    border: none;
+                    color: #777777;
+                }
+                .modal-footer {
+                    background: $blue-color;
+                    .btn {
+                        border: 1px solid;
+                        border-radius: 25px;
+                        background: $gray-color;
+                        color: $blue-color;
+                        padding: 5px 15px;
+                        font-size: 14px;
+                    }
+                    .btn-1 {
+                        border: 1px solid $light-color;
+                        border-radius: 25px;
+                        background: $blue-color;
+                        color: $light-color;
+                        padding: 5px 15px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .card-title {
+                font-size: 18px;
+                font-family: "Avenir-medium";
+                text-align: center;
+            }
+            .select-servicrs {
+                display: flex;
+                flex-direction: column;
+                border: none;
+                border-radius: 25px;
+                width: 100%;
+                padding: 10px 20px;
+                font-family: "Avenir-medium";
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            .add-new {
+                border: none;
+                font-family: "Avenir-medium";
+                font-size: 18px;
+                a {
+                    text-decoration: none;
+                    padding: 1px;
+                    color: #000;
+                    border-radius: 50%;
+                    border: 1px solid;
+                    margin-right: 5px;
+                    .fa-plus {
+                        transform: translateX(3px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-price .main-content h1 {
+        font-size: 28px;
+    }
+    .main-price .table .tab-content .special-card {
+        height: 90%;
+    }
+    .main-price .table .tab-content .special-card .plus-btn {
+        left: 40%;
+    }
+    .main-price .table {
+        margin-top: 0%;
+    }
+    .main-price .table .nav-pills .special {
+        margin: auto;
+    }
+}

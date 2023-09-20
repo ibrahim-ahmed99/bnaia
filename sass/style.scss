@@ -29,6 +29,9 @@
 @import "./vendors/slick-theme.scss";
 //login//
 @import "./components/login";
+@import "./components/sign-up";
+//price//
+@import "./components/price";
 section {
     padding: 20px 0;
 }

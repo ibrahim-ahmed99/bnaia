@@ -107,38 +107,76 @@
 
     <section class="sign-up">
         <div class="container">
+            <div class="uturn">
+                <a href="login.html">
+                    <img src="img/Group 58.svg" alt="">
+                    <h2>Back</h2>
+                </a>
+            </div>
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-lg-6 col-12">
+
                     <div class="card">
                         <div>
-                            <ul class="">
-                                <li class="nav-item">
-                                    <a class="nav-link btn avtive " aria-current="page" href="">Customer
-                                </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="">Professional </a>
-                                </li>
-
-
-                            </ul>
+                            <h2>Create Customer Account</h2>
                         </div>
 
                         <div class="card-body">
-                            <input type="email" class="form-control mb-4" name="email" id="email" placeholder="Email / Phone" data-rule="email" data-msg="Please enter a valid email">
+                            <div class="row">
+                                <div class="col-6">
+                                    <input id="name" type="text" class="form-control" name="name" placeholder=" First Name" value="" required="" aria-required="true" fdprocessedid="47ogf">
+                                </div>
+                                <div class="col-6">
+                                    <input id="name" type="text" class="form-control" name="name" placeholder=" Last Name" value="" required="" aria-required="true" fdprocessedid="47ogf">
 
-                            <input type="password" id="password" class="form-control valid" name="password" placeholder=" Password" required="" aria-required="true" fdprocessedid="echs09" aria-autocomplete="list" aria-invalid="false">
-                            <a href="" style="text-decoration: none;">
-                                <label class="mb-5 mt-3" for="password"> Forgot Your Password ?</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" id="phone" class="form-control mt-4" name="phone" placeholder=" Phone" value="" required="" aria-required="true" fdprocessedid="fjbcei">
 
-                            </a>
-                            <a class="nav-link  btn-blue mb-5 " aria-current="page" href="">Login</a>
-                            <a href="" style="text-decoration: none; text-align: center;">
-                                <label class="mb-3 mt-3 Account" for="btn-2"> You Don’t Have Account ?</label>
+                                </div>
+                                <div class="col-6">
 
-                            </a>
-                            <a class="nav-link  btn-2 " aria-current="page" href="signup.html">Create New Account</a>
+                                    <input type="email" class="form-control mb-4 mt-4" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
+                                </div>
+                                <div class="col-6">
+
+                                    <input type="password" id="password" class="form-control valid" name="password" placeholder=" Password" required="" aria-required="true" fdprocessedid="echs09" aria-autocomplete="list" aria-invalid="false">
+                                    <a href="" style="text-decoration: none;">
+                                        <label class="mb-5 mt-3 show" for="password"> show</label>
+
+                                    </a>
+                                </div>
+                                <div class="col-6">
+
+
+                                    <input type="password" id="password_confirmation" class="password form-control" name="password_confirmation" placeholder="   Confirm Password" required="" aria-required="true" fdprocessedid="uv14od">
+                                    <a href="" style="text-decoration: none;">
+                                        <label class="mb-5 mt-3 show-2" for="password_confirmation"> show</label>
+
+                                    </a>
+                                </div>
+                                <div class="col-6 mt-4 mb-4">
+                                    <select class="select active" name="cars" id="cars">
+                    
+                                        <option value="City"> City</option>
+                                        <option value="cairo">cairo</option>
+                                        <option value="alexandria">alexandria</option>
+                                        <option value="giza">giza</option>
+                                      </select>
+                                </div>
+                                <div class="col-6 mt-4 mb-4">
+                                    <input id="name" type="text" class="form-control" name="name" placeholder=" Zone " value="" required="" aria-required="true" fdprocessedid="47ogf">
+                                </div>
+                                <div class="col-12 mb-5">
+                                    <input type="text" id="more_activity" class="form-control address" name="more_activity" value="" placeholder="Full Address" fdprocessedid="rfezyj">
+                                </div>
+                            </div>
+
+
+
+
+                            <a class="nav-link  btn-blue mb-3 " aria-current="page" href="">Sign Up</a>
 
 
                         </div>

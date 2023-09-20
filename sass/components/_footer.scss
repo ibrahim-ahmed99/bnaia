@@ -5,8 +5,11 @@ footer {
     }
     .footer-input {
         input {
-            border-radius: 0;
-            border: 0;
+            // border-radius: 0;
+            margin-right: 10px;
+            // border: 0;
+            border: 1px solid #FFFFFF;
+            border-radius: 25px;
             border-bottom: 1px solid $light-color;
             background: transparent;
             &::placeholder {
@@ -23,6 +26,7 @@ footer {
             color: $dark-color;
             background-color: $light-color;
             border: none;
+            border-radius: 25px;
             font-weight: bold;
             padding: 15px 50px;
         }
