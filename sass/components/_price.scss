@@ -116,7 +116,12 @@
                 }
             }
             .special {
-                transform: translateY(15%);
+                border: none;
+                transform: translateY(4px);
+                &:focus {
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
             }
         }
         .tab-content {
@@ -142,11 +147,6 @@
                     top: 5%;
                     text-align: center;
                 }
-                // img {
-                //     &:hover {
-                //         scale: 1.01;
-                //     }
-                // }
             }
             .special-card {
                 border: 1px solid;
@@ -284,6 +284,203 @@
                     margin-right: 5px;
                     .fa-plus {
                         transform: translateX(3px);
+                    }
+                }
+            }
+            .rating {
+                display: flex;
+                align-items: center;
+                span {
+                    font-size: 35px;
+                    font-weight: bold;
+                    margin-right: 10px;
+                }
+                .checked {
+                    color: gold;
+                    font-size: 25px;
+                }
+                .checked-1 {
+                    color: $offwhite;
+                    font-size: 25px;
+                }
+            }
+            .reviews {
+                border-top: 1px solid;
+                border-bottom: 1px solid;
+                font-family: "Avenir-medium";
+                font-size: 18px;
+                span {
+                    display: flex;
+                    font-size: 20px;
+                    font-weight: bold;
+                    align-items: baseline;
+                    h4 {
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                }
+                .card {
+                    display: flex;
+                    background: transparent;
+                    flex-direction: row;
+                    align-items: center;
+                    .card-body {
+                        display: flex;
+                        flex-direction: column;
+                        .card-title {
+                            text-align: left;
+                        }
+                    }
+                    .btn {
+                        border-radius: 50%;
+                        background: black;
+                        margin-right: 10px;
+                        width: 40px;
+                        height: 40px;
+                        .fa-user {
+                            color: white;
+                            transform: translateY(5px);
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .messages {
+                background: $light-color;
+                padding: 20px;
+                border-radius: 25px;
+                .nav-link {
+                    background: transparent;
+                    border-radius: 25px 0 0 25px;
+                    height: 120px;
+                }
+                .nav-pills {
+                    border-right: 1px solid;
+                }
+                .nav-pills .nav-link.active,
+                .nav-pills .show>.nav-link {
+                    // color: $light-color;
+                    .card-body {
+                        color: $light-color;
+                        span {
+                            color: $light-color
+                        }
+                    }
+                    background-color: $blue-color;
+                }
+                .card {
+                    display: flex;
+                    background: transparent;
+                    flex-direction: row;
+                    align-items: center;
+                    .card-body {
+                        display: flex;
+                        flex-direction: column;
+                        background: transparent;
+                        color: $dark-color;
+                        .card-title {
+                            text-align: left;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            span {
+                                font-size: 12px;
+                                color: #777;
+                                .fa-chevron-right {
+                                    font-size: 17px;
+                                    transform: translateY(2px);
+                                    padding-left: 5px;
+                                }
+                            }
+                        }
+                    }
+                    .btn {
+                        border-radius: 50%;
+                        background: $gray-color;
+                        margin-right: 10px;
+                        width: 40px;
+                        height: 40px;
+                        .fa-user {
+                            color: black;
+                            transform: translateY(5px);
+                            font-size: 15px;
+                        }
+                    }
+                }
+                .sms {
+                    padding: 10px;
+                    .card-header {
+                        text-align: right;
+                        a {
+                            color: #FF0D0D;
+                            text-decoration: none;
+                        }
+                    }
+                    .card-footer {
+                        border-top: 2px solid #777;
+                        margin-top: 100%;
+                        padding-top: 20px;
+                        width: 100%;
+                        .form-control {
+                            border: 1px solid;
+                            padding: 10px 0 50px 20px;
+                            border-radius: 20px;
+                            color: #777;
+                        }
+                        a {
+                            padding: 10px 20px;
+                            background: $gray-color;
+                            color: $dark-color;
+                            text-decoration: none;
+                            border-radius: 25px;
+                        }
+                    }
+                    .question {
+                        background: $gray-color;
+                        color: $dark-color;
+                        margin: auto;
+                        border-radius: 25px;
+                        max-width: 85%;
+                        padding: 20px;
+                        font-size: 12px;
+                    }
+                    .question-btn {
+                        border-radius: 50%;
+                        background: $gray-color;
+                        margin-right: 10px;
+                        width: 40px;
+                        height: 40px;
+                        .fa-user {
+                            color: black;
+                            transform: translateY(5px);
+                            font-size: 15px;
+                        }
+                    }
+                    h6 {
+                        font-size: 12px;
+                        color: #000;
+                        font-family: "Avenir-book";
+                    }
+                    .answer-btn {
+                        border-radius: 50%;
+                        background: $blue-color;
+                        margin-right: 10px;
+                        width: 40px;
+                        height: 40px;
+                        .fa-user {
+                            color: white;
+                            transform: translateY(5px);
+                            font-size: 15px;
+                        }
+                    }
+                    .answer {
+                        background: $blue-color;
+                        color: $light-color;
+                        margin: auto;
+                        border-radius: 25px;
+                        max-width: 85%;
+                        padding: 20px;
+                        font-size: 12px;
                     }
                 }
             }

@@ -1928,23 +1928,29 @@ footer .footer-input .footer-btn {
 }
 /* line 118, ../sass/components/_price.scss */
 .main-price .table .nav-pills .special {
-  transform: translateY(15%);
+  border: none;
+  transform: translateY(4px);
 }
-/* line 123, ../sass/components/_price.scss */
+/* line 121, ../sass/components/_price.scss */
+.main-price .table .nav-pills .special:focus {
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* line 128, ../sass/components/_price.scss */
 .main-price .table .tab-content .card {
   border-radius: 25px;
   position: relative;
 }
-/* line 126, ../sass/components/_price.scss */
+/* line 131, ../sass/components/_price.scss */
 .main-price .table .tab-content .card .card-body {
   background: #F0F0F0;
   padding: 7px 0;
 }
-/* line 129, ../sass/components/_price.scss */
+/* line 134, ../sass/components/_price.scss */
 .main-price .table .tab-content .card .card-body .card-text {
   font-size: 13px;
 }
-/* line 133, ../sass/components/_price.scss */
+/* line 138, ../sass/components/_price.scss */
 .main-price .table .tab-content .card .mine-select {
   position: absolute;
   font-family: "Avenir-medium";
@@ -2118,29 +2124,265 @@ footer .footer-input .footer-btn {
 .main-price .table .tab-content .add-new a .fa-plus {
   transform: translateX(3px);
 }
+/* line 290, ../sass/components/_price.scss */
+.main-price .table .tab-content .rating {
+  display: flex;
+  align-items: center;
+}
+/* line 293, ../sass/components/_price.scss */
+.main-price .table .tab-content .rating span {
+  font-size: 35px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+/* line 298, ../sass/components/_price.scss */
+.main-price .table .tab-content .rating .checked {
+  color: gold;
+  font-size: 25px;
+}
+/* line 302, ../sass/components/_price.scss */
+.main-price .table .tab-content .rating .checked-1 {
+  color: #ACACAC;
+  font-size: 25px;
+}
+/* line 307, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  font-family: "Avenir-medium";
+  font-size: 18px;
+}
+/* line 312, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews span {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: baseline;
+}
+/* line 317, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews span h4 {
+  margin-left: 10px;
+  font-size: 20px;
+}
+/* line 322, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews .card {
+  display: flex;
+  background: transparent;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 327, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews .card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+/* line 330, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews .card .card-body .card-title {
+  text-align: left;
+}
+/* line 334, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews .card .btn {
+  border-radius: 50%;
+  background: black;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+/* line 340, ../sass/components/_price.scss */
+.main-price .table .tab-content .reviews .card .btn .fa-user {
+  color: white;
+  transform: translateY(5px);
+  font-size: 15px;
+}
+/* line 348, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 25px;
+}
+/* line 352, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .nav-link {
+  background: transparent;
+  border-radius: 25px 0 0 25px;
+  height: 120px;
+}
+/* line 357, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .nav-pills {
+  border-right: 1px solid;
+}
+/* line 360, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .nav-pills .nav-link.active,
+.main-price .table .tab-content .messages .nav-pills .show > .nav-link {
+  background-color: #113663;
+}
+/* line 363, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .nav-pills .nav-link.active .card-body,
+.main-price .table .tab-content .messages .nav-pills .show > .nav-link .card-body {
+  color: #FFFFFF;
+}
+/* line 365, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .nav-pills .nav-link.active .card-body span,
+.main-price .table .tab-content .messages .nav-pills .show > .nav-link .card-body span {
+  color: #FFFFFF;
+}
+/* line 371, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card {
+  display: flex;
+  background: transparent;
+  flex-direction: row;
+  align-items: center;
+}
+/* line 376, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card .card-body {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  color: #000000;
+}
+/* line 381, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card .card-body .card-title {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 386, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card .card-body .card-title span {
+  font-size: 12px;
+  color: #777;
+}
+/* line 389, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card .card-body .card-title span .fa-chevron-right {
+  font-size: 17px;
+  transform: translateY(2px);
+  padding-left: 5px;
+}
+/* line 397, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card .btn {
+  border-radius: 50%;
+  background: #F0F0F0;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+/* line 403, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .card .btn .fa-user {
+  color: black;
+  transform: translateY(5px);
+  font-size: 15px;
+}
+/* line 410, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms {
+  padding: 10px;
+}
+/* line 412, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .card-header {
+  text-align: right;
+}
+/* line 414, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .card-header a {
+  color: #FF0D0D;
+  text-decoration: none;
+}
+/* line 419, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .card-footer {
+  border-top: 2px solid #777;
+  margin-top: 100%;
+  padding-top: 20px;
+  width: 100%;
+}
+/* line 424, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .card-footer .form-control {
+  border: 1px solid;
+  padding: 10px 0 50px 20px;
+  border-radius: 20px;
+  color: #777;
+}
+/* line 430, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .card-footer a {
+  padding: 10px 20px;
+  background: #F0F0F0;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 25px;
+}
+/* line 438, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .question {
+  background: #F0F0F0;
+  color: #000000;
+  margin: auto;
+  border-radius: 25px;
+  max-width: 85%;
+  padding: 20px;
+  font-size: 12px;
+}
+/* line 447, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .question-btn {
+  border-radius: 50%;
+  background: #F0F0F0;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+/* line 453, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .question-btn .fa-user {
+  color: black;
+  transform: translateY(5px);
+  font-size: 15px;
+}
+/* line 459, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms h6 {
+  font-size: 12px;
+  color: #000;
+  font-family: "Avenir-book";
+}
+/* line 464, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .answer-btn {
+  border-radius: 50%;
+  background: #113663;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+/* line 470, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .answer-btn .fa-user {
+  color: white;
+  transform: translateY(5px);
+  font-size: 15px;
+}
+/* line 476, ../sass/components/_price.scss */
+.main-price .table .tab-content .messages .sms .answer {
+  background: #113663;
+  color: #FFFFFF;
+  margin: auto;
+  border-radius: 25px;
+  max-width: 85%;
+  padding: 20px;
+  font-size: 12px;
+}
 
 @media screen and (max-width: 1024px) {
-  /* line 295, ../sass/components/_price.scss */
+  /* line 492, ../sass/components/_price.scss */
   .main-price .main-content h1 {
     font-size: 28px;
   }
 
-  /* line 298, ../sass/components/_price.scss */
+  /* line 495, ../sass/components/_price.scss */
   .main-price .table .tab-content .special-card {
     height: 90%;
   }
 
-  /* line 301, ../sass/components/_price.scss */
+  /* line 498, ../sass/components/_price.scss */
   .main-price .table .tab-content .special-card .plus-btn {
     left: 40%;
   }
 
-  /* line 304, ../sass/components/_price.scss */
+  /* line 501, ../sass/components/_price.scss */
   .main-price .table {
     margin-top: 0%;
   }
 
-  /* line 307, ../sass/components/_price.scss */
+  /* line 504, ../sass/components/_price.scss */
   .main-price .table .nav-pills .special {
     margin: auto;
   }
