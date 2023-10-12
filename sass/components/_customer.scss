@@ -1,0 +1,681 @@
+.main-price {
+    padding: 80px 0 0 0;
+    .main-card {
+        background: $red-color !important;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 25px;
+        padding: 65px 0 15px;
+        // height: 400px;
+        .plus-icon {
+            border-radius: 50%;
+            padding: 45px;
+            background: $light-color;
+            .fa-plus {
+                color: $dark-color;
+                font-size: 35px;
+            }
+        }
+    }
+    .card-content {
+        margin-top: 60px;
+        text-align: center;
+        h5 {
+            font-size: 18px;
+            color: $light-color;
+            font-family: "Avenir-medium";
+        }
+        .ul {
+            text-align: left;
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            li {
+                color: $light-color;
+                font-family: "Avenir-medium";
+                font-size: 18px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .main-content {
+        display: flex;
+        align-items: center;
+        h1 {
+            font-size: 40px;
+            margin-right: 10px;
+        }
+    }
+    .description-name {
+        .card {
+            border-radius: 25px;
+            border: 1px solid;
+            padding: 20px;
+            h4 {
+                display: flex;
+                justify-content: space-between;
+                font-size: 16px;
+                font-family: "Avenir-medium";
+            }
+            a {
+                text-decoration: none;
+                color: $dark-color;
+            }
+            p {
+                font-size: 15px;
+                font-family: "Avenir-book";
+            }
+        }
+    }
+    .main-table {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        .buttons {
+            .btn {
+                font-size: 18px;
+                font-family: "Avenir-medium";
+                border: 1px solid;
+                margin-right: 10px;
+            }
+        }
+        .special {
+            background: transparent;
+            border: none;
+        }
+    }
+    .table {
+        margin-top: -4%;
+        background: $gray-color;
+        margin-bottom: 0;
+        padding: 40px 0 80px 0;
+        .nav-pills {
+            justify-content: left;
+            margin-bottom: 70px;
+            .nav-item {
+                margin-right: 7px;
+                .nav-link {
+                    border: 1px solid;
+                    border-radius: 25px;
+                    font-family: "Avenir-medium";
+                    font-size: 15px;
+                }
+            }
+            .special {
+                border: none;
+                transform: translateY(4px);
+                &:focus {
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+            }
+        }
+        form {
+            label {
+                font-size: 18px;
+                font-family: "gt-regular";
+            }
+            select.active {
+                background: #113663;
+                border: 2px solid #113663;
+                color: #FFFFFF;
+            }
+            select {
+                border: 2px solid #000;
+                border-radius: 25px;
+                color: #000000;
+                padding: 4px;
+                font-size: 13px;
+                margin-inline: 0px;
+                font-family: "Avenir-book";
+            }
+        }
+        .tab-content {
+            .card {
+                border-radius: 25px;
+                position: relative;
+                .card-body {
+                    background: #F0F0F0;
+                    padding: 7px 0;
+                    .card-text {
+                        font-size: 13px;
+                    }
+                }
+                .mine-select {
+                    position: absolute;
+                    font-family: "Avenir-medium";
+                    font-size: 15px;
+                    border: 1px solid;
+                    border-radius: 25px;
+                    width: 35%;
+                    height: 30px;
+                    left: 60%;
+                    top: 5%;
+                    text-align: center;
+                }
+            }
+            .special-card {
+                border: 1px solid;
+                border-radius: 25px;
+                height: 84%;
+                position: relative;
+                .plus-btn {
+                    // padding: 50% 40%;
+                    border: none;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                    top: 40%;
+                    left: 35%;
+                }
+                .fa-plus {
+                    font-size: 50px;
+                    color: $dark-color;
+                }
+                .ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                    .like-link {
+                        text-decoration: none;
+                        border-radius: 25px;
+                        padding: 6px 20px;
+                        background: $gray-color;
+                        color: #777777;
+                    }
+                    .dislike-link {
+                        text-decoration: none;
+                        border-radius: 25px;
+                        padding: 6px 20px;
+                        background: $blue-color;
+                        color: $light-color;
+                    }
+                }
+                .image {
+                    display: flex;
+                    .photo {
+                        text-align: center;
+                        padding: 100px;
+                        border-radius: 20px;
+                        background: $gray-color;
+                        margin-bottom: 50px;
+                    }
+                    .fa-image,
+                    .add-photo {
+                        color: #777;
+                        font-size: 30px;
+                    }
+                    .add {
+                        border: none;
+                        margin-left: 20px;
+                        padding: 15px;
+                        border-radius: 20px;
+                    }
+                }
+                .form-control {
+                    border-radius: 25px;
+                    background: $gray-color;
+                    padding: 4px;
+                    font-family: "Avenir-medium";
+                    font-size: 13px;
+                    &:focus {
+                        box-shadow: none;
+                        border: none;
+                    }
+                }
+                .Description {
+                    padding: 60px;
+                    border-radius: 20px;
+                }
+                .tags {
+                    padding: 20px;
+                }
+                .select {
+                    border-radius: 25px;
+                    background: $gray-color;
+                    padding: 4px;
+                    font-family: "Avenir-medium";
+                    font-size: 14px;
+                    width: 100%;
+                    border: none;
+                    color: #777777;
+                }
+                .modal-footer {
+                    background: $blue-color;
+                    .btn {
+                        border: 1px solid;
+                        border-radius: 25px;
+                        background: $gray-color;
+                        color: $blue-color;
+                        padding: 5px 15px;
+                        font-size: 14px;
+                    }
+                    .btn-1 {
+                        border: 1px solid $light-color;
+                        border-radius: 25px;
+                        background: $blue-color;
+                        color: $light-color;
+                        padding: 5px 15px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .card-title {
+                font-size: 18px;
+                font-family: "Avenir-medium";
+                text-align: center;
+            }
+            .select-servicrs {
+                display: flex;
+                flex-direction: column;
+                border: none;
+                border-radius: 25px;
+                width: 100%;
+                padding: 10px 20px;
+                font-family: "Avenir-medium";
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            .check {
+                .enabled-card {
+                    background: white;
+                    padding: 40px;
+                    border-radius: 25px;
+                    ul {
+                        list-style: none;
+                        li {
+                            font-size: 18px;
+                            font-family: "Avenir-book";
+                            margin-bottom: 20px;
+                            display: flex;
+                            align-items: center;
+                            a {
+                                border: 1px solid #000;
+                                display: inline-block;
+                                width: 15px;
+                                border-radius: 50%;
+                                margin-right: 5px;
+                                padding: 5px;
+                                height: 15px;
+                            }
+                            .like-link {
+                                background: $gray-color;
+                                color: #777777;
+                            }
+                            .dislike-link {
+                                background: $blue-color;
+                                color: $light-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .order-cards {
+                background: $light-color;
+                padding: 30px;
+                border-radius: 25px;
+                .card {
+                    border: 1px solid;
+                    position: relative;
+                    img {
+                        max-width: 100%;
+                        padding: 15px;
+                    }
+                    .close-sign {
+                        position: absolute;
+                        left: 99%;
+                        border: 1px solid #000;
+                        border-radius: 50%;
+                        width: 30px;
+                        height: 30px;
+                        top: -12%;
+                        bottom: 0%;
+                        @media screen and (max-width: 768px) {
+                            left: 98%;
+                            top: -6%;
+                        }
+                        .x {
+                            padding: 5px;
+                            color: black;
+                            font-size: 20px;
+                        }
+                    }
+                    .card-body {
+                        background: transparent;
+                        .card-title {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 10px 25px 0 0;
+                            span {
+                                font-weight: 100;
+                                font-size: 18px;
+                                opacity: 40%;
+                            }
+                        }
+                        .card-text {
+                            font-family: "Avenir-book";
+                            font-size: 18px;
+                            margin-bottom: 3px;
+                            a {
+                                border: 1px solid #000;
+                                display: inline-block;
+                                width: 15px;
+                                border-radius: 20%;
+                                margin-right: 5px;
+                                padding: 5px;
+                                height: 15px;
+                            }
+                            .like-link {
+                                background: $light-color;
+                                color: #777777;
+                            }
+                            .dislike-link {
+                                background: $blue-color;
+                                color: $light-color;
+                            }
+                        }
+                        h4 {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 0 30px 0 0;
+                            font-size: 18px;
+                            font-weight: bold;
+                            .delivered {
+                                font-family: "Avenir-medium";
+                                font-size: 16px;
+                                font-weight: 400;
+                                .done {
+                                    background-color: #79e379;
+                                    display: inline-block;
+                                    width: 10px;
+                                    // border-radius: 20%;
+                                    margin-right: 5px;
+                                    padding: 5px;
+                                    height: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .reviews {
+                .last-card {
+                    padding: 0;
+                    border: none;
+                    .review {
+                        border: none;
+                    }
+                }
+            }
+            // .add-new {
+            //     border: none;
+            //     font-family: "Avenir-medium";
+            //     font-size: 18px;
+            //     a {
+            //         text-decoration: none;
+            //         padding: 1px;
+            //         color: #000;
+            //         border-radius: 50%;
+            //         border: 1px solid;
+            //         margin-right: 5px;
+            //         .fa-plus {
+            //             transform: translateX(3px);
+            //         }
+            //     }
+            // }
+            // .rating {
+            //     display: flex;
+            //     align-items: center;
+            //     span {
+            //         font-size: 35px;
+            //         font-weight: bold;
+            //         margin-right: 10px;
+            //     }
+            //     .checked {
+            //         color: gold;
+            //         font-size: 25px;
+            //     }
+            //     .checked-1 {
+            //         color: $offwhite;
+            //         font-size: 25px;
+            //     }
+            // }
+            // .reviews {
+            //     border-top: 1px solid;
+            //     border-bottom: 1px solid;
+            //     font-family: "Avenir-medium";
+            //     font-size: 18px;
+            //     span {
+            //         display: flex;
+            //         font-size: 20px;
+            //         font-weight: bold;
+            //         align-items: baseline;
+            //         h4 {
+            //             margin-left: 10px;
+            //             font-size: 20px;
+            //         }
+            //     }
+            //     .card {
+            //         display: flex;
+            //         background: transparent;
+            //         flex-direction: row;
+            //         align-items: center;
+            //         .card-body {
+            //             display: flex;
+            //             flex-direction: column;
+            //             .card-title {
+            //                 text-align: left;
+            //             }
+            //         }
+            //         .btn {
+            //             border-radius: 50%;
+            //             background: black;
+            //             margin-right: 10px;
+            //             width: 40px;
+            //             height: 40px;
+            //             .fa-user {
+            //                 color: white;
+            //                 transform: translateY(5px);
+            //                 font-size: 15px;
+            //             }
+            //         }
+            //     }
+            // }
+            // .messages {
+            //     background: $light-color;
+            //     padding: 20px;
+            //     border-radius: 25px;
+            //     .nav-link {
+            //         background: transparent;
+            //         border-radius: 25px 0 0 25px;
+            //         height: 120px;
+            //     }
+            //     .nav-pills {
+            //         border-right: 1px solid;
+            //     }
+            //     .nav-pills .nav-link.active,
+            //     .nav-pills .show>.nav-link {
+            //         // color: $light-color;
+            //         .card-body {
+            //             color: $light-color;
+            //             span {
+            //                 color: $light-color
+            //             }
+            //         }
+            //         background-color: $blue-color;
+            //     }
+            //     .card {
+            //         display: flex;
+            //         background: transparent;
+            //         flex-direction: row;
+            //         align-items: center;
+            //         .card-body {
+            //             display: flex;
+            //             flex-direction: column;
+            //             background: transparent;
+            //             color: $dark-color;
+            //             .card-title {
+            //                 text-align: left;
+            //                 display: flex;
+            //                 justify-content: space-between;
+            //                 align-items: center;
+            //                 span {
+            //                     font-size: 12px;
+            //                     color: #777;
+            //                     .fa-chevron-right {
+            //                         font-size: 17px;
+            //                         transform: translateY(2px);
+            //                         padding-left: 5px;
+            //                     }
+            //                 }
+            //             }
+            //         }
+            //         .btn {
+            //             border-radius: 50%;
+            //             background: $gray-color;
+            //             margin-right: 10px;
+            //             width: 40px;
+            //             height: 40px;
+            //             .fa-user {
+            //                 color: black;
+            //                 transform: translateY(5px);
+            //                 font-size: 15px;
+            //             }
+            //         }
+            //     }
+            //     .sms {
+            //         padding: 10px;
+            //         .card-header {
+            //             text-align: right;
+            //             a {
+            //                 color: #FF0D0D;
+            //                 text-decoration: none;
+            //             }
+            //         }
+            //         .card-footer {
+            //             border-top: 2px solid #777;
+            //             margin-top: 100%;
+            //             padding-top: 20px;
+            //             width: 100%;
+            //             .form-control {
+            //                 border: 1px solid;
+            //                 padding: 10px 0 50px 20px;
+            //                 border-radius: 20px;
+            //                 color: #777;
+            //             }
+            //             a {
+            //                 padding: 10px 20px;
+            //                 background: $gray-color;
+            //                 color: $dark-color;
+            //                 text-decoration: none;
+            //                 border-radius: 25px;
+            //             }
+            //         }
+            //         .question {
+            //             background: $gray-color;
+            //             color: $dark-color;
+            //             margin: auto;
+            //             border-radius: 25px;
+            //             max-width: 85%;
+            //             padding: 20px;
+            //             font-size: 12px;
+            //         }
+            //         .question-btn {
+            //             border-radius: 50%;
+            //             background: $gray-color;
+            //             margin-right: 10px;
+            //             width: 40px;
+            //             height: 40px;
+            //             .fa-user {
+            //                 color: black;
+            //                 transform: translateY(5px);
+            //                 font-size: 15px;
+            //             }
+            //         }
+            //         h6 {
+            //             font-size: 12px;
+            //             color: #000;
+            //             font-family: "Avenir-book";
+            //         }
+            //         .answer-btn {
+            //             border-radius: 50%;
+            //             background: $blue-color;
+            //             margin-right: 10px;
+            //             width: 40px;
+            //             height: 40px;
+            //             .fa-user {
+            //                 color: white;
+            //                 transform: translateY(5px);
+            //                 font-size: 15px;
+            //             }
+            //         }
+            //         .answer {
+            //             background: $blue-color;
+            //             color: $light-color;
+            //             margin: auto;
+            //             border-radius: 25px;
+            //             max-width: 85%;
+            //             padding: 20px;
+            //             font-size: 12px;
+            //         }
+            //     }
+            // }
+            // .settings {
+            //     background: $light-color;
+            //     padding: 20px 0;
+            //     border-radius: 25px;
+            //     .nav-link {
+            //         border-radius: 0 50px 50px 0;
+            //         height: 90px;
+            //     }
+            //     // .nav-pills {
+            //     //     border-right: 1px solid;
+            //     // }
+            //     .card {
+            //         background: transparent;
+            //         color: $dark-color;
+            //         .card-body {
+            //             background: transparent;
+            //         }
+            //     }
+            //     .nav-pills .nav-link.active,
+            //     .nav-pills .show>.nav-link {
+            //         .card-body {
+            //             color: $light-color;
+            //         }
+            //         background-color: $blue-color;
+            //     }
+            // }
+        }
+    }
+    .table .nav-pills .nav-item .nav-link.active {
+        background-color: $red-color !important;
+        border-radius: 25px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .main-price .main-content h1 {
+        font-size: 28px;
+    }
+    .main-price .table .tab-content .special-card {
+        height: 90%;
+    }
+    .main-price .table .tab-content .special-card .plus-btn {
+        left: 40%;
+    }
+    .main-price .table {
+        margin-top: 0%;
+    }
+    .main-price .table .nav-pills .special {
+        margin: auto;
+    }
+}

@@ -40,6 +40,77 @@
                 font-size: 16px;
             }
         }
+        span {
+            display: flex;
+            font-size: 25px;
+            font-weight: bold;
+            align-items: baseline;
+            h4 {
+                margin-left: 10px;
+                font-size: 27px;
+            }
+        }
+        .review-card {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            .add-btn {
+                color: $dark-color;
+                background: $gray-color;
+                text-decoration: none;
+                width: 75%;
+                text-align: left;
+                padding: 10px;
+                font-family: "Avenir-medium";
+                border-radius: 25px;
+            }
+            .btn {
+                border-radius: 50%;
+                background: black;
+                margin-right: 10px;
+                width: 40px;
+                height: 40px;
+                .fa-user {
+                    color: white;
+                    transform: translateY(5px);
+                    font-size: 15px;
+                }
+            }
+        }
+        .reviews {
+            border-top: 1px solid;
+            border-bottom: 1px solid;
+            font-family: "Avenir-medium";
+            font-size: 18px;
+            .card {
+                display: flex;
+                background: transparent;
+                flex-direction: row;
+                align-items: center;
+                .card-body {
+                    display: flex;
+                    flex-direction: column;
+                    .card-title {
+                        text-align: left;
+                    }
+                    .card-text {
+                        text-align: left;
+                    }
+                }
+                .btn {
+                    border-radius: 50%;
+                    background: black;
+                    margin-right: 10px;
+                    width: 40px;
+                    height: 40px;
+                    .fa-user {
+                        color: white;
+                        transform: translateY(5px);
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
         .last-card {
             border: 2px solid #000;
             border-radius: 25px;
@@ -49,6 +120,23 @@
                 font-size: 53px;
                 // font-family: "Avenir-Heavy";
                 text-align: left;
+            }
+            .title {
+                font-size: 32px;
+                font-family: "Avenir-medium";
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+                padding: 0;
+                .like-link {
+                    color: #F0F0F0;
+                    font-size: 50px;
+                }
+                .dislike-link {
+                    color: gold;
+                    font-size: 50px;
+                }
             }
             img {
                 border: 1px solid #000;

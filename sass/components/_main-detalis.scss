@@ -5,8 +5,24 @@
     .card {
         border: none;
         margin: 30px;
+        position: relative;
         .slider-img {
             height: 650px;
+        }
+        .expert-btn {
+            position: absolute;
+            font-family: "Avenir-medium";
+            font-size: 13px;
+            padding: 5px;
+            border-radius: 25px;
+            width: 6%;
+            height: 25px;
+            left: 33%;
+            top: 6%;
+            text-align: center;
+            background: #B72637;
+            border: none;
+            color: #FFFFFF;
         }
         .card-body {
             background: $gray-color;

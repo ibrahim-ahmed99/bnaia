@@ -1,6 +1,22 @@
 .professional-card {
     font-size: 18px;
     padding: 15px;
+    position: relative;
+    .expert-btn {
+        position: absolute;
+        font-family: "Avenir-medium";
+        font-size: 13px;
+        padding: 5px;
+        border-radius: 25px;
+        width: 25%;
+        height: 25px;
+        left: 65%;
+        top: 5%;
+        text-align: center;
+        background: $red-color;
+        border: none;
+        color: $light-color;
+    }
     .professional-card-img {
         // height: 500px;
         width: 100%;

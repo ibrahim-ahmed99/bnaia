@@ -1,7 +1,7 @@
 .main-price {
     padding: 80px 0 0 0;
     .main-card {
-        background: $blue-color;
+        background: $blue-color !important;
         padding: 30px;
         display: flex;
         flex-direction: column;
@@ -482,6 +482,86 @@
                         padding: 20px;
                         font-size: 12px;
                     }
+                }
+            }
+            .settings {
+                background: $light-color;
+                padding: 20px 0;
+                border-radius: 25px;
+                .nav-link {
+                    border-radius: 0 50px 50px 0;
+                    height: 90px;
+                }
+                // .nav-pills {
+                //     border-right: 1px solid;
+                // }
+                .card {
+                    background: transparent;
+                    color: $dark-color;
+                    .card-body {
+                        background: transparent;
+                    }
+                }
+                .setting-card {
+                    border: 1px solid;
+                    border-radius: 25px;
+                    padding: 30px;
+                    height: 100vh;
+                    ul {
+                        list-style: none;
+                        li {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            border-bottom: 1px solid;
+                            padding-bottom: 30px;
+                            h3 {
+                                font-size: 21px;
+                                font-family: "Avenir-medium";
+                            }
+                            .nav-item {
+                                border: 1px solid;
+                                width: 11%;
+                                // height: 10%;
+                                margin-right: 3%;
+                                border-radius: 25px;
+                                a {
+                                    border: 1px solid #000;
+                                    display: inline-block;
+                                    width: 22px;
+                                    border-radius: 50%;
+                                    margin-right: 0px;
+                                    margin-left: 1px;
+                                    padding: 5px;
+                                    height: 22px;
+                                    transform: translateY(3px);
+                                }
+                                .like-link {
+                                    background: $offwhite;
+                                }
+                                .dislike-link {
+                                    background: $blue-color;
+                                    margin-left: 25px;
+                                }
+                            }
+                            .select-setting {
+                                border: 1px solid;
+                                border-radius: 25px;
+                                background: $gray-color;
+                                padding: 0px 25px 0 0;
+                                font-family: "Avenir-medium";
+                                font-size: 18px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+                .nav-pills .nav-link.active,
+                .nav-pills .show>.nav-link {
+                    .card-body {
+                        color: $light-color;
+                    }
+                    background-color: $blue-color !important;
                 }
             }
         }
