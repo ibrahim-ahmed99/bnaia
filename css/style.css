@@ -479,7 +479,8 @@ button.btn-white, a.btn-white {
 }
 /* line 27, ../sass/components/_professional-card.scss */
 .professional-card .professional-card-img:hover {
-  opacity: 0.8;
+  opacity: 0.9;
+  transition: 0.4s ease;
 }
 @media screen and (max-width: 600px) {
   /* line 20, ../sass/components/_professional-card.scss */
@@ -487,25 +488,25 @@ button.btn-white, a.btn-white {
     height: auto !important;
   }
 }
-/* line 34, ../sass/components/_professional-card.scss */
+/* line 35, ../sass/components/_professional-card.scss */
 .professional-card .portfolio {
   object-fit: cover !important;
 }
-/* line 37, ../sass/components/_professional-card.scss */
+/* line 38, ../sass/components/_professional-card.scss */
 .professional-card img {
   width: 9%;
   height: 9%;
 }
-/* line 40, ../sass/components/_professional-card.scss */
+/* line 41, ../sass/components/_professional-card.scss */
 .professional-card img:hover {
   cursor: pointer;
 }
-/* line 44, ../sass/components/_professional-card.scss */
+/* line 45, ../sass/components/_professional-card.scss */
 .professional-card a {
   text-decoration: none;
   color: #000000;
 }
-/* line 54, ../sass/components/_professional-card.scss */
+/* line 55, ../sass/components/_professional-card.scss */
 .professional-card.wide .professional-card-img {
   border-radius: 25px;
   overflow: hidden;
@@ -513,39 +514,39 @@ button.btn-white, a.btn-white {
   object-fit: fill;
 }
 @media screen and (max-width: 600px) {
-  /* line 54, ../sass/components/_professional-card.scss */
+  /* line 55, ../sass/components/_professional-card.scss */
   .professional-card.wide .professional-card-img {
     height: auto !important;
   }
 }
-/* line 67, ../sass/components/_professional-card.scss */
+/* line 68, ../sass/components/_professional-card.scss */
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
   padding: 0;
 }
-/* line 72, ../sass/components/_professional-card.scss */
+/* line 73, ../sass/components/_professional-card.scss */
 .professional-card .card-title {
   scale: 1;
 }
-/* line 74, ../sass/components/_professional-card.scss */
+/* line 75, ../sass/components/_professional-card.scss */
 .professional-card .card-title:hover {
   scale: 1.03;
 }
-/* line 78, ../sass/components/_professional-card.scss */
+/* line 79, ../sass/components/_professional-card.scss */
 .professional-card .rating {
   display: inline;
 }
-/* line 80, ../sass/components/_professional-card.scss */
+/* line 81, ../sass/components/_professional-card.scss */
 .professional-card .rating .checked {
   color: gold;
 }
 
-/* line 86, ../sass/components/_professional-card.scss */
+/* line 87, ../sass/components/_professional-card.scss */
 .slider-wrapper {
   position: relative;
 }
-/* line 88, ../sass/components/_professional-card.scss */
+/* line 89, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   position: absolute;
@@ -554,22 +555,22 @@ button.btn-white, a.btn-white {
   font-size: 30px;
   transform: translateY(-50%);
 }
-/* line 96, ../sass/components/_professional-card.scss */
+/* line 97, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn {
   right: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 96, ../sass/components/_professional-card.scss */
+  /* line 97, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-prev-btn {
     right: 95%;
   }
 }
-/* line 102, ../sass/components/_professional-card.scss */
+/* line 103, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-next-btn {
   left: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 102, ../sass/components/_professional-card.scss */
+  /* line 103, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-next-btn {
     left: 95%;
   }
@@ -2582,6 +2583,33 @@ footer .footer-input .footer-btn {
   margin-left: 25px;
 }
 /* line 547, ../sass/components/_price.scss */
+.main-price .table .tab-content .settings .setting-card ul li .buttons-show {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* line 551, ../sass/components/_price.scss */
+.main-price .table .tab-content .settings .setting-card ul li .special-nav {
+  border: none;
+  font-size: 18px;
+  font-family: "Avenir-book";
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+}
+/* line 558, ../sass/components/_price.scss */
+.main-price .table .tab-content .settings .setting-card ul li .special-nav .like-link2 {
+  height: 15px;
+  background: transparent;
+  padding: 10px;
+}
+/* line 563, ../sass/components/_price.scss */
+.main-price .table .tab-content .settings .setting-card ul li .special-nav .dislike-link2 {
+  margin-left: 0;
+  background: #113663;
+  height: 15px;
+  padding: 10px;
+}
+/* line 570, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .select-setting {
   border: 1px solid;
   border-radius: 25px;
@@ -2591,39 +2619,39 @@ footer .footer-input .footer-btn {
   font-size: 18px;
   margin-bottom: 10px;
 }
-/* line 559, ../sass/components/_price.scss */
+/* line 582, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .nav-pills .nav-link.active,
 .main-price .table .tab-content .settings .nav-pills .show > .nav-link {
   background-color: #113663 !important;
 }
-/* line 561, ../sass/components/_price.scss */
+/* line 584, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .nav-pills .nav-link.active .card-body,
 .main-price .table .tab-content .settings .nav-pills .show > .nav-link .card-body {
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 572, ../sass/components/_price.scss */
+  /* line 595, ../sass/components/_price.scss */
   .main-price .main-content h1 {
     font-size: 28px;
   }
 
-  /* line 575, ../sass/components/_price.scss */
+  /* line 598, ../sass/components/_price.scss */
   .main-price .table .tab-content .special-card {
     height: 90%;
   }
 
-  /* line 578, ../sass/components/_price.scss */
+  /* line 601, ../sass/components/_price.scss */
   .main-price .table .tab-content .special-card .plus-btn {
     left: 40%;
   }
 
-  /* line 581, ../sass/components/_price.scss */
+  /* line 604, ../sass/components/_price.scss */
   .main-price .table {
     margin-top: 0%;
   }
 
-  /* line 584, ../sass/components/_price.scss */
+  /* line 607, ../sass/components/_price.scss */
   .main-price .table .nav-pills .special {
     margin: auto;
   }

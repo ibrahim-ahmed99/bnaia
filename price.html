@@ -2201,28 +2201,33 @@
 
                                                                         </div>
                                                                     </li>
-                                                                    <li class=" mb-3">
+                                                                    <li class=" mb-3 li-show" style="display: block;">
                                                                         <h3>Show home button </h3>
-                                                                        <div class="nav-item">
-                                                                            <a class="like-link" href="javascript:void(0)">
-
-                                                                            </a>
-                                                                            <a class="dislike-link d-none" href="javascript:void(0)">
-
+                                                                        <div class="buttons-show">
+                                                                            <div class="nav-item special-nav">
                                                                                 Disabled
-                                                                            </a>
+                                                                                <a class="like-link2" href="javascript:void(0)">
 
-                                                                        </div>
-                                                                        <div class="nav-item">
-                                                                            <a class="like-link" href="javascript:void(0)">
+                                                                                </a>
+                                                                                <a class="dislike-link2 d-none" href="javascript:void(0)">
 
-                                                                            </a>
-                                                                            <a class="dislike-link d-none" href="javascript:void(0)">
 
+                                                                                </a>
+
+                                                                            </div>
+                                                                            <div class="nav-item special-nav ">
                                                                                 Enabled
-                                                                            </a>
+                                                                                <a class="like-link2 special-link" href="javascript:void(0)">
 
+                                                                                </a>
+                                                                                <a class="dislike-link2 d-none special-link" href="javascript:void(0)">
+
+
+                                                                                </a>
+
+                                                                            </div>
                                                                         </div>
+
                                                                     </li>
                                                                     <li class=" mb-3">
                                                                         <h3>how bookmarks bar </h3>
@@ -2378,6 +2383,18 @@
         });
         $('.dislike-link').click(function() {
             $(this).parent().find('.like-link').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        $('.like-link2').click(function() {
+            $(this).parent().find('.dislike-link2').removeClass('d-none');
+            $(this).addClass('d-none');
+        });
+        $('.dislike-link2').click(function() {
+            $(this).parent().find('.like-link2').removeClass('d-none');
             $(this).addClass('d-none');
         });
     });

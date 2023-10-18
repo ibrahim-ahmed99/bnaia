@@ -544,6 +544,29 @@
                                     margin-left: 25px;
                                 }
                             }
+                            .buttons-show {
+                                display: flex;
+                                justify-content: space-evenly;
+                            }
+                            .special-nav {
+                                border: none;
+                                font-size: 18px;
+                                font-family: "Avenir-book";
+                                display: flex;
+                                flex-direction: row-reverse;
+                                align-items: baseline;
+                                .like-link2 {
+                                    height: 15px;
+                                    background: transparent;
+                                    padding: 10px;
+                                }
+                                .dislike-link2 {
+                                    margin-left: 0;
+                                    background: #113663;
+                                    height: 15px;
+                                    padding: 10px;
+                                }
+                            }
                             .select-setting {
                                 border: 1px solid;
                                 border-radius: 25px;
