@@ -454,7 +454,13 @@ button.btn-white, a.btn-white {
   padding: 15px;
   position: relative;
 }
-/* line 5, ../sass/components/_professional-card.scss */
+/* line 6, ../sass/components/_professional-card.scss */
+.professional-card:hover .professional-card-img {
+  scale: 1.03;
+  transition: 0.4s ease;
+  z-index: -1;
+}
+/* line 12, ../sass/components/_professional-card.scss */
 .professional-card .expert-btn {
   position: absolute;
   font-family: "Avenir-medium";
@@ -462,6 +468,7 @@ button.btn-white, a.btn-white {
   padding: 5px;
   border-radius: 25px;
   width: 25%;
+  z-index: 1;
   height: 25px;
   left: 65%;
   top: 5%;
@@ -470,43 +477,37 @@ button.btn-white, a.btn-white {
   border: none;
   color: #FFFFFF;
 }
-/* line 20, ../sass/components/_professional-card.scss */
+/* line 28, ../sass/components/_professional-card.scss */
 .professional-card .professional-card-img {
   width: 100%;
   object-fit: contain;
-  opacity: 1;
   border-radius: 8%;
 }
-/* line 27, ../sass/components/_professional-card.scss */
-.professional-card .professional-card-img:hover {
-  opacity: 0.9;
-  transition: 0.4s ease;
-}
 @media screen and (max-width: 600px) {
-  /* line 20, ../sass/components/_professional-card.scss */
+  /* line 28, ../sass/components/_professional-card.scss */
   .professional-card .professional-card-img {
     height: auto !important;
   }
 }
-/* line 35, ../sass/components/_professional-card.scss */
+/* line 39, ../sass/components/_professional-card.scss */
 .professional-card .portfolio {
   object-fit: cover !important;
 }
-/* line 38, ../sass/components/_professional-card.scss */
+/* line 42, ../sass/components/_professional-card.scss */
 .professional-card img {
   width: 9%;
   height: 9%;
 }
-/* line 41, ../sass/components/_professional-card.scss */
+/* line 45, ../sass/components/_professional-card.scss */
 .professional-card img:hover {
   cursor: pointer;
 }
-/* line 45, ../sass/components/_professional-card.scss */
+/* line 49, ../sass/components/_professional-card.scss */
 .professional-card a {
   text-decoration: none;
   color: #000000;
 }
-/* line 55, ../sass/components/_professional-card.scss */
+/* line 59, ../sass/components/_professional-card.scss */
 .professional-card.wide .professional-card-img {
   border-radius: 25px;
   overflow: hidden;
@@ -514,39 +515,39 @@ button.btn-white, a.btn-white {
   object-fit: fill;
 }
 @media screen and (max-width: 600px) {
-  /* line 55, ../sass/components/_professional-card.scss */
+  /* line 59, ../sass/components/_professional-card.scss */
   .professional-card.wide .professional-card-img {
     height: auto !important;
   }
 }
-/* line 68, ../sass/components/_professional-card.scss */
+/* line 72, ../sass/components/_professional-card.scss */
 .professional-card .card-text {
   color: #ACACAC;
   margin: 0;
   padding: 0;
 }
-/* line 73, ../sass/components/_professional-card.scss */
+/* line 77, ../sass/components/_professional-card.scss */
 .professional-card .card-title {
   scale: 1;
 }
-/* line 75, ../sass/components/_professional-card.scss */
+/* line 79, ../sass/components/_professional-card.scss */
 .professional-card .card-title:hover {
   scale: 1.03;
 }
-/* line 79, ../sass/components/_professional-card.scss */
+/* line 83, ../sass/components/_professional-card.scss */
 .professional-card .rating {
   display: inline;
 }
-/* line 81, ../sass/components/_professional-card.scss */
+/* line 85, ../sass/components/_professional-card.scss */
 .professional-card .rating .checked {
   color: gold;
 }
 
-/* line 87, ../sass/components/_professional-card.scss */
+/* line 91, ../sass/components/_professional-card.scss */
 .slider-wrapper {
   position: relative;
 }
-/* line 89, ../sass/components/_professional-card.scss */
+/* line 93, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn,
 .slider-wrapper .professional-next-btn {
   position: absolute;
@@ -555,22 +556,22 @@ button.btn-white, a.btn-white {
   font-size: 30px;
   transform: translateY(-50%);
 }
-/* line 97, ../sass/components/_professional-card.scss */
+/* line 101, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-prev-btn {
   right: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 97, ../sass/components/_professional-card.scss */
+  /* line 101, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-prev-btn {
     right: 95%;
   }
 }
-/* line 103, ../sass/components/_professional-card.scss */
+/* line 107, ../sass/components/_professional-card.scss */
 .slider-wrapper .professional-next-btn {
   left: 100%;
 }
 @media screen and (max-width: 600px) {
-  /* line 103, ../sass/components/_professional-card.scss */
+  /* line 107, ../sass/components/_professional-card.scss */
   .slider-wrapper .professional-next-btn {
     left: 95%;
   }
@@ -645,11 +646,20 @@ button.btn-white, a.btn-white {
   font-size: 15px;
 }
 /* line 14, ../sass/components/_top-article.scss */
+.top-article .card .card-body a {
+  text-decoration: none;
+  color: #000000;
+}
+/* line 17, ../sass/components/_top-article.scss */
+.top-article .card .card-body a:hover {
+  scale: 1.02;
+}
+/* line 21, ../sass/components/_top-article.scss */
 .top-article .card .card-body .card-text {
   font-family: "Avenir-book";
   font-size: 18px;
 }
-/* line 18, ../sass/components/_top-article.scss */
+/* line 25, ../sass/components/_top-article.scss */
 .top-article .card .card-body span {
   font-size: 18px;
   font-family: "Avenir-black";
@@ -1812,7 +1822,7 @@ footer .footer-input .footer-btn {
   display: flex;
   margin-bottom: 50px;
   justify-content: space-between;
-  padding: 2px 20px 2px 2px;
+  padding: 0 10px;
   align-items: center;
   border: 2px solid #113663;
 }
@@ -1822,26 +1832,6 @@ footer .footer-input .footer-btn {
   font-family: "Avenir-medium";
   background: transparent;
   font-size: 30px;
-}
-/* line 63, ../sass/components/_login.scss */
-.sign-up .card ul .btn {
-  color: #FFFFFF;
-  border: 1px solid #B72637;
-  background-color: #B72637;
-  padding: 0px 40px;
-  border-radius: 25px;
-}
-/* line 70, ../sass/components/_login.scss */
-.sign-up .card ul:focus {
-  color: #FFFFFF;
-  border: 1px solid #B72637;
-  background-color: #B72637;
-  padding: 0px 40px;
-  border-radius: 25px;
-}
-/* line 76, ../sass/components/_login.scss */
-.sign-up .card ul:focus:hover {
-  background-color: #B72637;
 }
 /* line 82, ../sass/components/_login.scss */
 .sign-up .card .card-body .form-control {
@@ -1864,18 +1854,26 @@ footer .footer-input .footer-btn {
   display: flex;
   justify-content: center;
 }
+/* line 101, ../sass/components/_login.scss */
+.sign-up .card .nav-pills .nav-link.active,
+.sign-up .card .nav-pills .show > .nav-link {
+  background: #B72637;
+  color: #FFFFFF;
+  border-radius: 25px;
+  padding: 5px 30px;
+}
 
 @media screen and (max-width: 768px) {
-  /* line 105, ../sass/components/_login.scss */
+  /* line 115, ../sass/components/_login.scss */
   .btn-red {
     margin-left: 0;
   }
 
-  /* line 109, ../sass/components/_login.scss */
+  /* line 119, ../sass/components/_login.scss */
   .sign-up .card {
     padding: 30px;
   }
-  /* line 112, ../sass/components/_login.scss */
+  /* line 122, ../sass/components/_login.scss */
   .sign-up .card ul .nav-link {
     font-size: 25px;
   }

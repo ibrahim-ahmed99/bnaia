@@ -11,6 +11,13 @@
                 font-family: "Avenir-medium";
                 font-size: 15px;
             }
+            a {
+                text-decoration: none;
+                color: $dark-color;
+                &:hover {
+                    scale: 1.02;
+                }
+            }
             .card-text {
                 font-family: "Avenir-book";
                 font-size: 18px;

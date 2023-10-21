@@ -51,7 +51,7 @@
             display: flex;
             margin-bottom: 50px;
             justify-content: space-between;
-            padding: 2px 20px 2px 2px;
+            padding: 0 10px;
             align-items: center;
             border: 2px solid $blue-color;
             .nav-link {
@@ -60,23 +60,23 @@
                 background: transparent;
                 font-size: 30px;
             }
-            .btn {
-                color: $light-color;
-                border: 1px solid #B72637;
-                background-color: $red-color;
-                padding: 0px 40px;
-                border-radius: $default-border-radius;
-            }
-            &:focus {
-                color: $light-color;
-                border: 1px solid #B72637;
-                background-color: $red-color;
-                padding: 0px 40px;
-                border-radius: $default-border-radius;
-                &:hover {
-                    background-color: $red-color;
-                }
-            }
+            // .btn {
+            //     color: $light-color;
+            //     border: 1px solid #B72637;
+            //     background-color: $red-color;
+            //     padding: 0px 40px;
+            //     border-radius: $default-border-radius;
+            // }
+            // &:focus {
+            //     color: $light-color;
+            //     border: 1px solid #B72637;
+            //     background-color: $red-color;
+            //     // padding: 0px 40px;
+            //     border-radius: $default-border-radius;
+            //     &:hover {
+            //         background-color: $red-color;
+            //     }
+            // }
         }
         .card-body {
             .form-control {
@@ -97,6 +97,16 @@
                 display: flex;
                 justify-content: center;
             }
+        }
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            // .card-body {
+            //     color: $light-color;
+            // }
+            background: $red-color;
+            color: $light-color;
+            border-radius: 25px;
+            padding: 5px 30px;
         }
     }
 }

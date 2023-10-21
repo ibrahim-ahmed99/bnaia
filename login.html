@@ -112,7 +112,7 @@
                 <div class="col-lg-6 col-12">
                     <div class="card">
                         <div>
-                            <ul class="">
+                            <!-- <ul class="">
                                 <li class="nav-item">
                                     <a class="nav-link btn avtive " aria-current="page" href="">Customer
                                 </a>
@@ -122,26 +122,62 @@
                                 </li>
 
 
+                            </ul> -->
+                            <ul class="nav nav-pills " id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">Customer</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="true">Professional</button>
+                                </li>
                             </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <div class="card-body">
+                                        <input type="email" class="form-control mb-4" name="email" id="email" placeholder="Email / Phone" data-rule="email" data-msg="Please enter a valid email">
+
+                                        <input type="password" id="password" class="form-control valid" name="password" placeholder=" Password" required="" aria-required="true" fdprocessedid="echs09" aria-autocomplete="list" aria-invalid="false">
+                                        <a href="" style="text-decoration: none;">
+                                            <label class="mb-5 mt-3" for="password"> Forgot Your Password ?</label>
+
+                                        </a>
+                                        <a class="nav-link  btn-blue mb-5 " aria-current="page" href="">Login</a>
+                                        <a href="" style="text-decoration: none; text-align: center;">
+                                            <label class="mb-3 mt-3 Account" for="btn-2"> You Don’t Have Account ?</label>
+
+                                        </a>
+                                        <a class="nav-link  btn-2 " aria-current="page" href="signup.html">Create New Account</a>
+
+
+                                    </div>
+
+                                </div>
+
+                                <div class="tab-pane fade active show" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <div class="card-body">
+                                        <input type="email" class="form-control mb-4" name="email" id="email" placeholder="Email / Phone" data-rule="email" data-msg="Please enter a valid email">
+
+                                        <input type="password" id="password" class="form-control valid" name="password" placeholder=" Password" required="" aria-required="true" fdprocessedid="echs09" aria-autocomplete="list" aria-invalid="false">
+                                        <a href="" style="text-decoration: none;">
+                                            <label class="mb-5 mt-3" for="password"> Forgot Your Password ?</label>
+
+                                        </a>
+                                        <a class="nav-link  btn-blue mb-5 " aria-current="page" href="">Login</a>
+                                        <a href="" style="text-decoration: none; text-align: center;">
+                                            <label class="mb-3 mt-3 Account" for="btn-2"> You Don’t Have Account ?</label>
+
+                                        </a>
+                                        <a class="nav-link  btn-2 " aria-current="page" href="signup.html">Create New Account</a>
+
+
+                                    </div>
+
+                                </div>
+
+                            </div>
                         </div>
 
-                        <div class="card-body">
-                            <input type="email" class="form-control mb-4" name="email" id="email" placeholder="Email / Phone" data-rule="email" data-msg="Please enter a valid email">
 
-                            <input type="password" id="password" class="form-control valid" name="password" placeholder=" Password" required="" aria-required="true" fdprocessedid="echs09" aria-autocomplete="list" aria-invalid="false">
-                            <a href="" style="text-decoration: none;">
-                                <label class="mb-5 mt-3" for="password"> Forgot Your Password ?</label>
-
-                            </a>
-                            <a class="nav-link  btn-blue mb-5 " aria-current="page" href="">Login</a>
-                            <a href="" style="text-decoration: none; text-align: center;">
-                                <label class="mb-3 mt-3 Account" for="btn-2"> You Don’t Have Account ?</label>
-
-                            </a>
-                            <a class="nav-link  btn-2 " aria-current="page" href="signup.html">Create New Account</a>
-
-
-                        </div>
                     </div>
                 </div>
                 <div class="col-3"></div>

@@ -2,6 +2,13 @@
     font-size: 18px;
     padding: 15px;
     position: relative;
+    &:hover {
+        .professional-card-img {
+            scale: 1.03;
+            transition: 0.4s ease;
+            z-index: -1;
+        }
+    }
     .expert-btn {
         position: absolute;
         font-family: "Avenir-medium";
@@ -9,6 +16,7 @@
         padding: 5px;
         border-radius: 25px;
         width: 25%;
+        z-index: 1;
         height: 25px;
         left: 65%;
         top: 5%;
@@ -22,12 +30,8 @@
         width: 100%;
         // object-fit: fill;
         object-fit: contain;
-        opacity: 1;
+        // opacity: 1;
         border-radius: 8%;
-        &:hover {
-            opacity: 0.9;
-            transition: 0.4s ease;
-        }
         @media screen and (max-width: 600px) {
             height: auto !important;
         }
