@@ -100,12 +100,12 @@
 .dropdown-toggle::after {
   content: "";
   display: inline-block;
-  width: 20px;
-  height: 10px;
+  width: 10px;
+  height: 5px;
   border: 0;
   position: absolute;
-  left: -55%;
-  top: 30%;
+  left: -40%;
+  top: 40%;
   background-image: url("../img/chevron-down.svg");
   background-position: center;
   background-repeat: no-repeat;
@@ -420,32 +420,32 @@ button.btn-white, a.btn-white {
   padding: 8px 10px;
 }
 
-/* line 3, ../sass/components/_our-tools.scss */
+/* line 2, ../sass/components/_our-tools.scss */
 .our-tools {
   background: url("../img/tools backgraund.png") center no-repeat;
-  height: 500px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* line 8, ../sass/components/_our-tools.scss */
+/* line 6, ../sass/components/_our-tools.scss */
 .our-tools .tools-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-/* line 11, ../sass/components/_our-tools.scss */
+/* line 9, ../sass/components/_our-tools.scss */
 .our-tools .tools-content .label {
   margin-bottom: 60px;
   text-align: center;
   font-size: 70px;
   color: white;
 }
-/* line 18, ../sass/components/_our-tools.scss */
+/* line 15, ../sass/components/_our-tools.scss */
 .our-tools .tools-content .btn-red {
   font-size: 20px;
-  padding: 10px 40px;
+  padding: 10px 40px !important;
 }
 
 /* line 1, ../sass/components/_professional-card.scss */
@@ -674,26 +674,31 @@ footer {
 footer * {
   color: white;
 }
-/* line 7, ../sass/components/_footer.scss */
+/* line 6, ../sass/components/_footer.scss */
+footer .footer-input {
+  margin-top: 50px;
+}
+/* line 8, ../sass/components/_footer.scss */
 footer .footer-input input {
   margin-right: 10px;
   border: 1px solid #FFFFFF;
   border-radius: 25px;
   border-bottom: 1px solid #FFFFFF;
   background: transparent;
+  text-indent: 5px;
 }
-/* line 15, ../sass/components/_footer.scss */
+/* line 17, ../sass/components/_footer.scss */
 footer .footer-input input::placeholder {
   color: #FFFFFF;
 }
-/* line 18, ../sass/components/_footer.scss */
+/* line 20, ../sass/components/_footer.scss */
 footer .footer-input input:focus {
   box-shadow: none;
   border-radius: none;
   background: transparent;
   color: #FFFFFF;
 }
-/* line 25, ../sass/components/_footer.scss */
+/* line 27, ../sass/components/_footer.scss */
 footer .footer-input .footer-btn {
   color: #000000;
   background-color: #FFFFFF;
@@ -907,7 +912,7 @@ footer .footer-input .footer-btn {
 .main-detalis .card .card-body {
   background: #F0F0F0;
   border-radius: 35px 0 0px 35px;
-  padding: 30px 0 22px 40px;
+  padding: 30px 0 28px 40px;
 }
 /* line 34, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .card-title {
@@ -916,33 +921,35 @@ footer .footer-input .footer-btn {
 }
 /* line 39, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .card-text {
-  font-size: 18px;
+  font-size: 16px;
+  max-width: 90%;
   font-family: "Avenir-book";
 }
-/* line 43, ../sass/components/_main-detalis.scss */
+/* line 44, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .btn {
   font-size: 14px;
+  padding: 5px 20px;
   background: #113663;
   font-family: "Avenir-medium";
   color: #FFFFFF;
 }
-/* line 49, ../sass/components/_main-detalis.scss */
+/* line 51, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body .div-2 {
   margin: 40px 0;
 }
-/* line 52, ../sass/components/_main-detalis.scss */
+/* line 54, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body h3 {
   color: #000000;
   font-family: "Avenir-medium";
   font-size: 32px;
 }
-/* line 57, ../sass/components/_main-detalis.scss */
+/* line 59, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body h4 {
   font-family: "Avenir-medium";
   font-size: 40px;
   color: #000000;
 }
-/* line 62, ../sass/components/_main-detalis.scss */
+/* line 64, ../sass/components/_main-detalis.scss */
 .main-detalis .card .card-body span {
   font-size: 13px;
   color: #919191;
@@ -950,82 +957,82 @@ footer .footer-input .footer-btn {
 }
 
 @media screen and (max-width: 768px) {
-  /* line 74, ../sass/components/_main-detalis.scss */
+  /* line 76, ../sass/components/_main-detalis.scss */
   .main-detalis .card .slider-img {
     height: 537px;
   }
-  /* line 77, ../sass/components/_main-detalis.scss */
+  /* line 79, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body {
     padding: 30px 0 23px 40px;
   }
-  /* line 79, ../sass/components/_main-detalis.scss */
+  /* line 81, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .img-name {
     max-width: 35%;
   }
-  /* line 82, ../sass/components/_main-detalis.scss */
+  /* line 84, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-title {
     font-size: 25px;
   }
-  /* line 85, ../sass/components/_main-detalis.scss */
+  /* line 87, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-text {
     font-size: 12px;
   }
-  /* line 88, ../sass/components/_main-detalis.scss */
+  /* line 90, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .btn {
     font-size: 11px;
   }
-  /* line 91, ../sass/components/_main-detalis.scss */
+  /* line 93, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h3 {
     font-size: 20px;
   }
-  /* line 94, ../sass/components/_main-detalis.scss */
+  /* line 96, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h4 {
     font-size: 23px;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 105, ../sass/components/_main-detalis.scss */
+  /* line 107, ../sass/components/_main-detalis.scss */
   .main-detalis .card .slider-img {
     height: auto;
   }
-  /* line 108, ../sass/components/_main-detalis.scss */
+  /* line 110, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body {
     padding: 5px 0 0px 25px;
   }
-  /* line 110, ../sass/components/_main-detalis.scss */
+  /* line 112, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .img-name {
     max-width: 35%;
   }
-  /* line 113, ../sass/components/_main-detalis.scss */
+  /* line 115, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-title {
     font-size: 16px;
     margin-top: 9px;
   }
-  /* line 117, ../sass/components/_main-detalis.scss */
+  /* line 119, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .card-text {
     font-size: 8px;
   }
-  /* line 120, ../sass/components/_main-detalis.scss */
+  /* line 122, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .btn {
     font-size: 8px;
   }
-  /* line 123, ../sass/components/_main-detalis.scss */
+  /* line 125, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .div-2 {
     margin: 10px 0;
   }
-  /* line 126, ../sass/components/_main-detalis.scss */
+  /* line 128, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h3 {
     font-size: 14px;
   }
-  /* line 129, ../sass/components/_main-detalis.scss */
+  /* line 131, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h4 {
     font-size: 14px;
   }
-  /* line 132, ../sass/components/_main-detalis.scss */
+  /* line 134, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body .pdf-img {
     max-width: 15%;
   }
-  /* line 135, ../sass/components/_main-detalis.scss */
+  /* line 137, ../sass/components/_main-detalis.scss */
   .main-detalis .card .card-body h6 {
     font-size: 10px;
   }
@@ -1419,10 +1426,16 @@ footer .footer-input .footer-btn {
   border: 2px solid #000;
   border-radius: 25px;
   color: #000000;
-  padding: 7px;
-  font-size: 18px;
-  margin-inline: 7px;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-inline: 5px;
   font-family: "Avenir-book";
+}
+/* line 31, ../sass/components/_select.scss */
+.select-section form select.active {
+  background: #113663;
+  border: 2px solid #113663;
+  color: #FFFFFF;
 }
 
 @media (max-width: 1200px) {
@@ -1817,12 +1830,12 @@ footer .footer-input .footer-btn {
 }
 /* line 48, ../sass/components/_login.scss */
 .sign-up .card ul {
-  border-radius: 25px;
+  border-radius: 35px;
   list-style: none;
   display: flex;
   margin-bottom: 50px;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0 5px;
   align-items: center;
   border: 2px solid #113663;
 }
@@ -1831,7 +1844,7 @@ footer .footer-input .footer-btn {
   color: #113663;
   font-family: "Avenir-medium";
   background: transparent;
-  font-size: 30px;
+  font-size: 28px;
 }
 /* line 82, ../sass/components/_login.scss */
 .sign-up .card .card-body .form-control {
@@ -1840,8 +1853,9 @@ footer .footer-input .footer-btn {
   padding: 8px;
   font-family: "Avenir-medium";
   font-size: 14px;
+  text-indent: 5px;
 }
-/* line 89, ../sass/components/_login.scss */
+/* line 90, ../sass/components/_login.scss */
 .sign-up .card .card-body label {
   color: #1C2323;
   font-size: 14px;
@@ -1849,31 +1863,31 @@ footer .footer-input .footer-btn {
   display: flex;
   padding-left: 30px;
 }
-/* line 96, ../sass/components/_login.scss */
+/* line 97, ../sass/components/_login.scss */
 .sign-up .card .card-body .Account {
   display: flex;
   justify-content: center;
 }
-/* line 101, ../sass/components/_login.scss */
+/* line 102, ../sass/components/_login.scss */
 .sign-up .card .nav-pills .nav-link.active,
 .sign-up .card .nav-pills .show > .nav-link {
   background: #B72637;
   color: #FFFFFF;
   border-radius: 25px;
-  padding: 5px 30px;
+  padding: 5px 50px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 115, ../sass/components/_login.scss */
+  /* line 116, ../sass/components/_login.scss */
   .btn-red {
     margin-left: 0;
   }
 
-  /* line 119, ../sass/components/_login.scss */
+  /* line 120, ../sass/components/_login.scss */
   .sign-up .card {
     padding: 30px;
   }
-  /* line 122, ../sass/components/_login.scss */
+  /* line 123, ../sass/components/_login.scss */
   .sign-up .card ul .nav-link {
     font-size: 25px;
   }
@@ -1919,7 +1933,7 @@ footer .footer-input .footer-btn {
   color: #777777;
   font-size: 12px;
   position: absolute;
-  top: 35%;
+  top: 34%;
   transform: translateY(50%);
   left: 35%;
 }
@@ -1929,13 +1943,14 @@ footer .footer-input .footer-btn {
   color: #777777;
   font-size: 12px;
   position: absolute;
-  top: 35%;
+  top: 34%;
   right: 11%;
   transform: translateY(50%);
 }
 /* line 51, ../sass/components/_sign-up.scss */
 .sign-up .card .card-body .address {
-  padding: 30px;
+  padding: 0px 30px 30px 15px;
+  height: 100px;
 }
 
 /* line 1, ../sass/components/_price.scss */
@@ -1982,7 +1997,8 @@ footer .footer-input .footer-btn {
   border-radius: 23px;
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  width: 230px;
+  padding: 10px;
 }
 /* line 39, ../sass/components/_price.scss */
 .main-price .card-content .average h6 {
@@ -1993,7 +2009,13 @@ footer .footer-input .footer-btn {
 .main-price .card-content .average h6 img {
   max-width: 85%;
 }
-/* line 47, ../sass/components/_price.scss */
+/* line 46, ../sass/components/_price.scss */
+.main-price .card-content .average h4 {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 10px;
+}
+/* line 52, ../sass/components/_price.scss */
 .main-price .card-content .ul {
   text-align: left;
   margin-top: 20px;
@@ -2002,7 +2024,7 @@ footer .footer-input .footer-btn {
   display: flex;
   flex-direction: column;
 }
-/* line 54, ../sass/components/_price.scss */
+/* line 59, ../sass/components/_price.scss */
 .main-price .card-content .ul li {
   color: #FFFFFF;
   font-family: "Avenir-medium";
@@ -2011,94 +2033,112 @@ footer .footer-input .footer-btn {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-/* line 64, ../sass/components/_price.scss */
+/* line 69, ../sass/components/_price.scss */
 .main-price .main-content {
   display: flex;
   align-items: center;
 }
-/* line 67, ../sass/components/_price.scss */
+@media screen and (max-width: 991px) {
+  /* line 69, ../sass/components/_price.scss */
+  .main-price .main-content {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+/* line 76, ../sass/components/_price.scss */
 .main-price .main-content h1 {
   font-size: 40px;
   margin-right: 10px;
 }
-/* line 73, ../sass/components/_price.scss */
+/* line 82, ../sass/components/_price.scss */
 .main-price .description-name .card {
   border-radius: 25px;
   border: 1px solid;
   padding: 20px;
 }
-/* line 77, ../sass/components/_price.scss */
+/* line 86, ../sass/components/_price.scss */
 .main-price .description-name .card h4 {
   display: flex;
   justify-content: space-between;
   font-size: 16px;
   font-family: "Avenir-medium";
 }
-/* line 83, ../sass/components/_price.scss */
+/* line 92, ../sass/components/_price.scss */
 .main-price .description-name .card a {
   text-decoration: none;
   color: #000000;
 }
-/* line 87, ../sass/components/_price.scss */
+/* line 96, ../sass/components/_price.scss */
+.main-price .description-name .card img {
+  max-width: 30%;
+}
+/* line 99, ../sass/components/_price.scss */
 .main-price .description-name .card p {
   font-size: 15px;
   font-family: "Avenir-book";
 }
-/* line 94, ../sass/components/_price.scss */
+@media screen and (max-width: 991px) {
+  /* line 105, ../sass/components/_price.scss */
+  .main-price .buttons {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/* line 110, ../sass/components/_price.scss */
 .main-price .buttons .btn {
   font-size: 18px;
   font-family: "Avenir-medium";
   border: 1px solid;
   margin-right: 10px;
 }
-/* line 101, ../sass/components/_price.scss */
+/* line 117, ../sass/components/_price.scss */
 .main-price .table {
   margin-top: -10%;
   background: #F0F0F0;
   margin-bottom: 0;
   padding: 40px 0 80px 0;
 }
-/* line 106, ../sass/components/_price.scss */
+/* line 122, ../sass/components/_price.scss */
 .main-price .table .nav-pills {
   justify-content: left;
   margin-bottom: 70px;
 }
-/* line 109, ../sass/components/_price.scss */
+/* line 125, ../sass/components/_price.scss */
 .main-price .table .nav-pills .nav-item {
   margin-right: 15px;
 }
-/* line 111, ../sass/components/_price.scss */
+/* line 127, ../sass/components/_price.scss */
 .main-price .table .nav-pills .nav-item .nav-link {
   border: 1px solid;
   border-radius: 25px;
   font-family: "Avenir-medium";
   font-size: 18px;
 }
-/* line 118, ../sass/components/_price.scss */
+/* line 137, ../sass/components/_price.scss */
 .main-price .table .nav-pills .special {
   border: none;
   transform: translateY(4px);
 }
-/* line 121, ../sass/components/_price.scss */
+/* line 140, ../sass/components/_price.scss */
 .main-price .table .nav-pills .special:focus {
   text-decoration: underline;
   font-weight: bold;
 }
-/* line 128, ../sass/components/_price.scss */
+/* line 147, ../sass/components/_price.scss */
 .main-price .table .tab-content .card {
   border-radius: 25px;
   position: relative;
 }
-/* line 131, ../sass/components/_price.scss */
+/* line 150, ../sass/components/_price.scss */
 .main-price .table .tab-content .card .card-body {
   background: #F0F0F0;
   padding: 7px 0;
 }
-/* line 134, ../sass/components/_price.scss */
+/* line 153, ../sass/components/_price.scss */
 .main-price .table .tab-content .card .card-body .card-text {
   font-size: 13px;
 }
-/* line 138, ../sass/components/_price.scss */
+/* line 157, ../sass/components/_price.scss */
 .main-price .table .tab-content .card .mine-select {
   position: absolute;
   font-family: "Avenir-medium";
@@ -2109,16 +2149,21 @@ footer .footer-input .footer-btn {
   height: 30px;
   left: 60%;
   top: 5%;
+  z-index: 1;
   text-align: center;
 }
-/* line 151, ../sass/components/_price.scss */
+/* line 171, ../sass/components/_price.scss */
+.main-price .table .tab-content .card img:hover {
+  scale: 1.01;
+}
+/* line 176, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card {
   border: 1px solid;
   border-radius: 25px;
   height: 84%;
   position: relative;
 }
-/* line 156, ../sass/components/_price.scss */
+/* line 181, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .plus-btn {
   border: none;
   width: 0;
@@ -2127,19 +2172,19 @@ footer .footer-input .footer-btn {
   top: 40%;
   left: 35%;
 }
-/* line 165, ../sass/components/_price.scss */
+/* line 190, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .fa-plus {
   font-size: 50px;
   color: #000000;
 }
-/* line 169, ../sass/components/_price.scss */
+/* line 194, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
   padding: 0;
 }
-/* line 174, ../sass/components/_price.scss */
+/* line 199, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .ul .like-link {
   text-decoration: none;
   border-radius: 25px;
@@ -2147,7 +2192,7 @@ footer .footer-input .footer-btn {
   background: #F0F0F0;
   color: #777777;
 }
-/* line 181, ../sass/components/_price.scss */
+/* line 206, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .ul .dislike-link {
   text-decoration: none;
   border-radius: 25px;
@@ -2155,11 +2200,11 @@ footer .footer-input .footer-btn {
   background: #113663;
   color: #FFFFFF;
 }
-/* line 189, ../sass/components/_price.scss */
+/* line 214, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .image {
   display: flex;
 }
-/* line 191, ../sass/components/_price.scss */
+/* line 216, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .image .photo {
   text-align: center;
   padding: 100px;
@@ -2167,42 +2212,43 @@ footer .footer-input .footer-btn {
   background: #F0F0F0;
   margin-bottom: 50px;
 }
-/* line 198, ../sass/components/_price.scss */
+/* line 223, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .image .fa-image,
 .main-price .table .tab-content .special-card .image .add-photo {
   color: #777;
   font-size: 30px;
 }
-/* line 203, ../sass/components/_price.scss */
+/* line 228, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .image .add {
   border: none;
   margin-left: 20px;
   padding: 15px;
   border-radius: 20px;
 }
-/* line 210, ../sass/components/_price.scss */
+/* line 235, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .form-control {
   border-radius: 25px;
   background: #F0F0F0;
   padding: 4px;
+  text-indent: 10px;
   font-family: "Avenir-medium";
   font-size: 13px;
 }
-/* line 216, ../sass/components/_price.scss */
+/* line 242, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .form-control:focus {
   box-shadow: none;
   border: none;
 }
-/* line 221, ../sass/components/_price.scss */
+/* line 247, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .Description {
   padding: 60px;
   border-radius: 20px;
 }
-/* line 225, ../sass/components/_price.scss */
+/* line 251, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .tags {
   padding: 20px;
 }
-/* line 228, ../sass/components/_price.scss */
+/* line 254, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .select {
   border-radius: 25px;
   background: #F0F0F0;
@@ -2213,11 +2259,11 @@ footer .footer-input .footer-btn {
   border: none;
   color: #777777;
 }
-/* line 238, ../sass/components/_price.scss */
+/* line 264, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .modal-footer {
   background: #113663;
 }
-/* line 240, ../sass/components/_price.scss */
+/* line 266, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .modal-footer .btn {
   border: 1px solid;
   border-radius: 25px;
@@ -2226,7 +2272,7 @@ footer .footer-input .footer-btn {
   padding: 5px 15px;
   font-size: 14px;
 }
-/* line 248, ../sass/components/_price.scss */
+/* line 274, ../sass/components/_price.scss */
 .main-price .table .tab-content .special-card .modal-footer .btn-1 {
   border: 1px solid #FFFFFF;
   border-radius: 25px;
@@ -2235,13 +2281,13 @@ footer .footer-input .footer-btn {
   padding: 5px 15px;
   font-size: 14px;
 }
-/* line 258, ../sass/components/_price.scss */
+/* line 284, ../sass/components/_price.scss */
 .main-price .table .tab-content .card-title {
   font-size: 18px;
   font-family: "Avenir-medium";
   text-align: center;
 }
-/* line 263, ../sass/components/_price.scss */
+/* line 289, ../sass/components/_price.scss */
 .main-price .table .tab-content .select-servicrs {
   display: flex;
   flex-direction: column;
@@ -2253,13 +2299,13 @@ footer .footer-input .footer-btn {
   font-size: 18px;
   margin-bottom: 10px;
 }
-/* line 274, ../sass/components/_price.scss */
+/* line 300, ../sass/components/_price.scss */
 .main-price .table .tab-content .add-new {
   border: none;
   font-family: "Avenir-medium";
   font-size: 18px;
 }
-/* line 278, ../sass/components/_price.scss */
+/* line 304, ../sass/components/_price.scss */
 .main-price .table .tab-content .add-new a {
   text-decoration: none;
   padding: 1px;
@@ -2268,67 +2314,67 @@ footer .footer-input .footer-btn {
   border: 1px solid;
   margin-right: 5px;
 }
-/* line 285, ../sass/components/_price.scss */
+/* line 311, ../sass/components/_price.scss */
 .main-price .table .tab-content .add-new a .fa-plus {
   transform: translateX(3px);
 }
-/* line 290, ../sass/components/_price.scss */
+/* line 316, ../sass/components/_price.scss */
 .main-price .table .tab-content .rating {
   display: flex;
   align-items: center;
 }
-/* line 293, ../sass/components/_price.scss */
+/* line 319, ../sass/components/_price.scss */
 .main-price .table .tab-content .rating span {
   font-size: 35px;
   font-weight: bold;
   margin-right: 10px;
 }
-/* line 298, ../sass/components/_price.scss */
+/* line 324, ../sass/components/_price.scss */
 .main-price .table .tab-content .rating .checked {
   color: gold;
   font-size: 25px;
 }
-/* line 302, ../sass/components/_price.scss */
+/* line 328, ../sass/components/_price.scss */
 .main-price .table .tab-content .rating .checked-1 {
   color: #ACACAC;
   font-size: 25px;
 }
-/* line 307, ../sass/components/_price.scss */
+/* line 333, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews {
   border-top: 1px solid;
   border-bottom: 1px solid;
   font-family: "Avenir-medium";
   font-size: 18px;
 }
-/* line 312, ../sass/components/_price.scss */
+/* line 338, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews span {
   display: flex;
   font-size: 20px;
   font-weight: bold;
   align-items: baseline;
 }
-/* line 317, ../sass/components/_price.scss */
+/* line 343, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews span h4 {
   margin-left: 10px;
   font-size: 20px;
 }
-/* line 322, ../sass/components/_price.scss */
+/* line 348, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews .card {
   display: flex;
   background: transparent;
   flex-direction: row;
   align-items: center;
 }
-/* line 327, ../sass/components/_price.scss */
+/* line 353, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews .card .card-body {
   display: flex;
   flex-direction: column;
 }
-/* line 330, ../sass/components/_price.scss */
+/* line 356, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews .card .card-body .card-title {
   text-align: left;
 }
-/* line 334, ../sass/components/_price.scss */
+/* line 360, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews .card .btn {
   border-radius: 50%;
   background: black;
@@ -2336,76 +2382,76 @@ footer .footer-input .footer-btn {
   width: 40px;
   height: 40px;
 }
-/* line 340, ../sass/components/_price.scss */
+/* line 366, ../sass/components/_price.scss */
 .main-price .table .tab-content .reviews .card .btn .fa-user {
   color: white;
   transform: translateY(5px);
   font-size: 15px;
 }
-/* line 348, ../sass/components/_price.scss */
+/* line 374, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages {
   background: #FFFFFF;
   padding: 20px;
   border-radius: 25px;
 }
-/* line 352, ../sass/components/_price.scss */
+/* line 378, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .nav-link {
   background: transparent;
   border-radius: 25px 0 0 25px;
   height: 120px;
 }
-/* line 357, ../sass/components/_price.scss */
+/* line 383, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .nav-pills {
   border-right: 1px solid;
 }
-/* line 360, ../sass/components/_price.scss */
+/* line 386, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .nav-pills .nav-link.active,
 .main-price .table .tab-content .messages .nav-pills .show > .nav-link {
   background-color: #113663;
 }
-/* line 363, ../sass/components/_price.scss */
+/* line 389, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .nav-pills .nav-link.active .card-body,
 .main-price .table .tab-content .messages .nav-pills .show > .nav-link .card-body {
   color: #FFFFFF;
 }
-/* line 365, ../sass/components/_price.scss */
+/* line 391, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .nav-pills .nav-link.active .card-body span,
 .main-price .table .tab-content .messages .nav-pills .show > .nav-link .card-body span {
   color: #FFFFFF;
 }
-/* line 371, ../sass/components/_price.scss */
+/* line 397, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card {
   display: flex;
   background: transparent;
   flex-direction: row;
   align-items: center;
 }
-/* line 376, ../sass/components/_price.scss */
+/* line 402, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card .card-body {
   display: flex;
   flex-direction: column;
   background: transparent;
   color: #000000;
 }
-/* line 381, ../sass/components/_price.scss */
+/* line 407, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card .card-body .card-title {
   text-align: left;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-/* line 386, ../sass/components/_price.scss */
+/* line 412, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card .card-body .card-title span {
   font-size: 12px;
   color: #777;
 }
-/* line 389, ../sass/components/_price.scss */
+/* line 415, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card .card-body .card-title span .fa-chevron-right {
   font-size: 17px;
   transform: translateY(2px);
   padding-left: 5px;
 }
-/* line 397, ../sass/components/_price.scss */
+/* line 423, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card .btn {
   border-radius: 50%;
   background: #F0F0F0;
@@ -2413,40 +2459,40 @@ footer .footer-input .footer-btn {
   width: 40px;
   height: 40px;
 }
-/* line 403, ../sass/components/_price.scss */
+/* line 429, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .card .btn .fa-user {
   color: black;
   transform: translateY(5px);
   font-size: 15px;
 }
-/* line 410, ../sass/components/_price.scss */
+/* line 436, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms {
   padding: 10px;
 }
-/* line 412, ../sass/components/_price.scss */
+/* line 438, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .card-header {
   text-align: right;
 }
-/* line 414, ../sass/components/_price.scss */
+/* line 440, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .card-header a {
   color: #FF0D0D;
   text-decoration: none;
 }
-/* line 419, ../sass/components/_price.scss */
+/* line 445, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .card-footer {
   border-top: 2px solid #777;
   margin-top: 100%;
   padding-top: 20px;
   width: 100%;
 }
-/* line 424, ../sass/components/_price.scss */
+/* line 450, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .card-footer .form-control {
   border: 1px solid;
   padding: 10px 0 50px 20px;
   border-radius: 20px;
   color: #777;
 }
-/* line 430, ../sass/components/_price.scss */
+/* line 456, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .card-footer a {
   padding: 10px 20px;
   background: #F0F0F0;
@@ -2454,7 +2500,7 @@ footer .footer-input .footer-btn {
   text-decoration: none;
   border-radius: 25px;
 }
-/* line 438, ../sass/components/_price.scss */
+/* line 464, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .question {
   background: #F0F0F0;
   color: #000000;
@@ -2464,7 +2510,7 @@ footer .footer-input .footer-btn {
   padding: 20px;
   font-size: 12px;
 }
-/* line 447, ../sass/components/_price.scss */
+/* line 473, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .question-btn {
   border-radius: 50%;
   background: #F0F0F0;
@@ -2472,19 +2518,19 @@ footer .footer-input .footer-btn {
   width: 40px;
   height: 40px;
 }
-/* line 453, ../sass/components/_price.scss */
+/* line 479, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .question-btn .fa-user {
   color: black;
   transform: translateY(5px);
   font-size: 15px;
 }
-/* line 459, ../sass/components/_price.scss */
+/* line 485, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms h6 {
   font-size: 12px;
   color: #000;
   font-family: "Avenir-book";
 }
-/* line 464, ../sass/components/_price.scss */
+/* line 490, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .answer-btn {
   border-radius: 50%;
   background: #113663;
@@ -2492,13 +2538,13 @@ footer .footer-input .footer-btn {
   width: 40px;
   height: 40px;
 }
-/* line 470, ../sass/components/_price.scss */
+/* line 496, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .answer-btn .fa-user {
   color: white;
   transform: translateY(5px);
   font-size: 15px;
 }
-/* line 476, ../sass/components/_price.scss */
+/* line 502, ../sass/components/_price.scss */
 .main-price .table .tab-content .messages .sms .answer {
   background: #113663;
   color: #FFFFFF;
@@ -2508,38 +2554,38 @@ footer .footer-input .footer-btn {
   padding: 20px;
   font-size: 12px;
 }
-/* line 487, ../sass/components/_price.scss */
+/* line 513, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings {
   background: #FFFFFF;
   padding: 20px 0;
   border-radius: 25px;
 }
-/* line 491, ../sass/components/_price.scss */
+/* line 517, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .nav-link {
   border-radius: 0 50px 50px 0;
   height: 90px;
 }
-/* line 498, ../sass/components/_price.scss */
+/* line 524, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .card {
   background: transparent;
   color: #000000;
 }
-/* line 501, ../sass/components/_price.scss */
+/* line 527, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .card .card-body {
   background: transparent;
 }
-/* line 505, ../sass/components/_price.scss */
+/* line 531, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card {
   border: 1px solid;
   border-radius: 25px;
   padding: 30px;
   height: 100vh;
 }
-/* line 510, ../sass/components/_price.scss */
+/* line 536, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul {
   list-style: none;
 }
-/* line 512, ../sass/components/_price.scss */
+/* line 538, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li {
   display: flex;
   justify-content: space-between;
@@ -2547,19 +2593,19 @@ footer .footer-input .footer-btn {
   border-bottom: 1px solid;
   padding-bottom: 30px;
 }
-/* line 518, ../sass/components/_price.scss */
+/* line 544, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li h3 {
   font-size: 21px;
   font-family: "Avenir-medium";
 }
-/* line 522, ../sass/components/_price.scss */
+/* line 548, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .nav-item {
   border: 1px solid;
   width: 11%;
   margin-right: 3%;
   border-radius: 25px;
 }
-/* line 528, ../sass/components/_price.scss */
+/* line 554, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .nav-item a {
   border: 1px solid #000;
   display: inline-block;
@@ -2571,21 +2617,21 @@ footer .footer-input .footer-btn {
   height: 22px;
   transform: translateY(3px);
 }
-/* line 539, ../sass/components/_price.scss */
+/* line 565, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .nav-item .like-link {
   background: #ACACAC;
 }
-/* line 542, ../sass/components/_price.scss */
+/* line 568, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .nav-item .dislike-link {
   background: #113663;
   margin-left: 25px;
 }
-/* line 547, ../sass/components/_price.scss */
+/* line 573, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .buttons-show {
   display: flex;
   justify-content: space-evenly;
 }
-/* line 551, ../sass/components/_price.scss */
+/* line 577, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .special-nav {
   border: none;
   font-size: 18px;
@@ -2594,20 +2640,20 @@ footer .footer-input .footer-btn {
   flex-direction: row-reverse;
   align-items: baseline;
 }
-/* line 558, ../sass/components/_price.scss */
+/* line 584, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .special-nav .like-link2 {
   height: 15px;
   background: transparent;
   padding: 10px;
 }
-/* line 563, ../sass/components/_price.scss */
+/* line 589, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .special-nav .dislike-link2 {
   margin-left: 0;
   background: #113663;
   height: 15px;
   padding: 10px;
 }
-/* line 570, ../sass/components/_price.scss */
+/* line 596, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .setting-card ul li .select-setting {
   border: 1px solid;
   border-radius: 25px;
@@ -2617,39 +2663,39 @@ footer .footer-input .footer-btn {
   font-size: 18px;
   margin-bottom: 10px;
 }
-/* line 582, ../sass/components/_price.scss */
+/* line 608, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .nav-pills .nav-link.active,
 .main-price .table .tab-content .settings .nav-pills .show > .nav-link {
   background-color: #113663 !important;
 }
-/* line 584, ../sass/components/_price.scss */
+/* line 610, ../sass/components/_price.scss */
 .main-price .table .tab-content .settings .nav-pills .nav-link.active .card-body,
 .main-price .table .tab-content .settings .nav-pills .show > .nav-link .card-body {
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 595, ../sass/components/_price.scss */
+  /* line 621, ../sass/components/_price.scss */
   .main-price .main-content h1 {
     font-size: 28px;
   }
 
-  /* line 598, ../sass/components/_price.scss */
+  /* line 624, ../sass/components/_price.scss */
   .main-price .table .tab-content .special-card {
     height: 90%;
   }
 
-  /* line 601, ../sass/components/_price.scss */
+  /* line 627, ../sass/components/_price.scss */
   .main-price .table .tab-content .special-card .plus-btn {
     left: 40%;
   }
 
-  /* line 604, ../sass/components/_price.scss */
+  /* line 630, ../sass/components/_price.scss */
   .main-price .table {
     margin-top: 0%;
   }
 
-  /* line 607, ../sass/components/_price.scss */
+  /* line 633, ../sass/components/_price.scss */
   .main-price .table .nav-pills .special {
     margin: auto;
   }

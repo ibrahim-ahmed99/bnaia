@@ -35,7 +35,7 @@
                 color: #777777;
                 font-size: 12px;
                 position: absolute;
-                top: 35%;
+                top: 34%;
                 transform: translateY(50%);
                 left: 35%;
             }
@@ -44,12 +44,13 @@
                 color: #777777;
                 font-size: 12px;
                 position: absolute;
-                top: 35%;
+                top: 34%;
                 right: 11%;
                 transform: translateY(50%);
             }
             .address {
-                padding: 30px;
+                padding: 0px 30px 30px 15px;
+                height: 100px;
             }
         }
     }

@@ -4,6 +4,7 @@ footer {
         color: white;
     }
     .footer-input {
+        margin-top: 50px;
         input {
             // border-radius: 0;
             margin-right: 10px;
@@ -12,6 +13,7 @@ footer {
             border-radius: 25px;
             border-bottom: 1px solid $light-color;
             background: transparent;
+            text-indent: 5px;
             &::placeholder {
                 color: $light-color;
             }

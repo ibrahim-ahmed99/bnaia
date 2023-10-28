@@ -24,15 +24,15 @@
             border: 2px solid #000;
             border-radius: 25px;
             color: $dark-color;
-            padding: 7px;
-            font-size: 18px;
-            margin-inline: 7px;
+            padding: 5px 10px;
+            font-size: 16px;
+            margin-inline: 5px;
             font-family: "Avenir-book";
-            // &.active {
-            //     background: $blue-color;
-            //     border: 2px solid #113663;
-            //     color: $light-color;
-            // }
+            &.active {
+                background: $blue-color;
+                border: 2px solid #113663;
+                color: $light-color;
+            }
         }
     }
 }

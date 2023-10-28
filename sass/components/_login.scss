@@ -46,19 +46,19 @@
         text-align: center;
         margin: auto;
         ul {
-            border-radius: $default-border-radius;
+            border-radius: 35px;
             list-style: none;
             display: flex;
             margin-bottom: 50px;
             justify-content: space-between;
-            padding: 0 10px;
+            padding: 0 5px;
             align-items: center;
             border: 2px solid $blue-color;
             .nav-link {
                 color: $blue-color;
                 font-family: "Avenir-medium";
                 background: transparent;
-                font-size: 30px;
+                font-size: 28px;
             }
             // .btn {
             //     color: $light-color;
@@ -85,6 +85,7 @@
                 padding: 8px;
                 font-family: "Avenir-medium";
                 font-size: 14px;
+                text-indent: 5px;
             }
             label {
                 color: #1C2323;
@@ -106,7 +107,7 @@
             background: $red-color;
             color: $light-color;
             border-radius: 25px;
-            padding: 5px 30px;
+            padding: 5px 50px;
         }
     }
 }

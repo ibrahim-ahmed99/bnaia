@@ -27,7 +27,7 @@
         .card-body {
             background: $gray-color;
             border-radius: 35px 0 0px 35px;
-            padding: 30px 0 22px 40px;
+            padding: 30px 0 28px 40px;
             // .img-name {
             //     max-width: 20%;
             // }
@@ -37,11 +37,13 @@
                 // font-family: "Avenir-Heavy";
             }
             .card-text {
-                font-size: 18px;
+                font-size: 16px;
+                max-width: 90%;
                 font-family: "Avenir-book";
             }
             .btn {
                 font-size: 14px;
+                padding: 5px 20px;
                 background: $blue-color;
                 font-family: "Avenir-medium";
                 color: $light-color;
